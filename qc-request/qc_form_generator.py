@@ -49,28 +49,16 @@ for region in selected_regions + non_region_categories:
     region_group = grouped[grouped['Region/Category'] == region]
     st.markdown(f"**{region}**")
     for mid_cat in region_group['중분류'].unique():
-        sub_group = region_group[region_group['중분류'] == mid_cat]
-        sub_items = sub_group[sub_group['소분류'].notna() & (sub_group['소분류'] != "0")]
-
-        if len(sub_items) > 0:
-            with st.expander(f"{mid_cat} ({region})"):
-                check_all = st.checkbox(f"Include all \"{mid_cat}\" items", key=f"{region}_{mid_cat}_all")
-                for _, row in sub_items.iterrows():
-                    label = row['소분류']
-                    if check_all or st.checkbox(f"↳ {label} ({region})", key=f"{region}_{mid_cat}_{label}"):
-                        selected_scope.extend(row['테스트 항목'])
-                        selected_scope_tree.append(f"{mid_cat} > {label}")
-        else:
-            # No children — regular checkbox
-            if st.checkbox(f"{mid_cat} ({region})", key=f"{region}_{mid_cat}_solo"):
-                selected_scope.extend(sub_group['테스트 항목'].explode())
-                selected_scope_tree.append(f"{mid_cat}")
+        if st.checkbox(f"{mid_cat}", key=f"{region}_{mid_cat}_solo"):
+            selected_scope_tree.append(f"{mid_cat} ({region})")
+            matched_rows = region_group[region_group['중분류'] == mid_cat]
+            for 항목_list in matched_rows['테스트 항목']:
+                selected_scope.extend(항목_list)
 
 # Deduplicate selected 항목s directly
 unique_selected = sorted(set(selected_scope))
-
 included_formatted = '<br>'.join(unique_selected)
-development_scope_formatted = '<br>'.join([f"{line}" for line in selected_scope_tree])
+development_scope_formatted = '<br>'.join(selected_scope_tree)
 
 # --- Generate Output ---
 st.subheader("📋 Generated QC Request Form")
@@ -89,8 +77,8 @@ if st.button("Generate QC Form"):
         <tr><td>Urgency Level</td><td>{urgency}</td></tr>
         <tr><td>Reference Document</td><td>{reference_doc}</td></tr>
         <tr><td>Scope of Development</td><td>{development_scope_formatted}</td></tr>
-        <tr><td>Primary Test Items</td><td>{included_formatted}</td></tr>
-        <tr><td>Excluded from Tests (특이사항)</td><td></td></tr>
+        <tr><td>Included in Tests</td><td>{included_formatted}</td></tr>
+        <tr><td>Excluded from Tests</td><td>**해당사항 기입해주시기를 바랍니다.**</td></tr>
     </table>
     """
     st.markdown(html_output, unsafe_allow_html=True)

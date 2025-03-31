@@ -658,74 +658,74 @@ Brazil,Renewal Subscription,Premium Month Single Pass,"1. PLAN Page 진입
 2. Premium Month Single Pass item 결제",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
 Brazil,Renewal Subscription,Premium Annual Single Pass,"1. PLAN Page 진입
 2. Premium Annual Single Pass item 결제",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
-All Regions,PLAN Change,Upgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. Plan page 진입
 2. Plan Upgrade
 3. Email box 진입",Plan Update Email 수신 확인,Plan Update Email 수신 확인,Receipt Email 수신된다
-All Regions,PLAN Change,Upgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. Plan page 진입
 2. Plan Upgrade
 3. My subscription page 진입",Upgrade item 노출 확인,Upgrade item 노출 확인,결제한 Upgrade item 노출된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. Email box 진입",Plan Update Email 수신 확인,Plan Update Email 수신 확인,Receipt Email 수신된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",기존 Subscribe item 노출 확인,기존 Subscribe item 노출 확인,기존 Subscribe item 노출된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Expires on text 출력 확인,Expires on text 출력 확인,Expired on : text 출력된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",기존 item 구독 시작 일자 노출 확인,Downgrade item 구독 시작 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Downgrade item 노출 확인,Downgrade item 노출 확인,결제한 downgrade item 노출된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Start on text 출력 확인,Start on text 출력 확인,Starting : text 출력된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Downgrade item 구독 시작 일자 노출 확인,Downgrade item 구독 시작 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
-Brazil,PLAN Change,Basic Month Single Pass,"1. Plan page 진입
+Brazil,PLAN Change (Up/Downgrade),Basic Month Single Pass,"1. Plan page 진입
 2. Basic Month Single Pass 결제한 상태",Plan Change 불가 POP UP 노출 확인,임의 item 선택,Plan Change 불가 POP UP 노출된다
-Brazil,PLAN Change,Basic Annual Single Pass,"1. Plan page 진입
+Brazil,PLAN Change (Up/Downgrade),Basic Annual Single Pass,"1. Plan page 진입
 2. Basic Annual Single Pass 결제한 상태",Plan Change 불가 POP UP 노출 확인,임의 item 선택,Plan Change 불가 POP UP 노출된다
-Brazil,PLAN Change,Premium Month Single Pass,"1. Plan page 진입
+Brazil,PLAN Change (Up/Downgrade),Premium Month Single Pass,"1. Plan page 진입
 2. Premium Month Single Pass 결제한 상태",Plan Change 불가 POP UP 노출 확인,임의 item 선택,Plan Change 불가 POP UP 노출된다
-Brazil,PLAN Change,Premium Annual Single Pass,"1. Plan page 진입
+Brazil,PLAN Change (Up/Downgrade),Premium Annual Single Pass,"1. Plan page 진입
 2. Premium Annual Single Pass 결제한 상태",Plan Change 불가 POP UP 노출 확인,임의 item 선택,Plan Change 불가 POP UP 노출된다
-All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. PLAN Page 진입
 2. Basic Monthly 결제",BM to BA 동작 확인,Basic Annual 결제,Basic Annual로 Upgrade 된다
-All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. PLAN Page 진입
 2. Basic Monthly 결제",BM to PM 동작 확인,Premium Monthly 결제,Premium Monthly로 Upgrade 된다
-All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. PLAN Page 진입
 2. Basic Monthly 결제",BM to PA 동작 확인,Premium Annual 결제,Premium Annual로 Upgrade 된다
-All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. PLAN Page 진입
 2. Premium Monthly 결제",PM to PA 동작 확인,Premium Annual 결제,Premium Annual로 Upgrade 된다
-All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. PLAN Page 진입
 2. Basic Annual 결제",BA to PA 동작 확인,Premium Annual 결제,Premium Annual로 Upgrade 된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Annual 결제",PA to BA 동작 확인,Basic Annual 결제,Basic Annual로 Downgrade 예약된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Annual 결제
 3. Basic Annual Downgrade",Renewal 동작 확인,구독 갱신,Basic Annual Subscription 적용된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Annual 결제",PA to PM 동작 확인,Premium Monthly 결제,Premium Monthly로 Downgrade 예약된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Annual 결제
 3. Premium Monthly Downgrade",Renewal 동작 확인,구독 갱신,Premium Monthly Subscription 적용된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Annual 결제",PA to BM 동작 확인,Basic Monthly 결제,Basic Monthly로 Downgrade 예약된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Annual 결제
 3. Basic Monthly Downgrade",Renewal 동작 확인,구독 갱신,Basic Monthly Subscription 적용된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Monthly 결제",PM to BM 동작 확인,Basic Monthly 결제,Basic Monthly로 Downgrade 예약된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Monthly 결제
 3. Basic Monthly Downgrade",Renewal 동작 확인,구독 갱신,Basic Monthly Subscription 적용된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Basic Annual 결제",BA to BM 동작 확인,Basic Monthly 결제,Basic Monthly로 Downgrade 예약된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Basic Annual 결제
 3. Basic Monthly Downgrade",Renewal 동작 확인,구독 갱신,Basic Monthly Subscription 적용된다
 All Regions,Sign in,0,"1. KOCOWA App 실행
@@ -1068,73 +1068,73 @@ All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
 All Regions,Renewal Subscription,Premium Annual Cancel Plan,"1. PLAN Page 진입
 2. Premium Annual item 결제
 3. Cancel Plan 적용",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
-All Regions,PLAN Change,Upgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. 결제한 스토어와 연결된 Email box 진입",Plan Update Email 수신 확인,Plan Update Email 수신 확인,Receipt Email 수신된다
-All Regions,PLAN Change,Upgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Upgrade item 노출 확인,Upgrade item 노출 확인,결제한 Upgrade item 노출된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. 결제한 스토어와 연결된 Email box 진입",Plan Update Email 수신 확인,Plan Update Email 수신 확인,Receipt Email 수신된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",기존 Subscribe item 노출 확인,기존 Subscribe item 노출 확인,기존 Subscribe item 노출된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Expires on text 출력 확인,Expires on text 출력 확인,Expired on : text 출력된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",기존 item 구독 시작 일자 노출 확인,Downgrade item 구독 시작 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Downgrade item 노출 확인,Downgrade item 노출 확인,결제한 downgrade item 노출된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Start on text 출력 확인,Start on text 출력 확인,Starting : text 출력된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Downgrade item 구독 시작 일자 노출 확인,Downgrade item 구독 시작 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
-All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. PLAN Page 진입
 2. Basic Monthly 결제",BM to BA 동작 확인,Basic Annual 결제,Basic Annual로 Upgrade 된다
-All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. PLAN Page 진입
 2. Basic Monthly 결제",BM to PM 동작 확인,Premium Monthly 결제,Premium Monthly로 Upgrade 된다
-All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. PLAN Page 진입
 2. Basic Monthly 결제",BM to PA 동작 확인,Premium Annual 결제,Premium Annual로 Upgrade 된다
-All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. PLAN Page 진입
 2. Premium Monthly 결제",PM to PA 동작 확인,Premium Annual 결제,Premium Annual로 Upgrade 된다
-All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. PLAN Page 진입
 2. Basic Annual 결제",BA to PM 동작 확인,Premium Monthly 결제,Premium Monthly로 Upgrade 된다
-All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. PLAN Page 진입
 2. Basic Annual 결제",BA to PA 동작 확인,Premium Annual 결제,Premium Annual로 Upgrade 된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Annual 결제",PA to BA 동작 확인,Basic Annual 결제,Basic Annual로 Downgrade 예약된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Annual 결제
 3. Basic Annual Downgrade",Renewal 동작 확인,구독 갱신,Basic Annual Subscription 적용된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Annual 결제",PA to PM 동작 확인,Premium Monthly 결제,Premium Monthly로 Downgrade 예약된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Annual 결제
 3. Premium Monthly Downgrade",Renewal 동작 확인,구독 갱신,Premium Monthly Subscription 적용된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Annual 결제",PA to BM 동작 확인,Basic Monthly 결제,Basic Monthly로 Downgrade 예약된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Annual 결제
 3. Basic Monthly Downgrade",Renewal 동작 확인,구독 갱신,Basic Monthly Subscription 적용된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Monthly 결제",PM to BA 동작 확인,Basic Annual 결제,Basic Annual로 Downgrade 예약된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Monthly 결제
 3. Basic Annual Downgrade",Renewal 동작 확인,구독 갱신,Basic Annual Subscription 적용된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Monthly 결제",PM to BM 동작 확인,Basic Monthly 결제,Basic Monthly로 Downgrade 예약된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Annual 결제
 3. Basic Monthly Downgrade",Renewal 동작 확인,구독 갱신,Basic Monthly Subscription 적용된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Basic Annual 결제",BA to BM 동작 확인,Basic Monthly 결제,Basic Monthly로 Downgrade 예약된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Basic Annual 결제
 3. Basic Monthly Downgrade",Renewal 동작 확인,구독 갱신,Basic Monthly Subscription 적용된다
 All Regions,Sign in,0,"1. KOCOWA App 실행
@@ -1331,38 +1331,38 @@ All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
 All Regions,Renewal Subscription,Premium Annual Cancel Plan,"1. PLAN Page 진입
 2. Premium Annual item 결제
 3. Cancel Plan 적용",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
-All Regions,PLAN Change,Upgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. 결제한 스토어와 연결된 Email box 진입",결제 Email 수신 확인,결제 Email 수신 확인,Receipt Email 수신된다
-All Regions,PLAN Change,Upgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Upgrade item 노출 확인,Upgrade item 노출 확인,결제한 Upgrade item 노출된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. 결제한 스토어와 연결된 Email box 진입",결제 Email 수신 확인,결제 Email 수신 확인,Receipt Email 수신된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",기존 Subscribe item 노출 확인,기존 Subscribe item 노출 확인,기존 Subscribe item 노출된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Expires on text 출력 확인,Expires on text 출력 확인,Expired on : text 출력된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",기존 item 구독 시작 일자 노출 확인,Downgrade item 구독 시작 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Downgrade item 노출 확인,Downgrade item 노출 확인,결제한 downgrade item 노출된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Start on text 출력 확인,Start on text 출력 확인,Starting : text 출력된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Downgrade item 구독 시작 일자 노출 확인,Downgrade item 구독 시작 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
-All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. PLAN Page 진입
 2. Premium Monthly 결제",PM to PA 동작 확인,Premium Annual 결제,Premium Annual로 Upgrade 된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Annual 결제",PA to PM 동작 확인,Premium Monthly 결제,Premium Monthly로 Downgrade 예약된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Annual 결제
 3. Premium Monthly Downgrade",Renewal 동작 확인,구독 갱신,Premium Monthly Subscription 적용된다
 All Regions,PLAN Cross,Basic Annual (Mobile) > Premium Monthly (TV),"1. PLAN Page 진입
@@ -1713,41 +1713,41 @@ Brazil,Renewal Subscription,Premium Month Single Pass,"1. PLAN Page 진입
 2. Premium Month Single Pass item 결제",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
 Brazil,Renewal Subscription,Premium Annual Single Pass,"1. PLAN Page 진입
 2. Premium Annual Single Pass item 결제",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
-All Regions,PLAN Change,Upgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. Plan page 진입
 2. Plan Upgrade
 3. Email box 진입",Receipt Email 확인,Plan Update Email 수신 확인,Receipt Email 수신된다
-All Regions,PLAN Change,Upgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. Plan page 진입
 2. Plan Upgrade
 3. My subscription page 진입",Upgrade item 노출 확인,Upgrade item 노출 확인,결제한 Upgrade item 노출된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. Email box 진입",Plan Update Email 수신 확인,Plan Update Email 수신 확인,Receipt Email 수신된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",기존 Subscribe item 노출 확인,기존 Subscribe item 노출 확인,기존 Subscribe item 노출된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Expires on text 출력 확인,Expires on text 출력 확인,Expired on : text 출력된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",기존 item 구독 시작 일자 노출 확인,Downgrade item 구독 시작 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Downgrade item 노출 확인,Downgrade item 노출 확인,결제한 downgrade item 노출된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Start on text 출력 확인,Start on text 출력 확인,Starting : text 출력된다
-All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. Plan page 진입
 2. Plan Downgrade
 3. My subscription page 진입",Downgrade item 구독 시작 일자 노출 확인,Downgrade item 구독 시작 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
-Brazil,PLAN Change,Premium Month Single Pass,"1. Plan page 진입
+Brazil,PLAN Change (Up/Downgrade),Premium Month Single Pass,"1. Plan page 진입
 2. Premium Month Single Pass 결제한 상태",Plan Change 불가 POP UP 노출 확인,임의 item 선택,Plan Change 불가 POP UP 노출된다
-Brazil,PLAN Change,Premium Annual Single Pass,"1. Plan page 진입
+Brazil,PLAN Change (Up/Downgrade),Premium Annual Single Pass,"1. Plan page 진입
 2. Premium Annual Single Pass 결제한 상태",Plan Change 불가 POP UP 노출 확인,임의 item 선택,Plan Change 불가 POP UP 노출된다
-All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Upgrade,"1. PLAN Page 진입
 2. Premium Monthly 결제",PM to PA 동작 확인,Premium Annual 결제,Premium Annual로 Upgrade 된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Annual 결제",PA to PM 동작 확인,Premium Monthly 결제,Premium Monthly로 Downgrade 예약된다
-All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+All Regions,PLAN Change (Up/Downgrade),Downgrade,"1. PLAN Page 진입
 2. Premium Annual 결제
 3. Premium Monthly Downgrade",Renewal 동작 확인,구독 갱신,Premium Monthly Subscription 적용된다
