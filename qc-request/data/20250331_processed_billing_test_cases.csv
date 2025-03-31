@@ -1,0 +1,1753 @@
+Region/Category,중분류,소분류,사전조건,테스트 항목,테스트 스텝,기대결과
+All Regions,Sign in,0,"1. KOCOWA Webpage 진입
+2. 미로그인 상태",Sign in 기능 확인,Sign in 시도,Sign in 진행된다
+All Regions,Sign Up,0,"1. KOCOWA Webpage 진입
+2. 미로그인 상태",Sign up 기능 확인,Sign up 시도,Sign up 진행된다
+All Regions,Sign Out,0,"1. KOCOWA Webpage 진입
+2. 로그인 상태",Sign out 기능 확인,Sign out 시도,Sign out 진행된다
+All Regions,Sign Out,0,"1. KOCOWA App 실행
+2. Sign In
+3. Sign Out",재로그인 가능 확인,해당 계정으로 Sign In,Sign in 진행된다
+All Regions,Find Password,0,"1. KOCOWA Webpage 진입
+2. Sign in page 진입
+3. Find Password button 선택
+4. 가입 이력이 있는 Email 입력",Find Password 기능 확인,Find Password 시도,Reset Password 이메일 수신된다
+All Regions,Social Sign in,Facebook,"1. KOCOWA Webpage 진입
+2. Sign in Page 진입",Social Sign in 기능 확인,Facebook Social Sign in 시도,Facebook 계정으로 Sign in 진행된다
+All Regions,Social Sign up,Facebook,"1. KOCOWA Webpage 진입
+2. Sign up Page 진입
+3. 가입 이력 없는 Facebook 계정 보유한 상태",Social Sign up 기능 확인,Facebook Social Sign up 시도,Facebook 계정으로 Sign up 진행된다
+All Regions,Social Sign in,Google,"1. KOCOWA Webpage 진입
+2. Sign in Page 진입",Social Sign in 기능 확인,Google Social Sign in 시도,Google 계정으로 Sign in 진행된다
+All Regions,Social Sign up,Google,"1. KOCOWA Webpage 진입
+2. Sign up Page 진입
+3. 가입 이력 없는 Google 계정 보유한 상태",Social Sign up 기능 확인,Google Social Sign up 시도,Google 계정으로 Sign up 진행된다
+All Regions,Social Sign in,Apple,"1. KOCOWA Webpage 진입
+2. Sign in Page 진입",Social Sign in 기능 확인,Apple Social Sign in 시도,Apple 계정으로 Sign in 진행된다
+All Regions,Social Sign up,Apple,"1. KOCOWA Webpage 진입
+2. Sign up Page 진입
+3. 가입 이력 없는 Apple 계정 보유한 상태",Social Sign up 기능 확인,Apple Social Sign up 시도,Apple 계정으로 Sign up 진행된다
+All Regions,Social Sign in,ODK,"1. KOCOWA Webpage 진입
+2. Sign in Page 진입",Social Sign in 기능 확인,ODK Social Sign in 시도,ODK 계정으로 Sign in 진행된다
+All Regions,Social Sign up,ODK,"1. KOCOWA Webpage 진입
+2. Sign up Page 진입
+3. 가입 이력 없는 ODK 계정 보유한 상태",Social Sign up 기능 확인,ODK Social Sign up 시도,ODK 계정으로 Sign up 진행된다
+All Regions,Multi Profile Page,Add Profile,"1. KOCOWA Webpage 진입
+2. Premium 계정 Sign in
+3. Add Profile button 선택",Add Profile 기능 확인,Add Profile 시도,Profile 추가된다
+All Regions,Multi Profile Page,Edit Profile,"1. KOCOWA Webpage 진입
+2. Sign in
+3. Edit Profile button 선택
+4. 기존과 다른 정보 입력",Edit Profile 기능 확인,Edit Profile 시도,Profile 수정된다
+All Regions,Multi Profile Page,Delete Profile,"1. KOCOWA Webpage 진입
+2. Premium 계정 Sign in
+3. Edit Profile button 선택",Delete Profile 기능 확인,Delete Profile button 선택,Profile 삭제된다
+All Regions,Multi Profile Page,Profile Change,"1. KOCOWA Webpage 진입
+2. Premium 계정 Sign in
+3. A Profile 로 진입
+4. 다른 프로필이 있는 상태
+5. Profile Change 진입",Profile Change 기능 확인,B Profile 로 진입,B Profile 로 진입된다.
+All Regions,Multi Profile Page,PIN Locked,"1. KOCOWA Webpage 진입
+2. Premium 계정 Sign in
+3. PIN Locked을 설정한 프로필 진입",PIN Locked 기능 확인,설정한 PIN 번호 입력,Profile 로 진입된다.
+All Regions,Home,Language Setting,"1. KOCOWA Webpage 진입
+2. Premium 계정 Sign in
+3. Language Setting 변경 버튼 선택",Language Setting 기능 확인,설정한 언어 외 다른 언어로 설정,해당 언어로 페이지가 노출된다.
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. AVOD 계정 Sign in
+3. Player Page 진입",AVOD 상태 시 KOBACO Bumper 노출 확인,Bumper Video 종료,KOBACO Bumper Video 노출된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. Basic 결제 계정 Sign in
+3. Player Page 진입",Basic 결제 상태 시 KOBACO Bumper 노출 확인,Bumper Video 종료,KOBACO Bumper Video 노출된다
+All Regions,Content Playble,KOBACO Policy,"1. KOCOWA App 실행
+2. AVOD 계정 Sign in
+3. Player Page 진입
+4. US VPN Setting 상태",US VPN 연결 시 KOBACO Bumper 노출 확인,Bumper Video 종료,KOBACO Bumper Video 노출된다
+All Regions,Content Playble,KOBACO Policy,"1. KOCOWA App 실행
+2. AVOD 계정 Sign in
+3. Player Page 진입
+4. US 이외의 VPN Setting 상태",US 이외 VPN 연결 시 KOBACO Bumper 노출 여부 확인,Bumper Video 종료,KOBACO Bumper Video 노출되지 않는다
+All Regions,KOAS,0,"1. KOCOWA APP 실행
+2. Sign in
+3. Content 재생",Content 재생 시 User Tracking 동작 확인,User Tracking log 노출 확인,User Tracking log 노출된다
+All Regions,KOAS,SSO,"1. KOCOWA APP 실행
+2. SSO로 Sign in
+3. Content 재생",Content 재생 시 User Tracking 동작 확인,User Tracking log 노출 확인,User Tracking log 노출된다
+All Regions,KOAS,Profile Change,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. 프로필 변경
+4. Content 재생",프로필 변경 후 Content 재생 시 User Tracking 동작 확인,User Tracking log 노출 확인,User Tracking log 노출된다
+All Regions,PLAN Page,Basic Monthly,1. PLAN page 진입,Basic Monthly item 노출 확인,Basic Monthly item 노출 확인,Basic Monthly item 노출된다
+All Regions,PLAN Page,Basic Monthly,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+All Regions,PLAN Page,Basic Monthly,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,PLAN Page,Basic Monthly,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+All Regions,PLAN Page,Basic Monthly,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Basic Monthly item 선택 시 기능 확인,Basic Monthly item 선택,Checkout page 진입된다
+All Regions,PLAN Page,Basic Annual,1. PLAN page 진입,Basic Annual item 노출 확인,Basic Annual item 노출 확인,Basic Annual item 노출된다
+All Regions,PLAN Page,Basic Annual,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+All Regions,PLAN Page,Basic Annual,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,PLAN Page,Basic Annual,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+All Regions,PLAN Page,Basic Annual,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Basic Annual item 선택 시 기능 확인,Basic Annual item 선택,Checkout page 진입된다
+All Regions,PLAN Page,Premium Monthly,1. PLAN page 진입,Premium Monthly item 노출 확인,Premium Monthly item 노출 확인,Premium Monthly item 노출된다
+All Regions,PLAN Page,Premium Monthly,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+All Regions,PLAN Page,Premium Monthly,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,PLAN Page,Premium Monthly,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+All Regions,PLAN Page,Premium Monthly,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Premium Monthly item 선택 시 기능 확인,Premium Monthly item 선택,Checkout page 진입된다
+All Regions,PLAN Page,Premium Annual,1. PLAN page 진입,Premium Annual item 노출 확인,Premium Annual item 노출 확인,Premium Annual item 노출된다
+All Regions,PLAN Page,Premium Annual,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+All Regions,PLAN Page,Premium Annual,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,PLAN Page,Premium Annual,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+All Regions,PLAN Page,Premium Annual,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Premium Annual item 선택 시 기능 확인,Premium Annual item 선택,Checkout page 진입된다
+Brazil,PLAN Page,Basic Month Single Pass,1. PLAN page 진입,Basic Month Single Pass item 노출 확인,Basic Month Single Pass item 노출 확인,Basic Month Single Pass item 노출된다
+Brazil,PLAN Page,Basic Month Single Pass,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+Brazil,PLAN Page,Basic Month Single Pass,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+Brazil,PLAN Page,Basic Month Single Pass,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+Brazil,PLAN Page,Basic Month Single Pass,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Basic Month Single Pass item 선택 시 기능 확인,Basic Month Single Pass item 선택,Checkout page 진입된다
+Brazil,PLAN Page,Basic Annual Single Pass,1. PLAN page 진입,Basic Annual Single Pass item 노출 확인,Basic Annual Single Pass item 노출 확인,Basic Annual Single Pass item 노출된다
+Brazil,PLAN Page,Basic Annual Single Pass,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+Brazil,PLAN Page,Basic Annual Single Pass,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+Brazil,PLAN Page,Basic Annual Single Pass,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+Brazil,PLAN Page,Basic Annual Single Pass,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Basic Annual Single Pass item 선택 시 기능 확인,Basic Annual Single Pass item 선택,Checkout page 진입된다
+Brazil,PLAN Page,Premium Month Single Pass,1. PLAN page 진입,Premium Month Single Pass item 노출 확인,Premium Month Single Pass item 노출 확인,Premium Month Single Pass item 노출된다
+Brazil,PLAN Page,Premium Month Single Pass,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+Brazil,PLAN Page,Premium Month Single Pass,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+Brazil,PLAN Page,Premium Month Single Pass,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+Brazil,PLAN Page,Premium Month Single Pass,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Premium Month Single Pass item 선택 시 기능 확인,Premium Month Single Pass item 선택,Checkout page 진입된다
+Brazil,PLAN Page,Premium Annual Single Pass,1. PLAN page 진입,Premium Annual Single Pass item 노출 확인,Premium Annual Single Pass item 노출 확인,Premium Annual Single Pass item 노출된다
+Brazil,PLAN Page,Premium Annual Single Pass,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+Brazil,PLAN Page,Premium Annual Single Pass,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+Brazil,PLAN Page,Premium Annual Single Pass,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+Brazil,PLAN Page,Premium Annual Single Pass,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Premium Annual Single Pass item 선택 시 기능 확인,Premium Annual Single Pass item 선택,Checkout page 진입된다
+All Regions,Checkout Page,0,"1. PLAN Page 진입
+2. 임의 item 선택
+3. Check out page 진입
+4. Card 정보 입력",Card 등록 가능 확인,Add New Card 버튼 선택,Card 정보 저장된다
+All Regions,Checkout Page,0,"1. PLAN Page 진입
+2. 임의 item 선택
+3. Check out page 진입
+4. Card 정보 입력
+5. 이미 1개 이상의 Card가 등록되어 있는 상태",Card 2개 이상 등록 가능 확인,Add New Card 버튼 선택,Card 정보 저장된다
+All Regions,Checkout Page,0,"1. PLAN Page 진입
+2. 임의 item 선택
+3. Check out page 진입
+4. 2개 이상의 Card가 등록되어 있는 상태",Card 선택 시 Default Card 변경 확인,Default Card 외 다른 Card 선택,선택한 Card가 Default 로 지정된다
+All Regions,Checkout Page,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,Checkout Page,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 선택
+3. Checkout Page 진입한 상태",item 결제 확인,item 결제,Basic Montly 결제된다
+All Regions,Checkout Page,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,Checkout Page,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 선택
+3. Checkout Page 진입한 상태",item 결제 확인,item 결제,Basic Annual 결제된다
+All Regions,Checkout Page,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,Checkout Page,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 선택
+3. Checkout Page 진입한 상태",item 결제 확인,item 결제,Premium Montly 결제된다
+All Regions,Checkout Page,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,Checkout Page,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 선택
+3. Checkout Page 진입한 상태",item 결제 확인,item 결제,Premium Annual 결제된다
+Brazil,Checkout Page,Basic Month Single Pass,"1. PLAN Page 진입
+2. Basic Month Single Pass item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+Brazil,Checkout Page,Basic Month Single Pass,"1. PLAN Page 진입
+2. Basic Month Single Pass item 선택
+3. Checkout Page 진입한 상태",item 결제 확인,item 결제,Basic Month Single Pass 결제된다
+Brazil,Checkout Page,Basic Annual Single Pass,"1. PLAN Page 진입
+2. Basic Annual Single Pass item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+Brazil,Checkout Page,Basic Annual Single Pass,"1. PLAN Page 진입
+2. Basic Annual Single Pass item 선택
+3. Checkout Page 진입한 상태",item 결제 확인,item 결제,Basic Annual Single Pass 결제된다
+Brazil,Checkout Page,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+Brazil,Checkout Page,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 선택
+3. Checkout Page 진입한 상태",item 결제 확인,item 결제,Premium Montly 결제된다
+Brazil,Checkout Page,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+Brazil,Checkout Page,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 선택
+3. Checkout Page 진입한 상태",item 결제 확인,item 결제,Premium Annual Single Pass 결제된다
+All Regions,Checkout Page,Basic Monthly,"1. PLAN Page 진입
+2. Promotion Basic monthly 선택
+3. Checkout Page 진입한 상태
+4. Promotion 기간",item 결제 확인,item 결제,Promotion Basic monthly 결제된다
+All Regions,Checkout Page,Basic Annuals,"1. PLAN Page 진입
+2. Promotion Basic monthly 선택
+3. Checkout Page 진입한 상태
+4. Promotion 기간",item 결제 확인,item 결제,Promotion Basic Annual 결제된다
+All Regions,Checkout Page,Premium Monthly,"1. PLAN Page 진입
+2. Promotion Basic monthly 선택
+3. Checkout Page 진입한 상태
+4. Promotion 기간",item 결제 확인,item 결제,Promotion Premium monthly 결제된다
+All Regions,Checkout Page,Premium Annual,"1. PLAN Page 진입
+2. Promotion Basic monthly 선택
+3. Checkout Page 진입한 상태
+4. Promotion 기간",item 결제 확인,item 결제,Promotion Premium Annual 결제된다
+All Regions,"Checkout Page
+(Coupon)",Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,"Checkout Page
+(Coupon)",Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 선택
+3. Coupon Code 입력",Coupon Apply 적용 확인,Coupon Apply,Coupon Apply 동작한다
+All Regions,"Checkout Page
+(Coupon)",Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 선택
+3. Coupon Code 입력",Coupon Apply 시 동작 확인,Coupon Apply,Coupon Applied Successfully toast POP UP 노출된다
+All Regions,"Checkout Page
+(Coupon)",Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 선택
+3. Coupon Code 입력
+4. Coupon Apply",Discount Price 확인,Discount Price 노출 확인,Discount Price 노출된다
+All Regions,"Checkout Page
+(Coupon)",Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 선택
+3. Coupon Code 입력
+4. Coupon Apply",item 결제 확인,item 결제,Discount Price 적용된 Basic Montly 결제된다
+All Regions,"Checkout Page
+(Coupon)",Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,"Checkout Page
+(Coupon)",Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 선택
+3. Coupon Code 입력",Coupon Apply 적용 확인,Coupon Apply,Coupon Apply 동작한다
+All Regions,"Checkout Page
+(Coupon)",Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 선택
+3. Coupon Code 입력",Coupon Apply 시 동작 확인,Coupon Apply,Coupon Applied Successfully toast POP UP 노출된다
+All Regions,"Checkout Page
+(Coupon)",Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 선택
+3. Coupon Code 입력
+4. Coupon Apply",Discount Price 확인,Discount Price 노출 확인,Discount Price 노출된다
+All Regions,"Checkout Page
+(Coupon)",Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 선택
+3. Coupon Code 입력
+4. Coupon Apply",item 결제 확인,item 결제,Discount Price 적용된 Basic Annual 결제된다
+All Regions,"Checkout Page
+(Coupon)",Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,"Checkout Page
+(Coupon)",Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 선택
+3. Coupon Code 입력",Coupon Apply 적용 확인,Coupon Apply,Coupon Apply 동작한다
+All Regions,"Checkout Page
+(Coupon)",Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 선택
+3. Coupon Code 입력",Coupon Apply 시 동작 확인,Coupon Apply,Coupon Applied Successfully toast POP UP 노출된다
+All Regions,"Checkout Page
+(Coupon)",Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 선택
+3. Coupon Code 입력
+4. Coupon Apply",Discount Price 확인,Discount Price 노출 확인,Discount Price 노출된다
+All Regions,"Checkout Page
+(Coupon)",Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 선택
+3. Coupon Code 입력
+4. Coupon Apply",item 결제 확인,item 결제,Discount Price 적용된 Premium Monthly 결제된다
+All Regions,"Checkout Page
+(Coupon)",Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,"Checkout Page
+(Coupon)",Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 선택
+3. Coupon Code 입력",Coupon Apply 적용 확인,Coupon Apply,Coupon Apply 동작한다
+All Regions,"Checkout Page
+(Coupon)",Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 선택
+3. Coupon Code 입력",Coupon Apply 시 동작 확인,Coupon Apply,Coupon Applied Successfully toast POP UP 노출된다
+All Regions,"Checkout Page
+(Coupon)",Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 선택
+3. Coupon Code 입력
+4. Coupon Apply",Discount Price 확인,Discount Price 노출 확인,Discount Price 노출된다
+All Regions,"Checkout Page
+(Coupon)",Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 선택
+3. Coupon Code 입력
+4. Coupon Apply",item 결제 확인,item 결제,Discount Price 적용된 Premium Annual 결제된다
+Brazil,"Checkout Page
+(Coupon)",Basic Month Single Pass,"1. PLAN Page 진입
+2. Basic Month Single Pass item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+Brazil,"Checkout Page
+(Coupon)",Basic Month Single Pass,"1. PLAN Page 진입
+2. Basic Month Single Pass item 선택
+3. Coupon Code 입력",Coupon Apply 적용 확인,Coupon Apply,Coupon Apply 동작한다
+Brazil,"Checkout Page
+(Coupon)",Basic Month Single Pass,"1. PLAN Page 진입
+2. Basic Month Single Pass item 선택
+3. Coupon Code 입력",Coupon Apply 시 동작 확인,Coupon Apply,Coupon Applied Successfully toast POP UP 노출된다
+Brazil,"Checkout Page
+(Coupon)",Basic Month Single Pass,"1. PLAN Page 진입
+2. Basic Month Single Pass item 선택
+3. Coupon Code 입력
+4. Coupon Apply",Discount Price 확인,Discount Price 노출 확인,Discount Price 노출된다
+Brazil,"Checkout Page
+(Coupon)",Basic Month Single Pass,"1. PLAN Page 진입
+2. Basic Month Single Pass item 선택
+3. Coupon Code 입력
+4. Coupon Apply",item 결제 확인,item 결제,Discount Price 적용된 Basic Month Single Pass 결제된다
+Brazil,"Checkout Page
+(Coupon)",Basic Annual Single Pass,"1. PLAN Page 진입
+2. Basic Annual Single Pass item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+Brazil,"Checkout Page
+(Coupon)",Basic Annual Single Pass,"1. PLAN Page 진입
+2. Basic Annual Single Pass item 선택
+3. Coupon Code 입력",Coupon Apply 적용 확인,Coupon Apply,Coupon Apply 동작한다
+Brazil,"Checkout Page
+(Coupon)",Basic Annual Single Pass,"1. PLAN Page 진입
+2. Basic Annual Single Pass item 선택
+3. Coupon Code 입력",Coupon Apply 시 동작 확인,Coupon Apply,Coupon Applied Successfully toast POP UP 노출된다
+Brazil,"Checkout Page
+(Coupon)",Basic Annual Single Pass,"1. PLAN Page 진입
+2. Basic Annual Single Pass item 선택
+3. Coupon Code 입력
+4. Coupon Apply",Discount Price 확인,Discount Price 노출 확인,Discount Price 노출된다
+Brazil,"Checkout Page
+(Coupon)",Basic Annual Single Pass,"1. PLAN Page 진입
+2. Basic Annual Single Pass item 선택
+3. Coupon Code 입력
+4. Coupon Apply",item 결제 확인,item 결제,Discount Price 적용된 Basic Annual Single Pass 결제된다
+Brazil,"Checkout Page
+(Coupon)",Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+Brazil,"Checkout Page
+(Coupon)",Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 선택
+3. Coupon Code 입력",Coupon Apply 적용 확인,Coupon Apply,Coupon Apply 동작한다
+Brazil,"Checkout Page
+(Coupon)",Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 선택
+3. Coupon Code 입력",Coupon Apply 시 동작 확인,Coupon Apply,Coupon Applied Successfully toast POP UP 노출된다
+Brazil,"Checkout Page
+(Coupon)",Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 선택
+3. Coupon Code 입력
+4. Coupon Apply",Discount Price 확인,Discount Price 노출 확인,Discount Price 노출된다
+Brazil,"Checkout Page
+(Coupon)",Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 선택
+3. Coupon Code 입력
+4. Coupon Apply",item 결제 확인,item 결제,Discount Price 적용된 Premium Month Single Pass 결제된다
+Brazil,"Checkout Page
+(Coupon)",Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+Brazil,"Checkout Page
+(Coupon)",Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 선택
+3. Coupon Code 입력",Coupon Apply 적용 확인,Coupon Apply,Coupon Apply 동작한다
+Brazil,"Checkout Page
+(Coupon)",Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 선택
+3. Coupon Code 입력",Coupon Apply 시 동작 확인,Coupon Apply,Coupon Applied Successfully toast POP UP 노출된다
+Brazil,"Checkout Page
+(Coupon)",Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 선택
+3. Coupon Code 입력
+4. Coupon Apply",Discount Price 확인,Discount Price 노출 확인,Discount Price 노출된다
+Brazil,"Checkout Page
+(Coupon)",Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 선택
+3. Coupon Code 입력
+4. Coupon Apply",item 결제 확인,item 결제,Discount Price 적용된 Premium Annual Single Pass 결제된다
+All Regions,PLAN Purchasing,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item Dimmed 처리되어 노출된다
+All Regions,PLAN Purchasing,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+All Regions,PLAN Purchasing,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Plan Change 동작 확인,상위 Subscription item 선택,Checkout page 진입된다
+All Regions,PLAN Purchasing,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+All Regions,PLAN Purchasing,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+All Regions,PLAN Purchasing,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Billing History 확인,Billing History 노출 확인,구매한 Subscription 결제 정보 노출된다
+All Regions,PLAN Purchasing,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Purchasing,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+All Regions,PLAN Purchasing,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item Dimmed 처리되어 노출된다
+All Regions,PLAN Purchasing,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+All Regions,PLAN Purchasing,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Plan Change 동작 확인,상위 Subscription item 선택,Checkout page 진입된다
+All Regions,PLAN Purchasing,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+All Regions,PLAN Purchasing,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+All Regions,PLAN Purchasing,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Billing History 확인,Billing History 노출 확인,구매한 Subscription 결제 정보 노출된다
+All Regions,PLAN Purchasing,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Purchasing,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item Dimmed 처리되어 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Plan Change 동작 확인,상위 Subscription item 선택,Checkout page 진입된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Billing History 확인,Billing History 노출 확인,구매한 Subscription 결제 정보 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item Dimmed 처리되어 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Billing History 확인,Billing History 노출 확인,구매한 Subscription 결제 정보 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+Brazil,PLAN Purchasing,Basic Month Single Pass,"1. PLAN Page 진입
+2. Basic Month Single Pass item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item Dimmed 처리되어 노출된다
+Brazil,PLAN Purchasing,Basic Month Single Pass,"1. PLAN Page 진입
+2. Basic Month Single Pass item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+Brazil,PLAN Purchasing,Basic Month Single Pass,"1. PLAN Page 진입
+2. Basic Month Single Pass item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+Brazil,PLAN Purchasing,Basic Month Single Pass,"1. PLAN Page 진입
+2. Basic Month Single Pass item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+Brazil,PLAN Purchasing,Basic Month Single Pass,"1. PLAN Page 진입
+2. Basic Month Single Pass item 결제
+3. Account Page 진입
+4. Payment Page 진입",Billing History 확인,Billing History 노출 확인,구매한 Subscription 결제 정보 노출된다
+Brazil,PLAN Purchasing,Basic Month Single Pass,"1. PLAN Page 진입
+2. Basic Month Single Pass item 결제
+3. Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+Brazil,PLAN Purchasing,Basic Month Single Pass,"1. PLAN Page 진입
+2. Basic Month Single Pass item 결제
+3. Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+Brazil,PLAN Purchasing,Basic Annual Single Pass,"1. PLAN Page 진입
+2. Basic Annual Single Pass item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item Dimmed 처리되어 노출된다
+Brazil,PLAN Purchasing,Basic Annual Single Pass,"1. PLAN Page 진입
+2. Basic Annual Single Pass item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+Brazil,PLAN Purchasing,Basic Annual Single Pass,"1. PLAN Page 진입
+2. Basic Annual Single Pass item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+Brazil,PLAN Purchasing,Basic Annual Single Pass,"1. PLAN Page 진입
+2. Basic Annual Single Pass item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+Brazil,PLAN Purchasing,Basic Annual Single Pass,"1. PLAN Page 진입
+2. Basic Annual Single Pass item 결제
+3. Account Page 진입
+4. Payment Page 진입",Billing History 확인,Billing History 노출 확인,구매한 Subscription 결제 정보 노출된다
+Brazil,PLAN Purchasing,Basic Annual Single Pass,"1. PLAN Page 진입
+2. Basic Annual Single Pass item 결제
+3. Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+Brazil,PLAN Purchasing,Basic Annual Single Pass,"1. PLAN Page 진입
+2. Basic Annual Single Pass item 결제
+3. Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+Brazil,PLAN Purchasing,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item Dimmed 처리되어 노출된다
+Brazil,PLAN Purchasing,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+Brazil,PLAN Purchasing,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+Brazil,PLAN Purchasing,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+Brazil,PLAN Purchasing,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 결제
+3. Account Page 진입
+4. Payment Page 진입",Billing History 확인,Billing History 노출 확인,구매한 Subscription 결제 정보 노출된다
+Brazil,PLAN Purchasing,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 결제
+3. Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+Brazil,PLAN Purchasing,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 결제
+3. Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+Brazil,PLAN Purchasing,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item Dimmed 처리되어 노출된다
+Brazil,PLAN Purchasing,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+Brazil,PLAN Purchasing,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+Brazil,PLAN Purchasing,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+Brazil,PLAN Purchasing,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 결제
+3. Account Page 진입
+4. Payment Page 진입",Billing History 확인,Billing History 노출 확인,구매한 Subscription 결제 정보 노출된다
+Brazil,PLAN Purchasing,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 결제
+3. Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+Brazil,PLAN Purchasing,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 결제
+3. Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+All Regions,Cancel PLAN,0,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. My account Page 진입
+4. My subscription 노출된 상태",Cancel Button 노출 확인,Cancel Button 노출 확인,Cancel Button 노출된다
+All Regions,Cancel PLAN,0,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. My account Page 진입
+4. My subscription 노출된 상태",Cancel Button 선택 시 기능 확인,Cancel Button 선택,구독 취소된다
+All Regions,Cancel PLAN,0,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. My account Page 진입
+4. My subscription 노출된 상태
+5. 구독 취소된 상태",구독 유효 text 출력 확인,구독 유효 text 출력 확인,Valid Date : text 출력된다
+All Regions,Cancel PLAN,0,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. My account Page 진입
+4. My subscription 노출된 상태
+5. 구독 취소된 상태",구독 유효 일자 노출 확인,구독 유효 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
+All Regions,Cancel PLAN,0,"1. PLAN Page 진입
+2. WEB 결제 계정 Sign in
+3. 구독 취소된 상태",WEB 상품 Cancel PLAN 적용 시 동작 확인,Cancel PLAN 적용,Resume Button 노출된다
+All Regions,Cancel PLAN,0,"1. PLAN Page 진입
+2. App 결제 계정 Sign in
+3. 구독 취소된 상태",Resume Button 노출 여부 확인,Cancel PLAN 적용,Resume Button 노출되지 않는다
+All Regions,Cancel PLAN,0,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. 구독 취소
+4. My subscription 진입",Resume Button 선택 시 기능 확인,Resume Button 선택,구독 재개된다
+All Regions,Renewal Subscription,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제",구독 갱신 확인,구독 갱신 일자까지 대기,구독 갱신된다
+All Regions,Renewal Subscription,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제",구독 갱신 시 요금 결제 확인,구독 갱신 일자까지 대기,구독 갱신 요금 결제된다
+All Regions,Renewal Subscription,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. My subscription 진입",구독 갱신 시 My subscription 정보 노출 확인,구독 갱신 일자까지 대기,구매한 item 노출된다
+All Regions,Renewal Subscription,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. My subscription 진입",구독 갱신 시 Billing history 갱신 확인,구독 갱신 일자까지 대기,Billing History에 이력 갱신된다
+All Regions,Renewal Subscription,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. Email box 진입",구독 갱신 시 Email 수신 확인,구독 갱신 일자까지 대기,Receipt Email 수신된다
+All Regions,Renewal Subscription,Basic Monthly Cancel Plan,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. Cancel Plan 적용",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+All Regions,Renewal Subscription,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제",구독 갱신 확인,구독 갱신 일자까지 대기,구독 갱신된다
+All Regions,Renewal Subscription,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제",구독 갱신 시 요금 결제 확인,구독 갱신 일자까지 대기,구독 갱신 요금 결제된다
+All Regions,Renewal Subscription,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. My subscription 진입",구독 갱신 시 My subscription 정보 노출 확인,구독 갱신 일자까지 대기,구매한 item 노출된다
+All Regions,Renewal Subscription,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. My subscription 진입",구독 갱신 시 Billing history 갱신 확인,구독 갱신 일자까지 대기,Billing History에 이력 갱신된다
+All Regions,Renewal Subscription,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. Email box 진입",구독 갱신 시 Email 수신 확인,구독 갱신 일자까지 대기,Receipt Email 수신된다
+All Regions,Renewal Subscription,Basic Annual Cancel Plan,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. Cancel Plan 적용",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제",구독 갱신 확인,구독 갱신 일자까지 대기,구독 갱신된다
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제",구독 갱신 시 요금 결제 확인,구독 갱신 일자까지 대기,구독 갱신 요금 결제된다
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. My subscription 진입",구독 갱신 시 My subscription 정보 노출 확인,구독 갱신 일자까지 대기,구매한 item 노출된다
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. My subscription 진입",구독 갱신 시 Billing history 갱신 확인,구독 갱신 일자까지 대기,Billing History에 이력 갱신된다
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Email box 진입",구독 갱신 시 Email 수신 확인,구독 갱신 일자까지 대기,Receipt Email 수신된다
+All Regions,Renewal Subscription,Premium Monthly Cancel Plan,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Cancel Plan 적용",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제",구독 갱신 확인,구독 갱신 일자까지 대기,구독 갱신된다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제",구독 갱신 시 요금 결제 확인,구독 갱신 일자까지 대기,구독 갱신 요금 결제된다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. My subscription 진입",구독 갱신 시 My subscription 정보 노출 확인,구독 갱신 일자까지 대기,구매한 item 노출된다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. My subscription 진입",구독 갱신 시 Billing history 갱신 확인,구독 갱신 일자까지 대기,Billing History에 이력 갱신된다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Email box 진입",구독 갱신 시 Email 수신 확인,구독 갱신 일자까지 대기,Receipt Email 수신된다
+All Regions,Renewal Subscription,Premium Annual Cancel Plan,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Cancel Plan 적용",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+Brazil,Renewal Subscription,Basic Month Single Pass,"1. PLAN Page 진입
+2. Basic Month Single Pass item 결제",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+Brazil,Renewal Subscription,Basic Annual Single Pass,"1. PLAN Page 진입
+2. Basic Annual Single Pass item 결제",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+Brazil,Renewal Subscription,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 결제",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+Brazil,Renewal Subscription,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 결제",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+All Regions,PLAN Change,Upgrade,"1. Plan page 진입
+2. Plan Upgrade
+3. Email box 진입",Plan Update Email 수신 확인,Plan Update Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Change,Upgrade,"1. Plan page 진입
+2. Plan Upgrade
+3. My subscription page 진입",Upgrade item 노출 확인,Upgrade item 노출 확인,결제한 Upgrade item 노출된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. Email box 진입",Plan Update Email 수신 확인,Plan Update Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",기존 Subscribe item 노출 확인,기존 Subscribe item 노출 확인,기존 Subscribe item 노출된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Expires on text 출력 확인,Expires on text 출력 확인,Expired on : text 출력된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",기존 item 구독 시작 일자 노출 확인,Downgrade item 구독 시작 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Downgrade item 노출 확인,Downgrade item 노출 확인,결제한 downgrade item 노출된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Start on text 출력 확인,Start on text 출력 확인,Starting : text 출력된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Downgrade item 구독 시작 일자 노출 확인,Downgrade item 구독 시작 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
+Brazil,PLAN Change,Basic Month Single Pass,"1. Plan page 진입
+2. Basic Month Single Pass 결제한 상태",Plan Change 불가 POP UP 노출 확인,임의 item 선택,Plan Change 불가 POP UP 노출된다
+Brazil,PLAN Change,Basic Annual Single Pass,"1. Plan page 진입
+2. Basic Annual Single Pass 결제한 상태",Plan Change 불가 POP UP 노출 확인,임의 item 선택,Plan Change 불가 POP UP 노출된다
+Brazil,PLAN Change,Premium Month Single Pass,"1. Plan page 진입
+2. Premium Month Single Pass 결제한 상태",Plan Change 불가 POP UP 노출 확인,임의 item 선택,Plan Change 불가 POP UP 노출된다
+Brazil,PLAN Change,Premium Annual Single Pass,"1. Plan page 진입
+2. Premium Annual Single Pass 결제한 상태",Plan Change 불가 POP UP 노출 확인,임의 item 선택,Plan Change 불가 POP UP 노출된다
+All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+2. Basic Monthly 결제",BM to BA 동작 확인,Basic Annual 결제,Basic Annual로 Upgrade 된다
+All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+2. Basic Monthly 결제",BM to PM 동작 확인,Premium Monthly 결제,Premium Monthly로 Upgrade 된다
+All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+2. Basic Monthly 결제",BM to PA 동작 확인,Premium Annual 결제,Premium Annual로 Upgrade 된다
+All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+2. Premium Monthly 결제",PM to PA 동작 확인,Premium Annual 결제,Premium Annual로 Upgrade 된다
+All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+2. Basic Annual 결제",BA to PA 동작 확인,Premium Annual 결제,Premium Annual로 Upgrade 된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Annual 결제",PA to BA 동작 확인,Basic Annual 결제,Basic Annual로 Downgrade 예약된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Annual 결제
+3. Basic Annual Downgrade",Renewal 동작 확인,구독 갱신,Basic Annual Subscription 적용된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Annual 결제",PA to PM 동작 확인,Premium Monthly 결제,Premium Monthly로 Downgrade 예약된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Annual 결제
+3. Premium Monthly Downgrade",Renewal 동작 확인,구독 갱신,Premium Monthly Subscription 적용된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Annual 결제",PA to BM 동작 확인,Basic Monthly 결제,Basic Monthly로 Downgrade 예약된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Annual 결제
+3. Basic Monthly Downgrade",Renewal 동작 확인,구독 갱신,Basic Monthly Subscription 적용된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Monthly 결제",PM to BM 동작 확인,Basic Monthly 결제,Basic Monthly로 Downgrade 예약된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Monthly 결제
+3. Basic Monthly Downgrade",Renewal 동작 확인,구독 갱신,Basic Monthly Subscription 적용된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Basic Annual 결제",BA to BM 동작 확인,Basic Monthly 결제,Basic Monthly로 Downgrade 예약된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Basic Annual 결제
+3. Basic Monthly Downgrade",Renewal 동작 확인,구독 갱신,Basic Monthly Subscription 적용된다
+All Regions,Sign in,0,"1. KOCOWA App 실행
+2. 미로그인 상태",Sign in 기능 확인,Sign in 시도,Sign in 진행된다
+All Regions,Sign Up,0,"1. KOCOWA App 실행
+2. 미로그인 상태",Sign up 기능 확인,Sign up 시도,Sign up 진행된다
+All Regions,Sign Out,0,"1. KOCOWA App 실행
+2. 로그인 상태",Sign out 기능 확인,Sign out 시도,Sign out 진행된다
+All Regions,Sign Out,0,"1. KOCOWA App 실행
+2. Sign In
+3. Sign Out",재로그인 가능 확인,해당 계정으로 Sign In,Sign in 진행된다
+All Regions,Find Password,0,"1. KOCOWA App 실행
+2. Sign in page 진입
+3. Find Password button 선택
+4. 가입 이력이 있는 Email 입력",Find Password 기능 확인,Find Password 시도,Reset Password 이메일 수신된다
+All Regions,Social Sign in,Facebook,"1. KOCOWA App 실행
+2. Sign in Page 진입",Social Sign in 기능 확인,Facebook Social Sign in 시도,Facebook 계정으로 Sign in 진행된다
+All Regions,Social Sign up,Facebook,"1. KOCOWA App 실행
+2. Sign up Page 진입
+3. 가입 이력 없는 Facebook 계정 보유한 상태",Social Sign up 기능 확인,Facebook Social Sign up 시도,Facebook 계정으로 Sign up 진행된다
+All Regions,Social Sign in,Google,"1. KOCOWA App 실행
+2. Sign in Page 진입",Social Sign in 기능 확인,Google Social Sign in 시도,Google 계정으로 Sign in 진행된다
+All Regions,Social Sign up,Google,"1. KOCOWA App 실행
+2. Sign up Page 진입
+3. 가입 이력 없는 Google 계정 보유한 상태",Social Sign up 기능 확인,Google Social Sign up 시도,Google 계정으로 Sign up 진행된다
+All Regions,Social Sign in,Apple,"1. KOCOWA App 실행
+2. Sign in Page 진입",Social Sign in 기능 확인,Apple Social Sign in 시도,Apple 계정으로 Sign in 진행된다
+All Regions,Social Sign up,Apple,"1. KOCOWA App 실행
+2. Sign up Page 진입
+3. 가입 이력 없는 Apple 계정 보유한 상태",Social Sign up 기능 확인,Apple Social Sign up 시도,Apple 계정으로 Sign up 진행된다
+All Regions,Multi Profile Page,Add Profile,"1. KOCOWA App 실행
+2. Premium 계정 Sign in
+3. Add Profile button 선택",Add Profile 기능 확인,Add Profile 시도,Profile 추가된다
+All Regions,Multi Profile Page,Edit Profile,"1. KOCOWA App 실행
+2. Sign in
+3. Edit Profile button 선택
+4. 기존과 다른 정보 입력",Edit Profile 기능 확인,Edit Profile 시도,Profile 수정된다
+All Regions,Multi Profile Page,Delete Profile,"1. KOCOWA App 실행
+2. Premium 계정 Sign in
+3. Edit Profile button 선택",Delete Profile 기능 확인,Delete Profile button 선택,Profile 삭제된다
+All Regions,Multi Profile Page,Profile Change,"1. KOCOWA Webpage 진입
+2. Premium 계정 Sign in
+3. A Profile 로 진입
+4. 다른 프로필이 있는 상태
+5. Profile Change 진입",Profile Change 기능 확인,B Profile 로 진입,B Profile 로 진입된다.
+All Regions,Multi Profile Page,PIN Locked,"1. KOCOWA Webpage 진입
+2. Premium 계정 Sign in
+3. PIN Locked을 설정한 프로필 진입",PIN Locked 기능 확인,설정한 PIN 번호 입력,Profile 로 진입된다.
+All Regions,Home,Language Setting,"1. KOCOWA Webpage 진입
+2. Premium 계정 Sign in
+3. Setting 진입
+4. Language Setting 진입 ",Language Setting 기능 확인,설정한 언어 외 다른 언어로 설정,해당 언어로 변경된 Home main으로 돌아간다.
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. AVOD 계정 Sign in
+3. Player Page 진입",AVOD 상태 시 KOBACO Bumper 노출 확인,Bumper Video 종료,KOBACO Bumper Video 노출된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. Basic Monthly 결제 계정 Sign in
+3. Player Page 진입",Basic Monthly결제 상태 시 KOBACO Bumper 노출 확인,Bumper Video 종료,KOBACO Bumper Video 노출된다
+All Regions,Content Playble,KOBACO Policy,"1. KOCOWA App 실행
+2. AVOD 계정 Sign in
+3. Player Page 진입
+4. US VPN Setting 상태",US VPN 연결 시 KOBACO Bumper 노출 확인,Bumper Video 종료,KOBACO Bumper Video 노출된다
+All Regions,Content Playble,KOBACO Policy,"1. KOCOWA App 실행
+2. AVOD 계정 Sign in
+3. Player Page 진입
+4. US 이외의 VPN Setting 상태",US 이외 VPN 연결 시 KOBACO Bumper 노출 여부 확인,Bumper Video 종료,KOBACO Bumper Video 노출되지 않는다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. 미로그인 상태",Anonymous User 일 시 Content 재생 여부 확인,Player Page 진입,Sign In button 노출된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. 미로그인 상태
+3. Player Page 진입",Sign in button 기능 확인,Sign In button 선택,Sign In Page 진입된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. Sign in
+3. 미구독 상태",미구독 User일 시 AVOD 재생 확인,Player Page 진입,광고 재생된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. Sign in
+3. 미구독 상태",미구독 User일 시 SVOD 재생 확인,Player Page 진입,Need to Subscribe button 노출된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. Sign in
+3. 미구독 상태
+4. Player Page 진입",Need to Subscribe button 기능 확인,Need to Subscribe button 선택,PLAN Page 진입된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in",구독 중일 시 Content 재생 확인,Player Page 진입,Content 재생된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. Player Page 진입",구독 중일 시 Content 일정 시간 재생 확인,Content 3분간 재생,Content 재생된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. Profile 변경",Profile 변경 후 Content 재생 확인,Player Page 진입,Content 재생된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. Profile Viewing Age 변경",Profile Viewing Age 변경 후 Content 재생 확인,Player Page 진입,Content 재생된다
+All Regions,KOAS,0,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. Content 재생",Content 재생 시 User Tracking 동작 확인,User Tracking log 노출 확인,User Tracking log 노출된다
+All Regions,KOAS,SSO,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. Content 재생",Content 재생 시 User Tracking 동작 확인,User Tracking log 노출 확인,User Tracking log 노출된다
+All Regions,KOAS,Profile Change,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. 프로필 변경
+4. Content 재생",프로필 변경 후 Content 재생 시 User Tracking 동작 확인,User Tracking log 노출 확인,User Tracking log 노출된다
+All Regions,PLAN Page,Basic Monthly,1. PLAN page 진입,Basic Monthly item 노출 확인,Basic Monthly item 노출 확인,Basic Monthly item 노출된다
+All Regions,PLAN Page,Basic Monthly,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+All Regions,PLAN Page,Basic Monthly,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,PLAN Page,Basic Monthly,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+All Regions,PLAN Page,Basic Monthly,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Basic Monthly item 선택 시 기능 확인,Basic Monthly item 선택,결제 POP UP 노출된다
+All Regions,PLAN Page,Basic Annual,1. PLAN page 진입,Basic Annual item 노출 확인,Basic Annual item 노출 확인,Basic Annual item 노출된다
+All Regions,PLAN Page,Basic Annual,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+All Regions,PLAN Page,Basic Annual,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,PLAN Page,Basic Annual,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+All Regions,PLAN Page,Basic Annual,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Basic Annual item 선택 시 기능 확인,Basic Annual item 선택,결제 POP UP 노출된다
+All Regions,PLAN Page,Premium Monthly,1. PLAN page 진입,Premium Monthly item 노출 확인,Premium Monthly item 노출 확인,Premium Monthly item 노출된다
+All Regions,PLAN Page,Premium Monthly,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+All Regions,PLAN Page,Premium Monthly,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,PLAN Page,Premium Monthly,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+All Regions,PLAN Page,Premium Monthly,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Premium Monthly item 선택 시 기능 확인,Premium Monthly item 선택,결제 POP UP 노출된다
+All Regions,PLAN Page,Premium Annual,1. PLAN page 진입,Premium Annual item 노출 확인,Premium Annual item 노출 확인,Premium Annual item 노출된다
+All Regions,PLAN Page,Premium Annual,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+All Regions,PLAN Page,Premium Annual,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,PLAN Page,Premium Annual,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+All Regions,PLAN Page,Premium Annual,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Premium Annual item 선택 시 기능 확인,Premium Annual item 선택,결제 POP UP 노출된다
+All Regions,Checkout Page,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,Checkout Page,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 선택
+3. 결제 POP UP 노출된 상태",item 결제 확인,item 결제,Basic Montly 결제된다
+All Regions,Checkout Page,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,Checkout Page,Basic Annual,"1. PLAN Page 진입
+2. Basic Monthly item 선택
+3. 결제 POP UP 노출된 상태",item 결제 확인,item 결제,Basic Annual 결제된다
+All Regions,Checkout Page,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,Checkout Page,Premium Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 선택
+3. 결제 POP UP 노출된 상태",item 결제 확인,item 결제,Premium Monthly 결제된다
+All Regions,Checkout Page,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 선택",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,Checkout Page,Premium Annual,"1. PLAN Page 진입
+2. Basic Monthly item 선택
+3. 결제 POP UP 노출된 상태",item 결제 확인,item 결제,Premium Annual 결제된다
+All Regions,PLAN Purchasing,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item Dimmed 처리되어 노출된다
+All Regions,PLAN Purchasing,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+All Regions,PLAN Purchasing,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Plan Change 동작 확인,상위 Subscription item 선택,결제 POP UP 노출된다
+All Regions,PLAN Purchasing,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+All Regions,PLAN Purchasing,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+All Regions,PLAN Purchasing,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Billing History 확인,Billing History 노출 확인,구매한 Subscription 결제 정보 노출된다
+All Regions,PLAN Purchasing,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. 결제한 스토어와 연결된 Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Purchasing,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. 결제한 스토어와 연결된 Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+All Regions,PLAN Purchasing,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item Dimmed 처리되어 노출된다
+All Regions,PLAN Purchasing,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+All Regions,PLAN Purchasing,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Plan Change 동작 확인,상위 Subscription item 선택,결제 POP UP 노출된다
+All Regions,PLAN Purchasing,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+All Regions,PLAN Purchasing,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+All Regions,PLAN Purchasing,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Billing History 확인,Billing History 노출 확인,구매한 Subscription 결제 정보 노출된다
+All Regions,PLAN Purchasing,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. 결제한 스토어와 연결된 Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Purchasing,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. 결제한 스토어와 연결된 Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item Dimmed 처리되어 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Plan Change 동작 확인,상위 Subscription item 선택,결제 POP UP 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Billing History 확인,Billing History 노출 확인,구매한 Subscription 결제 정보 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. 결제한 스토어와 연결된 Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. 결제한 스토어와 연결된 Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item Dimmed 처리되어 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Billing History 확인,Billing History 노출 확인,구매한 Subscription 결제 정보 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. 결제한 스토어와 연결된 Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+All Regions,Cancel PLAN,0,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. My account Page 진입
+4. My subscription 노출된 상태",Cancel Button 노출 확인,Cancel Button 노출 확인,Cancel Button 노출된다
+All Regions,Cancel PLAN,0,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. My account Page 진입
+4. My subscription 노출된 상태",Cancel Button 선택 시 기능 확인,Cancel Button 선택,구독 취소된다
+All Regions,Cancel PLAN,0,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. My account Page 진입
+4. My subscription 노출된 상태
+5. 구독 취소된 상태",구독 유효 text 출력 확인,구독 유효 text 출력 확인,Valid Date : text 출력된다
+All Regions,Cancel PLAN,0,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. My account Page 진입
+4. My subscription 노출된 상태
+5. 구독 취소된 상태",구독 유효 일자 노출 확인,구독 유효 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
+All Regions,Cancel PLAN,0,"1. PLAN Page 진입
+2. WEB 결제 계정 Sign in
+3. 구독 취소된 상태",WEB 상품 Cancel PLAN 적용 시 동작 확인,Cancel PLAN 적용,Resume Button 노출된다
+All Regions,Cancel PLAN,0,"1. PLAN Page 진입
+2. App 결제 계정 Sign in
+3. 구독 취소된 상태",Resume Button 노출 여부 확인,Cancel PLAN 적용,Resume Button 노출되지 않는다
+All Regions,Cancel PLAN,0,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. 구독 취소
+4. My subscription 진입",Resume Button 선택 시 기능 확인,Resume Button 선택,구독 재개된다
+All Regions,Renewal Subscription,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제",구독 갱신 확인,구독 갱신 일자까지 대기,구독 갱신된다
+All Regions,Renewal Subscription,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제",구독 갱신 시 요금 결제 확인,구독 갱신 일자까지 대기,구독 갱신 요금 결제된다
+All Regions,Renewal Subscription,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. My subscription 진입",구독 갱신 시 My subscription 정보 노출 확인,구독 갱신 일자까지 대기,구매한 item 노출된다
+All Regions,Renewal Subscription,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. My subscription 진입",구독 갱신 시 Billing history 갱신 확인,구독 갱신 일자까지 대기,Billing History에 이력 갱신된다
+All Regions,Renewal Subscription,Basic Monthly,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. 결제한 스토어와 연결된 Email box 진입",구독 갱신 시 Email 수신 확인,구독 갱신 일자까지 대기,Receipt Email 수신된다
+All Regions,Renewal Subscription,Basic Monthly Cancel Plan,"1. PLAN Page 진입
+2. Basic Monthly item 결제
+3. Cancel Plan 적용",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+All Regions,Renewal Subscription,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제",구독 갱신 확인,구독 갱신 일자까지 대기,구독 갱신된다
+All Regions,Renewal Subscription,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제",구독 갱신 시 요금 결제 확인,구독 갱신 일자까지 대기,구독 갱신 요금 결제된다
+All Regions,Renewal Subscription,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. My subscription 진입",구독 갱신 시 My subscription 정보 노출 확인,구독 갱신 일자까지 대기,구매한 item 노출된다
+All Regions,Renewal Subscription,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. My subscription 진입",구독 갱신 시 Billing history 갱신 확인,구독 갱신 일자까지 대기,Billing History에 이력 갱신된다
+All Regions,Renewal Subscription,Basic Annual,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. 결제한 스토어와 연결된 Email box 진입",구독 갱신 시 Email 수신 확인,구독 갱신 일자까지 대기,Receipt Email 수신된다
+All Regions,Renewal Subscription,Basic Annual Cancel Plan,"1. PLAN Page 진입
+2. Basic Annual item 결제
+3. Cancel Plan 적용",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제",구독 갱신 확인,구독 갱신 일자까지 대기,구독 갱신된다
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제",구독 갱신 시 요금 결제 확인,구독 갱신 일자까지 대기,구독 갱신 요금 결제된다
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. My subscription 진입",구독 갱신 시 My subscription 정보 노출 확인,구독 갱신 일자까지 대기,구매한 item 노출된다
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. My subscription 진입",구독 갱신 시 Billing history 갱신 확인,구독 갱신 일자까지 대기,Billing History에 이력 갱신된다
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. 결제한 스토어와 연결된 Email box 진입",구독 갱신 시 Email 수신 확인,구독 갱신 일자까지 대기,Receipt Email 수신된다
+All Regions,Renewal Subscription,Premium Monthly Cancel Plan,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Cancel Plan 적용",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제",구독 갱신 확인,구독 갱신 일자까지 대기,구독 갱신된다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제",구독 갱신 시 요금 결제 확인,구독 갱신 일자까지 대기,구독 갱신 요금 결제된다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. My subscription 진입",구독 갱신 시 My subscription 정보 노출 확인,구독 갱신 일자까지 대기,구매한 item 노출된다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. My subscription 진입",구독 갱신 시 Billing history 갱신 확인,구독 갱신 일자까지 대기,Billing History에 이력 갱신된다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. 결제한 스토어와 연결된 Email box 진입",구독 갱신 시 Email 수신 확인,구독 갱신 일자까지 대기,Receipt Email 수신된다
+All Regions,Renewal Subscription,Premium Annual Cancel Plan,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Cancel Plan 적용",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+All Regions,PLAN Change,Upgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. 결제한 스토어와 연결된 Email box 진입",Plan Update Email 수신 확인,Plan Update Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Change,Upgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Upgrade item 노출 확인,Upgrade item 노출 확인,결제한 Upgrade item 노출된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. 결제한 스토어와 연결된 Email box 진입",Plan Update Email 수신 확인,Plan Update Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",기존 Subscribe item 노출 확인,기존 Subscribe item 노출 확인,기존 Subscribe item 노출된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Expires on text 출력 확인,Expires on text 출력 확인,Expired on : text 출력된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",기존 item 구독 시작 일자 노출 확인,Downgrade item 구독 시작 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Downgrade item 노출 확인,Downgrade item 노출 확인,결제한 downgrade item 노출된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Start on text 출력 확인,Start on text 출력 확인,Starting : text 출력된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Downgrade item 구독 시작 일자 노출 확인,Downgrade item 구독 시작 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
+All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+2. Basic Monthly 결제",BM to BA 동작 확인,Basic Annual 결제,Basic Annual로 Upgrade 된다
+All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+2. Basic Monthly 결제",BM to PM 동작 확인,Premium Monthly 결제,Premium Monthly로 Upgrade 된다
+All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+2. Basic Monthly 결제",BM to PA 동작 확인,Premium Annual 결제,Premium Annual로 Upgrade 된다
+All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+2. Premium Monthly 결제",PM to PA 동작 확인,Premium Annual 결제,Premium Annual로 Upgrade 된다
+All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+2. Basic Annual 결제",BA to PM 동작 확인,Premium Monthly 결제,Premium Monthly로 Upgrade 된다
+All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+2. Basic Annual 결제",BA to PA 동작 확인,Premium Annual 결제,Premium Annual로 Upgrade 된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Annual 결제",PA to BA 동작 확인,Basic Annual 결제,Basic Annual로 Downgrade 예약된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Annual 결제
+3. Basic Annual Downgrade",Renewal 동작 확인,구독 갱신,Basic Annual Subscription 적용된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Annual 결제",PA to PM 동작 확인,Premium Monthly 결제,Premium Monthly로 Downgrade 예약된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Annual 결제
+3. Premium Monthly Downgrade",Renewal 동작 확인,구독 갱신,Premium Monthly Subscription 적용된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Annual 결제",PA to BM 동작 확인,Basic Monthly 결제,Basic Monthly로 Downgrade 예약된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Annual 결제
+3. Basic Monthly Downgrade",Renewal 동작 확인,구독 갱신,Basic Monthly Subscription 적용된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Monthly 결제",PM to BA 동작 확인,Basic Annual 결제,Basic Annual로 Downgrade 예약된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Monthly 결제
+3. Basic Annual Downgrade",Renewal 동작 확인,구독 갱신,Basic Annual Subscription 적용된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Monthly 결제",PM to BM 동작 확인,Basic Monthly 결제,Basic Monthly로 Downgrade 예약된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Annual 결제
+3. Basic Monthly Downgrade",Renewal 동작 확인,구독 갱신,Basic Monthly Subscription 적용된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Basic Annual 결제",BA to BM 동작 확인,Basic Monthly 결제,Basic Monthly로 Downgrade 예약된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Basic Annual 결제
+3. Basic Monthly Downgrade",Renewal 동작 확인,구독 갱신,Basic Monthly Subscription 적용된다
+All Regions,Sign in,0,"1. KOCOWA App 실행
+2. 미로그인 상태",Sign in 기능 확인,Sign in 시도,Sign in 진행된다
+All Regions,Sign Up,0,"1. KOCOWA App 실행
+2. 미로그인 상태",Sign up 기능 확인,Sign up 시도,Sign up 진행된다
+All Regions,Sign Out,0,"1. KOCOWA App 실행
+2. 로그인 상태",Sign out 기능 확인,Sign out 시도,Sign out 진행된다
+All Regions,Sign Out,0,"1. KOCOWA App 실행
+2. Sign In
+3. Sign Out",재로그인 가능 확인,해당 계정으로 Sign In,Sign in 진행된다
+All Regions,Find Password,0,"1. KOCOWA App 실행
+2. Sign in page 진입
+3. Find Password button 선택
+4. 가입 이력이 있는 Email 입력",Find Password 기능 확인,Find Password 시도,Reset Password 이메일 수신된다
+All Regions,SSO,Facebook,"1. KOCOWA App 실행
+2. Sign in Page 진입",Social Sign in 기능 확인,Facebook Social Sign in 시도,Facebook 계정으로 Sign in 진행된다
+All Regions,SSO,Facebook,"1. KOCOWA App 실행
+2. Sign up Page 진입
+3. 가입 이력 없는 Facebook 계정 보유한 상태",Social Sign up 기능 확인,Facebook Social Sign up 시도,Facebook 계정으로 Sign up 진행된다
+All Regions,SSO,Google,"1. KOCOWA App 실행
+2. Sign in Page 진입",Social Sign in 기능 확인,Google Social Sign in 시도,Google 계정으로 Sign in 진행된다
+All Regions,SSO,Google,"1. KOCOWA App 실행
+2. Sign up Page 진입
+3. 가입 이력 없는 Google 계정 보유한 상태",Social Sign up 기능 확인,Google Social Sign up 시도,Google 계정으로 Sign up 진행된다
+All Regions,SSO,Apple,"1. KOCOWA App 실행
+2. Sign in Page 진입",Social Sign in 기능 확인,Apple Social Sign in 시도,Apple 계정으로 Sign in 진행된다
+All Regions,SSO,Apple,"1. KOCOWA App 실행
+2. Sign up Page 진입
+3. 가입 이력 없는 Apple 계정 보유한 상태",Social Sign up 기능 확인,Apple Social Sign up 시도,Apple 계정으로 Sign up 진행된다
+All Regions,SSO,ROKU,"1. KOCOWA App 실행
+2. Sign in Page 진입",Social Sign in 기능 확인,ROKU Social Sign in 시도,ROKU 계정으로 Sign in 진행된다
+All Regions,SSO,ROKU,"1. KOCOWA App 실행
+2. Sign up Page 진입
+3. 가입 이력 없는 Apple 계정 보유한 상태",Social Sign up 기능 확인,ROKU Social Sign up 시도,ROKU 계정으로 Sign up 진행된다
+All Regions,QR Sign in,0,"1. KOCOWA App 실행
+2. Landing Page 진입
+3. QR Sign in page 진입한 상태",QR Sign in 기능 확인,QR Sign in 시도,QR Sign in 진행된다
+All Regions,Multi Profile Page,Add Profile,"1. KOCOWA App 실행
+2. Premium 계정 Sign in
+3. Add Profile button 선택",Add Profile 기능 확인,Add Profile 시도,Profile 추가된다
+All Regions,Multi Profile Page,Edit Profile,"1. KOCOWA App 실행
+2. Sign in
+3. Edit Profile button 선택
+4. 기존과 다른 정보 입력",Edit Profile 기능 확인,Edit Profile 시도,Profile 수정된다
+All Regions,Multi Profile Page,Delete Profile,"1. KOCOWA App 실행
+2. Premium 계정 Sign in
+3. Edit Profile button 선택
+4. Profile 선택",Delete Profile 기능 확인,Delete Profile button 선택,Profile 삭제된다
+All Regions,Multi Profile Page,Profile Change,"1. KOCOWA Webpage 진입
+2. Premium 계정 Sign in
+3. A Profile 로 진입
+4. 다른 프로필이 있는 상태
+5. Profile Change 진입",Profile Change 기능 확인,B Profile 로 진입,B Profile 로 진입된다.
+All Regions,Multi Profile Page,PIN Locked,"1. KOCOWA Webpage 진입
+2. Premium 계정 Sign in
+3. PIN Locked을 설정한 프로필 진입",PIN Locked 기능 확인,설정한 PIN 번호 입력,Profile 로 진입된다.
+All Regions,Home,Language Setting,"1. KOCOWA Webpage 진입
+2. Premium 계정 Sign in
+3. Setting 진입
+4. Language Setting 진입 ",Language Setting 기능 확인,설정한 언어 외 다른 언어로 설정,해당 언어로 변경된 Home main으로 돌아간다.
+All Regions,Content Playble,0,"1. KOCOWA App 실행
+2. 결제 계정 Sign in",구독 중일 시 Content 재생 확인,Player Page 진입,Content 재생된다
+All Regions,Content Playble,0,"1. KOCOWA App 실행
+2. 결제 계정 Sign in
+3. Player Page 진입",구독 중일 시 Content 일정 시간 재생 확인,Content 3분간 재생,Content 재생된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. Profile 변경",Profile 변경 후 Content 재생 확인,Player Page 진입,Content 재생된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. Profile Viewing Age 변경",Profile Viewing Age 변경 후 Content 재생 확인,Player Page 진입,Content 재생된다
+All Regions,Content Playble,0,"1. KOCOWA App 실행
+2. Basic 결제 계정 Sign in
+3. Player Page 진입",Basic 결제 상태 시 KOBACO Bumper 노출 확인,Bumper Video 종료,KOBACO Bumper Video 노출된다
+All Regions,Content Playble,KOBACO Policy,"1. KOCOWA App 실행
+2. Basic 계정 Sign in
+3. Player Page 진입
+4. US VPN Setting 상태",US VPN 연결 시 KOBACO Bumper 노출 확인,Bumper Video 종료,KOBACO Bumper Video 노출된다
+All Regions,Content Playble,KOBACO Policy,"1. KOCOWA App 실행
+2. Basic 계정 Sign in
+3. Player Page 진입
+4. US 이외의 VPN Setting 상태",US 이외 VPN 연결 시 KOBACO Bumper 노출 여부 확인,Bumper Video 종료,KOBACO Bumper Video 노출되지 않는다
+All Regions,Content Playble,0,"1. KOCOWA App 실행
+2. 결제 계정 Sign in",구독 중일 시 Content 재생 확인,Player Page 진입,Content 재생된다
+All Regions,Content Playble,0,"1. KOCOWA App 실행
+2. 결제 계정 Sign in
+3. Player Page 진입",구독 중일 시 Content 일정 시간 재생 확인,Content 3분간 재생,Content 재생된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. Profile 변경",Profile 변경 후 Content 재생 확인,Player Page 진입,Content 재생된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. Profile Viewing Age 변경",Profile Viewing Age 변경 후 Content 재생 확인,Player Page 진입,Content 재생된다
+All Regions,KOAS,KOCOWA ID,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. Content 재생",Content 재생 시 User Tracking 동작 확인,User Tracking log 노출 확인,User Tracking log 노출된다
+All Regions,KOAS,SSO,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. Content 재생",Content 재생 시 User Tracking 동작 확인,User Tracking log 노출 확인,User Tracking log 노출된다
+All Regions,KOAS,Profile Change,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. 프로필 변경
+4. Content 재생",프로필 변경 후 Content 재생 시 User Tracking 동작 확인,User Tracking log 노출 확인,User Tracking log 노출된다
+All Regions,PLAN Page,Premium Monthly,1. PLAN page 진입,Premium Monthly item 노출 확인,Premium Monthly item 노출 확인,Premium Monthly item 노출된다
+All Regions,PLAN Page,Premium Monthly,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+All Regions,PLAN Page,Premium Monthly,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,PLAN Page,Premium Monthly,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+All Regions,PLAN Page,Premium Monthly,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Premium Monthly item 선택 시 기능 확인,Premium Monthly item 선택,결제 POP UP 노출된다
+All Regions,PLAN Page,Premium Annual,1. PLAN page 진입,Premium Annual item 노출 확인,Premium Annual item 노출 확인,Premium Annual item 노출된다
+All Regions,PLAN Page,Premium Annual,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+All Regions,PLAN Page,Premium Annual,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,PLAN Page,Premium Annual,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+All Regions,PLAN Page,Premium Annual,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Premium Annual item 선택 시 기능 확인,Premium Annual item 선택,결제 POP UP 노출된다
+All Regions,Checkout Page,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 선택
+3. 결제 POP UP 노출된 상태",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,Checkout Page,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 선택
+3. 결제 POP UP 노출된 상태",item 결제 확인,item 결제,Premium Monthly 결제된다
+All Regions,Checkout Page,Premium Annual,"1. PLAN Page 진입
+2. Premium Monthly item 선택
+3. 결제 POP UP 노출된 상태",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,Checkout Page,Premium Annual,"1. PLAN Page 진입
+2. Premium Monthly item 선택
+3. 결제 POP UP 노출된 상태",item 결제 확인,item 결제,Premium Annual 결제된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item에 Check icon 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Plan Change 동작 확인,상위 Subscription item 선택,결제 POP UP 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item에 Check icon 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제",구독 갱신 확인,구독 갱신 일자까지 대기,구독 갱신된다
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제",구독 갱신 시 요금 결제 확인,구독 갱신 일자까지 대기,구독 갱신 요금 결제된다
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. My subscription 진입",구독 갱신 시 My subscription 정보 노출 확인,구독 갱신 일자까지 대기,구매한 item 노출된다
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. 결제한 스토어와 연결된 Email box 진입",구독 갱신 시 Email 수신 확인,구독 갱신 일자까지 대기,Receipt Email 수신된다
+All Regions,Renewal Subscription,Premium Monthly Cancel Plan,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Cancel Plan 적용",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제",구독 갱신 확인,구독 갱신 일자까지 대기,구독 갱신된다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제",구독 갱신 시 요금 결제 확인,구독 갱신 일자까지 대기,구독 갱신 요금 결제된다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. My subscription 진입",구독 갱신 시 My subscription 정보 노출 확인,구독 갱신 일자까지 대기,구매한 item 노출된다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. 결제한 스토어와 연결된 Email box 진입",구독 갱신 시 Email 수신 확인,구독 갱신 일자까지 대기,Receipt Email 수신된다
+All Regions,Renewal Subscription,Premium Annual Cancel Plan,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Cancel Plan 적용",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+All Regions,PLAN Change,Upgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. 결제한 스토어와 연결된 Email box 진입",결제 Email 수신 확인,결제 Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Change,Upgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Upgrade item 노출 확인,Upgrade item 노출 확인,결제한 Upgrade item 노출된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. 결제한 스토어와 연결된 Email box 진입",결제 Email 수신 확인,결제 Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",기존 Subscribe item 노출 확인,기존 Subscribe item 노출 확인,기존 Subscribe item 노출된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Expires on text 출력 확인,Expires on text 출력 확인,Expired on : text 출력된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",기존 item 구독 시작 일자 노출 확인,Downgrade item 구독 시작 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Downgrade item 노출 확인,Downgrade item 노출 확인,결제한 downgrade item 노출된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Start on text 출력 확인,Start on text 출력 확인,Starting : text 출력된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Downgrade item 구독 시작 일자 노출 확인,Downgrade item 구독 시작 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
+All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+2. Premium Monthly 결제",PM to PA 동작 확인,Premium Annual 결제,Premium Annual로 Upgrade 된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Annual 결제",PA to PM 동작 확인,Premium Monthly 결제,Premium Monthly로 Downgrade 예약된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Annual 결제
+3. Premium Monthly Downgrade",Renewal 동작 확인,구독 갱신,Premium Monthly Subscription 적용된다
+All Regions,PLAN Cross,Basic Annual (Mobile) > Premium Monthly (TV),"1. PLAN Page 진입
+2. Mobile에서 Basic Annual 결제",BA_Mobile to PM_TV 동작 확인,해당 계정 TV에서 Premium Monthly 결제,Premium Monthly로 Upgrade 된다
+All Regions,PLAN Cross,Premium Monthly (TV) > Prermium Annual (Mobile),"1. PLAN Page 진입
+2. TV에서 Premium Monthly 결제",PM_TV to PA_Mobile 동작 확인,해당 계정 Mobile에서 Premium Annual 결제,Premium Annual로 Upgrade 된다
+All Regions,PLAN Cross,Premium Monthly Mobile (Cancelled) > Premium Annual TV (Upgrade),"1. PLAN Page 진입
+2. Mobile에서 Premium Monthly 결제
+3. Mobile에서 Cancel Plan 적용",PM_Mobile Cancelled to PA_TV Upgrade 동작 확인,해당 계정 TV에서 Premium Annual 결제,Premium Annual로 Upgrade 된다
+All Regions,Sign in,0,"1. KOCOWA App 실행
+2. 미로그인 상태",Sign in 기능 확인,Sign in 시도,Sign in 진행된다
+All Regions,Sign Up,0,"1. KOCOWA App 실행
+2. 미로그인 상태",Sign up 기능 확인,Sign up 시도,Sign up 진행된다
+All Regions,Sign Out,0,"1. KOCOWA App 실행
+2. 로그인 상태",Sign out 기능 확인,Sign out 시도,Sign out 진행된다
+All Regions,Sign Out,0,"1. KOCOWA App 실행
+2. Sign In
+3. Sign Out",재로그인 가능 확인,해당 계정으로 Sign In,Sign in 진행된다
+All Regions,Find Password,0,"1. KOCOWA App 실행
+2. Sign in page 진입
+3. Find Password button 선택
+4. 가입 이력이 있는 Email 입력",Find Password 기능 확인,Find Password 시도,Reset Password 이메일 수신된다
+All Regions,Social Sign in,Facebook,"1. KOCOWA App 실행
+2. Sign in Page 진입",Social Sign in 기능 확인,Facebook Social Sign in 시도,Facebook 계정으로 Sign in 진행된다
+All Regions,Social Sign up,Facebook,"1. KOCOWA App 실행
+2. Sign up Page 진입
+3. 가입 이력 없는 Facebook 계정 보유한 상태",Social Sign up 기능 확인,Facebook Social Sign up 시도,Facebook 계정으로 Sign up 진행된다
+All Regions,Social Sign in,Google,"1. KOCOWA App 실행
+2. Sign in Page 진입",Social Sign in 기능 확인,Google Social Sign in 시도,Google 계정으로 Sign in 진행된다
+All Regions,Social Sign up,Google,"1. KOCOWA App 실행
+2. Sign up Page 진입
+3. 가입 이력 없는 Google 계정 보유한 상태",Social Sign up 기능 확인,Google Social Sign up 시도,Google 계정으로 Sign up 진행된다
+All Regions,Social Sign in,Apple,"1. KOCOWA App 실행
+2. Sign in Page 진입",Social Sign in 기능 확인,Apple Social Sign in 시도,Apple 계정으로 Sign in 진행된다
+All Regions,Social Sign up,Apple,"1. KOCOWA App 실행
+2. Sign up Page 진입
+3. 가입 이력 없는 Apple 계정 보유한 상태",Social Sign up 기능 확인,Apple Social Sign up 시도,Apple 계정으로 Sign up 진행된다
+All Regions,QR Sign in,0,"1. KOCOWA App 실행
+2. Landing Page 진입
+3. QR Sign in page 진입한 상태",QR Sign in 기능 확인,QR Sign in 시도,QR Sign in 진행된다
+All Regions,Multi Profile Page,Add Profile,"1. KOCOWA App 실행
+2. Premium 계정 Sign in
+3. Add Profile button 선택",Add Profile 기능 확인,Add Profile 시도,Profile 추가된다
+All Regions,Multi Profile Page,Edit Profile,"1. KOCOWA App 실행
+2. Sign in
+3. Edit Profile button 선택
+4. 기존과 다른 정보 입력",Edit Profile 기능 확인,Edit Profile 시도,Profile 수정된다
+All Regions,Multi Profile Page,Delete Profile,"1. KOCOWA App 실행
+2. Premium 계정 Sign in
+3. Edit Profile button 선택",Delete Profile 기능 확인,Delete Profile button 선택,Profile 삭제된다
+All Regions,Multi Profile Page,Profile Change,"1. KOCOWA Webpage 진입
+2. Premium 계정 Sign in
+3. A Profile 로 진입
+4. 다른 프로필이 있는 상태
+5. Profile Change 진입",Profile Change 기능 확인,B Profile 로 진입,B Profile 로 진입된다.
+All Regions,Multi Profile Page,PIN Locked,"1. KOCOWA Webpage 진입
+2. Premium 계정 Sign in
+3. PIN Locked을 설정한 프로필 진입",PIN Locked 기능 확인,설정한 PIN 번호 입력,Profile 로 진입된다.
+All Regions,Home,Language Setting,"1. KOCOWA Webpage 진입
+2. Premium 계정 Sign in
+3. Setting 진입
+4. Language Setting 진입 ",Language Setting 기능 확인,설정한 언어 외 다른 언어로 설정,해당 언어로 변경된 Home main으로 돌아간다.
+All Regions,Content Playble,0,"1. KOCOWA App 실행
+2. Sign in
+3. 미구독 상태",미구독 User일 시 SVOD 재생 확인,Player Page 진입,Need to subscribe POP UP 노출된다
+All Regions,Content Playble,0,"1. KOCOWA App 실행
+2. 결제 계정 Sign in",구독 중일 시 Content 재생 확인,Player Page 진입,Content 재생된다
+All Regions,Content Playble,0,"1. KOCOWA App 실행
+2. 결제 계정 Sign in
+3. Player Page 진입",구독 중일 시 Content 일정 시간 재생 확인,Content 3분간 재생,Content 재생된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. Profile 변경",Profile 변경 후 Content 재생 확인,Player Page 진입,Content 재생된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. Profile Viewing Age 변경",Profile Viewing Age 변경 후 Content 재생 확인,Player Page 진입,Content 재생된다
+All Regions,Content Playble,0,"1. KOCOWA App 실행
+2. Basic 결제 계정 Sign in
+3. Player Page 진입",Basic 결제 상태 시 KOBACO Bumper 노출 확인,Bumper Video 종료,KOBACO Bumper Video 노출된다
+All Regions,Content Playble,KOBACO Policy,"1. KOCOWA App 실행
+2. Basic 계정 Sign in
+3. Player Page 진입",US VPN 연결 시 KOBACO Bumper 노출 확인,Bumper Video 종료,KOBACO Bumper Video 노출된다
+All Regions,Content Playble,KOBACO Policy,"1. KOCOWA App 실행
+2. Basic 계정 Sign in
+3. Player Page 진입
+4. US 이외의 VPN Setting 상태",US 이외 VPN 연결 시 KOBACO Bumper 노출 여부 확인,Bumper Video 종료,KOBACO Bumper Video 노출되지 않는다
+All Regions,Content Playble,0,"1. KOCOWA App 실행
+2. Sign in
+3. 미구독 상태",미구독 User일 시 SVOD 재생 확인,Player Page 진입,Need to subscribe POP UP 노출된다
+All Regions,Content Playble,0,"1. KOCOWA App 실행
+2. 결제 계정 Sign in",구독 중일 시 Content 재생 확인,Player Page 진입,Content 재생된다
+All Regions,Content Playble,0,"1. KOCOWA App 실행
+2. 결제 계정 Sign in
+3. Player Page 진입",구독 중일 시 Content 일정 시간 재생 확인,Content 3분간 재생,Content 재생된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. Profile 변경",Profile 변경 후 Content 재생 확인,Player Page 진입,Content 재생된다
+All Regions,Content Playble,0,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. Profile Viewing Age 변경",Profile Viewing Age 변경 후 Content 재생 확인,Player Page 진입,Content 재생된다
+All Regions,KOAS,0,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. Content 재생",Content 재생 시 User Tracking 동작 확인,User Tracking log 노출 확인,User Tracking log 노출된다
+All Regions,KOAS,SSO,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. Content 재생",Content 재생 시 User Tracking 동작 확인,User Tracking log 노출 확인,User Tracking log 노출된다
+All Regions,KOAS,Profile Change,"1. KOCOWA APP 실행
+2. 결제 계정 Sign in
+3. 프로필 변경
+4. Content 재생",프로필 변경 후 Content 재생 시 User Tracking 동작 확인,User Tracking log 노출 확인,User Tracking log 노출된다
+All Regions,PLAN Page,Premium Monthly,1. PLAN page 진입,Premium Monthly item 노출 확인,Premium Monthly item 노출 확인,Premium Monthly item 노출된다
+All Regions,PLAN Page,Premium Monthly,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+All Regions,PLAN Page,Premium Monthly,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,PLAN Page,Premium Monthly,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+All Regions,PLAN Page,Premium Monthly,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Premium Monthly item 선택 시 기능 확인,Premium Monthly item 선택,결제 POP UP 노출된다
+All Regions,PLAN Page,Premium Annual,1. PLAN page 진입,Premium Annual item 노출 확인,Premium Annual item 노출 확인,Premium Annual item 노출된다
+All Regions,PLAN Page,Premium Annual,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+All Regions,PLAN Page,Premium Annual,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,PLAN Page,Premium Annual,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+All Regions,PLAN Page,Premium Annual,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Premium Annual item 선택 시 기능 확인,Premium Annual item 선택,결제 POP UP 노출된다
+Brazil,PLAN Page,Premium Month Single Pass,1. PLAN page 진입,Premium Month Single Pass item 노출 확인,Premium Month Single Pass item 노출 확인,Premium Month Single Pass item 노출된다
+Brazil,PLAN Page,Premium Month Single Pass,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+Brazil,PLAN Page,Premium Month Single Pass,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+Brazil,PLAN Page,Premium Month Single Pass,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+Brazil,PLAN Page,Premium Month Single Pass,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Premium Month Single Pass item 선택 시 기능 확인,Premium Month Single Pass item 선택,결제 POP UP 노출된다
+Brazil,PLAN Page,Premium Annual Single Pass,1. PLAN page 진입,Premium Annual Single Pass item 노출 확인,Premium Annual Single Pass item 노출 확인,Premium Annual Single Pass item 노출된다
+Brazil,PLAN Page,Premium Annual Single Pass,1. PLAN page 진입,통화 코드 확인,통화 코드 노출 확인,통화 코드 노출된다
+Brazil,PLAN Page,Premium Annual Single Pass,1. PLAN page 진입,Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+Brazil,PLAN Page,Premium Annual Single Pass,1. PLAN page 진입,통화 기호 확인,통화 기호 노출 확인,통화 기호 노출된다
+Brazil,PLAN Page,Premium Annual Single Pass,"1. PLAN page 진입
+2. Sign in
+3. 미결제 계정인 상태",Premium Annual Single Pass item 선택 시 기능 확인,Premium Annual Single Pass item 선택,결제 POP UP 노출된다
+All Regions,Checkout Page,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 선택
+3. Mobile Check out page 진입한 상태",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,Checkout Page,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 선택
+3. Mobile Check out page 진입한 상태",item 결제 확인,item 결제,Premium Monthly 결제된다
+All Regions,Checkout Page,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 선택
+3. Mobile Check out page 진입한 상태",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+All Regions,Checkout Page,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 선택
+3. Mobile Check out page 진입한 상태",item 결제 확인,item 결제,Premium Annual 결제된다
+Brazil,Checkout Page,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 선택
+3. Mobile Check out page 진입한 상태",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+Brazil,Checkout Page,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 선택
+3. Mobile Check out page 진입한 상태",item 결제 확인,item 결제,Premium Month Single Pass 결제된다
+Brazil,Checkout Page,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Monthly item 선택
+3. Mobile Check out page 진입한 상태",Subscription Price 확인,Subscription Price 노출 확인,Subscription Price 노출된다
+Brazil,Checkout Page,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Monthly item 선택
+3. Mobile Check out page 진입한 상태",item 결제 확인,item 결제,Premium Annual Single Pass 결제된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item에 Check icon 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Plan Change 동작 확인,상위 Subscription item 선택,결제 POP UP 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Purchasing,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item에 Check icon 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Purchasing,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+Brazil,PLAN Purchasing,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item에 Check icon 노출된다
+Brazil,PLAN Purchasing,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+Brazil,PLAN Purchasing,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+Brazil,PLAN Purchasing,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+Brazil,PLAN Purchasing,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 결제
+3. Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+Brazil,PLAN Purchasing,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 결제
+3. Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+Brazil,PLAN Purchasing,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 결제",item 결제 시 UI 확인,subscription item 노출 확인,해당 Subscription item에 Check icon 노출된다
+Brazil,PLAN Purchasing,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 결제",User Status text 확인,User status text 출력 확인,SUBSCRIBED text 출력된다
+Brazil,PLAN Purchasing,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 결제
+3. Account Page 진입
+4. Payment Page 진입",Subscription 적용 확인,My Subscription 노출 확인,구매한 Subscription 적용되어 노출된다
+Brazil,PLAN Purchasing,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 결제
+3. Account Page 진입
+4. Payment Page 진입",Payment Method 확인,Payment Method 노출 확인,User Payment Method 노출된다
+Brazil,PLAN Purchasing,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 결제
+3. Email Inbox 진입",Receipt Email 확인,Receipt Email 수신 확인,Receipt Email 수신된다
+Brazil,PLAN Purchasing,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 결제
+3. Email Inbox 진입",Amount 확인,Amount 노출 확인,Subscription Amount 노출된다
+All Regions,Cancel PLAN,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. KOCOWA Webstie 접속
+4. My account page 진입
+5. Payment page 진입",Cancel Button 노출 확인,Cancel Button 노출 확인,Cancel Button 노출된다
+All Regions,Cancel PLAN,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. KOCOWA Webstie 접속
+4. My account page 진입
+5. Payment page 진입",Cancel Button 선택 시 기능 확인,Cancel Button 선택,구독 취소된다
+All Regions,Cancel PLAN,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. My account Page 진입
+4. My subscription 노출된 상태
+5. 구독 취소된 상태",구독 유효 text 출력 확인,구독 유효 text 출력 확인,Valid Date : text 출력된다
+All Regions,Cancel PLAN,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. My account Page 진입
+4. My subscription 노출된 상태
+5. 구독 취소된 상태",구독 유효 일자 노출 확인,구독 유효 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
+All Regions,Cancel PLAN,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. 구독 취소된 상태",Cancel PLAN 적용 시 동작 확인,Cancel PLAN 적용,Resume Button 노출된다
+All Regions,Cancel PLAN,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. KOCOWA Webstie 접속
+4. My account page 진입
+5. Payment page 진입",Cancel Button 노출 확인,Cancel Button 노출 확인,Cancel Button 노출된다
+All Regions,Cancel PLAN,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. KOCOWA Webstie 접속
+4. My account page 진입
+5. Payment page 진입",Cancel Button 선택 시 기능 확인,Cancel Button 선택,구독 취소된다
+All Regions,Cancel PLAN,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. My account Page 진입
+4. My subscription 노출된 상태
+5. 구독 취소된 상태",구독 유효 text 출력 확인,구독 유효 text 출력 확인,Valid Date : text 출력된다
+All Regions,Cancel PLAN,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. My account Page 진입
+4. My subscription 노출된 상태
+5. 구독 취소된 상태",구독 유효 일자 노출 확인,구독 유효 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
+All Regions,Cancel PLAN,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. 구독 취소된 상태",Cancel PLAN 적용 시 동작 확인,Cancel PLAN 적용,Resume Button 노출된다
+Brazil,Cancel PLAN,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 결제
+3. KOCOWA Website 접속
+4. My account page 진입
+5. Payment page 진입",Cancel Button 미노출 확인,Cancel Button 노출 확인,Cancel Button 미노출된다
+Brazil,Cancel PLAN,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 결제
+3. KOCOWA Website 접속
+4. My account page 진입
+5. Payment page 진입",Cancel Button 미노출 확인,Cancel Button 노출 확인,Cancel Button 미노출된다
+All Regions,Resume PLAN,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. 구독 취소
+4. My subscription 진입",Resume Button 선택 시 기능 확인,Resume Button 선택,구독 재개된다
+All Regions,Resume PLAN,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. 구독 취소
+4. My subscription 진입",구독 갱신 text 출력 확인,Resume Button 선택,Next Billing Date : text 출력된다
+All Regions,Resume PLAN,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. 구독 취소
+4. My subscription 진입
+5. 구독 재개",구독 갱신 일자 노출 확인,구독 갱신 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
+All Regions,Resume PLAN,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. 구독 취소
+4. My subscription 진입",Resume Button 선택 시 기능 확인,Resume Button 선택,구독 재개된다
+All Regions,Resume PLAN,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. 구독 취소
+4. My subscription 진입",구독 갱신 text 출력 확인,Resume Button 선택,Next Billing Date : text 출력된다
+All Regions,Resume PLAN,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. 구독 취소
+4. My subscription 진입
+5. 구독 재개",구독 갱신 일자 노출 확인,구독 갱신 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제",구독 갱신 확인,구독 갱신 일자까지 대기,구독 갱신된다
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제",구독 갱신 시 요금 결제 확인,구독 갱신 일자까지 대기,구독 갱신 요금 결제된다
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. My subscription 진입",구독 갱신 시 My subscription 정보 노출 확인,구독 갱신 일자까지 대기,구매한 item 노출된다
+All Regions,Renewal Subscription,Premium Monthly,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Email box 진입",구독 갱신 시 Email 수신 확인,구독 갱신 일자까지 대기,Receipt Email 수신된다
+All Regions,Renewal Subscription,Premium Monthly Cancel Plan,"1. PLAN Page 진입
+2. Premium Monthly item 결제
+3. Cancel Plan 적용",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제",구독 갱신 확인,구독 갱신 일자까지 대기,구독 갱신된다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제",구독 갱신 시 요금 결제 확인,구독 갱신 일자까지 대기,구독 갱신 요금 결제된다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. My subscription 진입",구독 갱신 시 My subscription 정보 노출 확인,구독 갱신 일자까지 대기,구매한 item 노출된다
+All Regions,Renewal Subscription,Premium Annual,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Email box 진입",구독 갱신 시 Email 수신 확인,구독 갱신 일자까지 대기,Receipt Email 수신된다
+All Regions,Renewal Subscription,Premium Annual Cancel Plan,"1. PLAN Page 진입
+2. Premium Annual item 결제
+3. Cancel Plan 적용",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+Brazil,Renewal Subscription,Premium Month Single Pass,"1. PLAN Page 진입
+2. Premium Month Single Pass item 결제",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+Brazil,Renewal Subscription,Premium Annual Single Pass,"1. PLAN Page 진입
+2. Premium Annual Single Pass item 결제",구독 취소 동작 확인,구독 갱신 일자까지 대기,구독 상품 적용되지 않는다
+All Regions,PLAN Change,Upgrade,"1. Plan page 진입
+2. Plan Upgrade
+3. Email box 진입",Receipt Email 확인,Plan Update Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Change,Upgrade,"1. Plan page 진입
+2. Plan Upgrade
+3. My subscription page 진입",Upgrade item 노출 확인,Upgrade item 노출 확인,결제한 Upgrade item 노출된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. Email box 진입",Plan Update Email 수신 확인,Plan Update Email 수신 확인,Receipt Email 수신된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",기존 Subscribe item 노출 확인,기존 Subscribe item 노출 확인,기존 Subscribe item 노출된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Expires on text 출력 확인,Expires on text 출력 확인,Expired on : text 출력된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",기존 item 구독 시작 일자 노출 확인,Downgrade item 구독 시작 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Downgrade item 노출 확인,Downgrade item 노출 확인,결제한 downgrade item 노출된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Start on text 출력 확인,Start on text 출력 확인,Starting : text 출력된다
+All Regions,PLAN Change,Downgrade,"1. Plan page 진입
+2. Plan Downgrade
+3. My subscription page 진입",Downgrade item 구독 시작 일자 노출 확인,Downgrade item 구독 시작 일자 노출 확인,"[MM/DD/YYYY, HH:MM] [AM/PM] [대륙/도시] 노출된다"
+Brazil,PLAN Change,Premium Month Single Pass,"1. Plan page 진입
+2. Premium Month Single Pass 결제한 상태",Plan Change 불가 POP UP 노출 확인,임의 item 선택,Plan Change 불가 POP UP 노출된다
+Brazil,PLAN Change,Premium Annual Single Pass,"1. Plan page 진입
+2. Premium Annual Single Pass 결제한 상태",Plan Change 불가 POP UP 노출 확인,임의 item 선택,Plan Change 불가 POP UP 노출된다
+All Regions,PLAN Change,Upgrade,"1. PLAN Page 진입
+2. Premium Monthly 결제",PM to PA 동작 확인,Premium Annual 결제,Premium Annual로 Upgrade 된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Annual 결제",PA to PM 동작 확인,Premium Monthly 결제,Premium Monthly로 Downgrade 예약된다
+All Regions,PLAN Change,Downgrade,"1. PLAN Page 진입
+2. Premium Annual 결제
+3. Premium Monthly Downgrade",Renewal 동작 확인,구독 갱신,Premium Monthly Subscription 적용된다
