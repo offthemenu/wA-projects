@@ -15,7 +15,7 @@ non_region_categories = df[~df['Region/Category'].isin(all_regions)]['Region/Cat
 grouped = df.groupby(['Region/Category', '중분류', '소분류'])['테스트 항목'].unique().reset_index()
 
 # --- UI Components ---
-st.title("🧪 QC Request Form Generator")
+st.title("🧪 QC Request Form Generator (Deployed Version)")
 
 # 1. Basic Info
 st.subheader("📌 Basic Information")
