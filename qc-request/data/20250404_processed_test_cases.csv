@@ -1,0 +1,1284 @@
+대분류,소분류,테스트 항목,Android Mobile,Apple Mobile,Android TV,Apple TV,Connected TV,Fire TV,Roku,Web
+Cancel PLAN,Cancel PLAN,Cancel Button 노출 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Cancel PLAN,Cancel Button 선택 시 기능 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Cancel PLAN,Resume Button 노출 여부 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Cancel PLAN,Resume Button 선택 시 기능 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Cancel PLAN,WEB 상품 Cancel PLAN 적용 시 동작 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Cancel PLAN,구독 유효 text 출력 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Cancel PLAN,구독 유효 일자 노출 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Premium Annual,Cancel Button 노출 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Premium Annual,Cancel Button 선택 시 기능 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Premium Annual,Cancel PLAN 적용 시 동작 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Premium Annual,구독 유효 text 출력 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Premium Annual,구독 유효 일자 노출 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Premium Annual Single Pass,Cancel Button 미노출 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Premium Month Single Pass,Cancel Button 미노출 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Premium Monthly,Cancel Button 노출 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Premium Monthly,Cancel Button 선택 시 기능 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Premium Monthly,Cancel PLAN 적용 시 동작 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Premium Monthly,구독 유효 text 출력 확인,True,True,True,True,True,True,True,True
+Cancel PLAN,Premium Monthly,구독 유효 일자 노출 확인,True,True,True,True,True,True,True,True
+Category List Area,Annual Subscription,item Hover 시 UI 확인,False,False,False,False,False,False,False,True
+Category List Area,Annual Subscription,item 결제 시 UI 확인,False,False,False,False,False,False,False,True
+Category List Area,Annual Subscription,item 선택 시 동작 확인,False,False,False,False,False,False,False,True
+Category List Area,Annual Subscription,미로그인 시 item 기능 확인,False,False,False,False,False,False,False,True
+Category List Area,Basic Plan Option,Bullet point 확인,False,False,False,False,False,False,False,True
+Category List Area,Bottom Area,Guideline text Button 기능 확인,False,False,False,False,False,False,False,True
+Category List Area,Bottom Area,Guideline text Button 선택 시 동작 확인,False,False,False,False,False,False,False,True
+Category List Area,Bottom Area,free trial 안내 Text 출력 확인,False,False,False,False,False,False,False,True
+Category List Area,Bottom Area,here text Button 기능 확인,False,False,False,False,False,False,False,True
+Category List Area,Bottom Area,information icon 확인,False,False,False,False,False,False,False,True
+Category List Area,Category List Area,Title Text 확인,False,False,False,False,False,False,False,True
+Category List Area,Header Area,Promotion 기능 확인,False,False,False,False,False,False,False,True
+Category List Area,Header Area,Promotion 노출 확인,False,False,False,False,False,False,False,True
+Category List Area,Header Area,Standard 기능 확인,False,False,False,False,False,False,False,True
+Category List Area,Header Area,Standard 노출 확인,False,False,False,False,False,False,False,True
+Category List Area,Header Area,Sub Text 출력 확인,False,False,False,False,False,False,False,True
+Category List Area,Header Area,Switch Button 노출 확인,False,False,False,False,False,False,False,True
+Category List Area,Header Area,Title Text 확인,False,False,False,False,False,False,False,True
+Category List Area,Monthly Subscription,item Hover 시 UI 확인,False,False,False,False,False,False,False,True
+Category List Area,Monthly Subscription,item 결제 시 UI 확인,False,False,False,False,False,False,False,True
+Category List Area,Monthly Subscription,item 선택 시 동작 확인,False,False,False,False,False,False,False,True
+Category List Area,Monthly Subscription,미로그인 시 item 기능 확인,False,False,False,False,False,False,False,True
+Category List Area,Premium Plan Option,Bullet point 확인,False,False,False,False,False,False,False,True
+Checkout Page,Basic Annual,Subscription Price 확인,True,True,True,True,True,True,True,True
+Checkout Page,Basic Annual,item 결제 확인,True,True,True,True,True,True,True,True
+Checkout Page,Basic Annual Single Pass,Subscription Price 확인,True,True,True,True,True,True,True,True
+Checkout Page,Basic Annual Single Pass,item 결제 확인,True,True,True,True,True,True,True,True
+Checkout Page,Basic Annuals,item 결제 확인,True,True,True,True,True,True,True,True
+Checkout Page,Basic Month Single Pass,Subscription Price 확인,True,True,True,True,True,True,True,True
+Checkout Page,Basic Month Single Pass,item 결제 확인,True,True,True,True,True,True,True,True
+Checkout Page,Basic Monthly,Subscription Price 확인,True,True,True,True,True,True,True,True
+Checkout Page,Basic Monthly,item 결제 확인,True,True,True,True,True,True,True,True
+Checkout Page,Billing Information Area,Credit Card image 기능 확인,False,False,False,False,False,False,False,True
+Checkout Page,Billing Information Area,Credit Card image 확인,False,False,False,False,False,False,False,True
+Checkout Page,Billing Information Area,Default Setting 확인,False,False,False,False,False,False,False,True
+Checkout Page,Bottom Area,View Terms text Button 기능 확인,False,False,False,False,False,False,False,True
+Checkout Page,Bottom Area,View Terms text Button 확인,False,False,False,False,False,False,False,True
+Checkout Page,Checkout Page,Back icon 기능 확인,False,False,False,False,False,False,False,True
+Checkout Page,Checkout Page,Back icon 확인,False,False,False,False,False,False,False,True
+Checkout Page,Checkout Page,Card 2개 이상 등록 가능 확인,True,True,True,True,True,True,True,True
+Checkout Page,Checkout Page,Card 등록 가능 확인,True,True,True,True,True,True,True,True
+Checkout Page,Checkout Page,Card 선택 시 Default Card 변경 확인,True,True,True,True,True,True,True,True
+Checkout Page,Checkout Page,KOCOWA logo image 확인,False,False,False,False,False,False,False,True
+Checkout Page,Payment Summary Area,title text 확인,False,False,False,False,False,False,False,True
+Checkout Page,Premium Annual,Subscription Price 확인,True,True,True,True,True,True,True,True
+Checkout Page,Premium Annual,item 결제 확인,True,True,True,True,True,True,True,True
+Checkout Page,Premium Annual Single Pass,Subscription Price 확인,True,True,True,True,True,True,True,True
+Checkout Page,Premium Annual Single Pass,item 결제 확인,True,True,True,True,True,True,True,True
+Checkout Page,Premium Month Single Pass,Subscription Price 확인,True,True,True,True,True,True,True,True
+Checkout Page,Premium Month Single Pass,item 결제 확인,True,True,True,True,True,True,True,True
+Checkout Page,Premium Monthly,Subscription Price 확인,True,True,True,True,True,True,True,True
+Checkout Page,Premium Monthly,item 결제 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Annual,Coupon Apply 시 동작 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Annual,Coupon Apply 적용 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Annual,Discount Price 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Annual,Subscription Price 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Annual,item 결제 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Annual Single Pass,Coupon Apply 시 동작 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Annual Single Pass,Coupon Apply 적용 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Annual Single Pass,Discount Price 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Annual Single Pass,Subscription Price 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Annual Single Pass,item 결제 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Month Single Pass,Coupon Apply 시 동작 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Month Single Pass,Coupon Apply 적용 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Month Single Pass,Discount Price 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Month Single Pass,Subscription Price 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Month Single Pass,item 결제 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Monthly,Coupon Apply 시 동작 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Monthly,Coupon Apply 적용 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Monthly,Discount Price 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Monthly,Subscription Price 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Basic Monthly,item 결제 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Card Change,Card Change 후 Coupon 적용 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Annual,Coupon Apply 시 동작 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Annual,Coupon Apply 적용 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Annual,Discount Price 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Annual,Subscription Price 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Annual,item 결제 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Annual Single Pass,Coupon Apply 시 동작 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Annual Single Pass,Coupon Apply 적용 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Annual Single Pass,Discount Price 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Annual Single Pass,Subscription Price 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Annual Single Pass,item 결제 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Month Single Pass,Coupon Apply 시 동작 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Month Single Pass,Coupon Apply 적용 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Month Single Pass,Discount Price 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Month Single Pass,Subscription Price 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Month Single Pass,item 결제 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Monthly,Coupon Apply 시 동작 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Monthly,Coupon Apply 적용 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Monthly,Discount Price 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Monthly,Subscription Price 확인,True,True,True,True,True,True,True,True
+"Checkout Page
+(Coupon)",Premium Monthly,item 결제 확인,True,True,True,True,True,True,True,True
+Chromecast,Casting Action,Carousel Screen 확인,True,True,False,False,False,False,False,True
+Chromecast,Casting Action,Content Casting 시 동작 확인,True,True,False,False,False,False,False,True
+Chromecast,Casting Action,KOCOWA logo image 확인,True,True,False,False,False,False,False,True
+Chromecast,Casting Action,Player Screen 진입 시 동작 확인,True,True,False,False,False,False,False,True
+Chromecast,Casting Player Screen,Content 재생 확인,True,True,False,False,False,False,False,True
+Chromecast,Casting Player Screen,KOCOWA logo image 확인,True,True,False,False,False,False,False,True
+Chromecast,Casting Player Screen,Player UI 확인,True,True,False,False,False,False,False,True
+Chromecast,Casting Player Screen,Subtitle 확인,True,True,False,False,False,False,False,True
+Chromecast,Casting Player Screen,재생 구간 이동 시 동작 확인,True,True,False,False,False,False,False,True
+Chromecast,Player UI,Current Time 동작 확인,True,True,False,False,False,False,False,True
+Chromecast,Player UI,Current Time 확인,True,True,False,False,False,False,False,True
+Chromecast,Player UI,Episdoe Content Name stringeset 확인,True,True,False,False,False,False,False,True
+Chromecast,Player UI,Episdoe Content Name 확인,True,True,False,False,False,False,False,True
+Chromecast,Player UI,Loading 시 UI 확인,True,True,False,False,False,False,False,True
+Chromecast,Player UI,Loading 완료 시 동작 확인,True,True,False,False,False,False,False,True
+Chromecast,Player UI,Progress Bar 확인,True,True,False,False,False,False,False,True
+Chromecast,Player UI,Series Content Name 확인,True,True,False,False,False,False,False,True
+Chromecast,Player UI,Total Time 동작 확인,True,True,False,False,False,False,False,True
+Chromecast,Player UI,Total Time 확인,True,True,False,False,False,False,False,True
+Chromecast,Player UI,thumbnail image 확인,True,True,False,False,False,False,False,True
+Chromecast,Player UI,대기 시 동작 확인,True,True,False,False,False,False,False,True
+Curation Area,Curation Area,Content Name text Hover 시 UI 확인,False,False,False,False,False,False,False,True
+Curation Area,Curation Area,Content Name text 기능 확인,False,False,False,False,False,False,False,True
+Curation Area,Curation Area,Content Name text 확인,False,False,False,False,False,False,False,True
+Curation Area,Curation Area,poster image Hover 시 동작 확인,False,False,False,False,False,False,False,True
+Curation Area,Curation Area,poster image 기능 확인,False,False,False,False,False,False,False,True
+Curation Area,Curation Area,poster image 확인,False,False,False,False,False,False,False,True
+Curation Area,Hovered Poster image,Colored Favorite icon 기능 확인,False,False,False,False,False,False,False,True
+Curation Area,Hovered Poster image,Colored Favorite icon 선택 시 UI 확인,False,False,False,False,False,False,False,True
+Curation Area,Hovered Poster image,Colored Favorite icon 확인,False,False,False,False,False,False,False,True
+Curation Area,Hovered Poster image,Empty Favorite icon 기능 확인,False,False,False,False,False,False,False,True
+Curation Area,Hovered Poster image,Empty Favorite icon 선택 시 UI 확인,False,False,False,False,False,False,False,True
+Curation Area,Hovered Poster image,Empty Favorite icon 확인,False,False,False,False,False,False,False,True
+Curation Area,Hovered Poster image,Genre 확인,False,False,False,False,False,False,False,True
+Curation Area,Hovered Poster image,Subtitle 확인,False,False,False,False,False,False,False,True
+Curation Area,Hovered Poster image,미로그인 시 Empty Favorite icon 기능 확인,False,False,False,False,False,False,False,True
+Input PIN Code Webpage,Functional Area,Dimmed OK Button 기능 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,Functional Area,OK Button UI 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,Functional Area,OK Button stringset 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,Functional Area,OK Button 기능 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,Functional Area,OK Button 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,Header Area,KOCOWA logo image 기능 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,Header Area,KOCOWA logo image 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,Header Area,Language icon 선택 시 동작 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,Header Area,Language icon 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,IME,Delete Button 기능 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,IME,PIN Code 입력 완료 시 UI 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,IME,PIN Code 입력 완료 시 동작 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,IME,User PIN 암호화 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,IME,text 선택 시 동작 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,Validation,PIN Code Error message text 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,Validation,TV Device Sign In 동작 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,Validation,Wrong PIN Code 입력 시 OK Button 기능 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,Validation,비유효 PIN Code 입력 시 동작 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,input box Area,4-digit input box 선택 시 동작 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,input box Area,4-digit input box 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,input box Area,Placeholder 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,input box Area,sub text 확인,False,False,False,False,True,False,False,False
+Input PIN Code Webpage,input box Area,title text 확인,False,False,False,False,True,False,False,False
+KOCOWA ID Sign In,Email Input Area,Backspace Button 선택 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Email Input Area,input box 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Email Input Area,text 삭제 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Email Input Area,text 선택 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Email Input Area,text 입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Forgot Password text Button,Forgot Password text Button 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Password Input Area,Backspace Button 선택 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Password Input Area,Hide Password icon UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Password Input Area,Hide Password icon 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Password Input Area,Hide Password icon 선택 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Password Input Area,Hide Password icon 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Password Input Area,Password 암호화 여부 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Password Input Area,Show Password icon UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Password Input Area,Show Password icon 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Password Input Area,Show Password icon 선택 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Password Input Area,Show Password icon 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Password Input Area,input box 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Password Input Area,text 삭제 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Password Input Area,text 선택 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Password Input Area,text 입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Sign In Button,Sign In Button 선택 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Sign In Button,Sign In 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Sign In Button,Social Account 입력 시 Sign In Button 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Sign In Button,Wrong Password 입력 시 Sign In Button 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Sign In Button,계정 정보 미입력 시 Sign In Button 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Sign In Button,미가입 KOCOWA 계정 정보 입력 시 Sign In Button 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Sign In Button,비유효 Email 입력 시 Sign In Button 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Sign In Button,비유효 Passwrod 입력 시 Sign In Button 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Sign In Button,유효한 계정 정보 입력 시 Sign In Button 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Sign Up text Button,Sign Up text Button 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Validation,22자 이상 입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Validation,6자 미만 입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Validation,Absence Error message text UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Validation,At 미입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Validation,Domain 미입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Validation,Invalid Error message text UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Validation,Maximum Error message text UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Validation,Minimum Error message text UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Validation,text 미입력 시 UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Validation,text 미입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Validation,실시간 유효성 검사 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Validation,유효한 Email 입력 시 UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Validation,유효한 Email 입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Validation,유효한 Password 입력 시 UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign In,Validation,유효한 Password 입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Email Input Area,Backspace Button 선택 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Email Input Area,input box 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Email Input Area,text 삭제 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Email Input Area,text 선택 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Email Input Area,text 입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Name Input Area,Backspace Button 선택 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Name Input Area,input box 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Name Input Area,text 삭제 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Name Input Area,text 선택 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Name Input Area,text 입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Next Button,Name 미입력 시 Next Button 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Next Button,Next Button 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Next Button,Next Button 선택 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Next Button,Social Account 입력 시 Next Button 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Next Button,가입 KOCOWA 계정 Password 미일치 시 Next Button 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Next Button,계정 정보 미입력 시 Next Button 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Next Button,비유효 Email 입력 시 Next Button 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Next Button,비유효 Passwrod 입력 시 Next Button 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Password Input Area,Backspace Button 선택 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Password Input Area,Hide Password icon UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Password Input Area,Hide Password icon 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Password Input Area,Hide Password icon 선택 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Password Input Area,Hide Password icon 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Password Input Area,Password 암호화 여부 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Password Input Area,Show Password icon UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Password Input Area,Show Password icon 기능 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Password Input Area,Show Password icon 선택 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Password Input Area,Show Password icon 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Password Input Area,input box 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Password Input Area,text 삭제 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Password Input Area,text 선택 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Password Input Area,text 입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,21자 이상 입력 시 UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,21자 이상 입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,6자 미만 입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,Absence Error message text UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,At 미입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,Domain 미입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,Invalid Error message text UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,Limit Error message text UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,Maximum Limit Error message text UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,Minimum Limit Error message text UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,text 미입력 시 UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,text 미입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,실시간 유효성 검사 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,유효한 Email 입력 시 UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,유효한 Email 입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,유효한 Name 입력 시 UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,유효한 Name 입력 시 동작 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,유효한 Password 입력 시 UI 확인,False,False,False,False,False,False,False,True
+KOCOWA ID Sign Up,Validation,유효한 Password 입력 시 동작 확인,False,False,False,False,False,False,False,True
+PLAN Change,Basic Annual Single Pass,Plan Change 불가 POP UP 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,Basic Annual to Basic Monthly,BA to BM POP UP text 출력 확인,True,True,True,True,True,True,True,True
+PLAN Change,Basic Annual to Basic Monthly,BA to BM POP UP 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,Basic Annual to Basic Monthly,BA to BM 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,Basic Annual to Basic Monthly,Renewal 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,Basic Annual to Premium Annual,BA to PA 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,"Basic Annual to Premium Annual
+(Credit)",Credit 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,"Basic Annual to Premium Annual
+(Credit)",Total Price 감소 확인,True,True,True,True,True,True,True,True
+PLAN Change,Basic Annual to Premium Monthly,BA to PM 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,Basic Month Single Pass,Plan Change 불가 POP UP 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,Basic Monthly to Basic Annual,BM to BA 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,"Basic Monthly to Basic Annual
+(Credit)",Credit 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,"Basic Monthly to Basic Annual
+(Credit)",Total Price 감소 확인,True,True,True,True,True,True,True,True
+PLAN Change,Basic Monthly to Premium Annual,BM to PA 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,"Basic Monthly to Premium Annual
+(Credit)",Credit 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,"Basic Monthly to Premium Annual
+(Credit)",Total Price 감소 확인,True,True,True,True,True,True,True,True
+PLAN Change,Basic Monthly to Premium Monthly,BM to PM 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,"Basic Monthly to Premium Monthly
+(Credit)",Credit 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,"Basic Monthly to Premium Monthly
+(Credit)",Total Price 감소 확인,True,True,True,True,True,True,True,True
+PLAN Change,Downgrade,Downgrade item 구독 시작 일자 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,Downgrade,Downgrade item 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,Downgrade,Expires on text 출력 확인,True,True,True,True,True,True,True,True
+PLAN Change,Downgrade,Plan Update Email 수신 확인,True,True,True,True,True,True,True,True
+PLAN Change,Downgrade,Start on text 출력 확인,True,True,True,True,True,True,True,True
+PLAN Change,Downgrade,결제 Email 수신 확인,True,True,True,True,True,True,True,True
+PLAN Change,Downgrade,기존 Subscribe item 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,Downgrade,기존 item 구독 시작 일자 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Annual Single Pass,Plan Change 불가 POP UP 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Annual to Basic Annual,PA to BA POP UP text 출력 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Annual to Basic Annual,PA to BA POP UP 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Annual to Basic Annual,PA to BA 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Annual to Basic Annual,Renewal 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Annual to Basic Monthly,PA to BM POP UP text 출력 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Annual to Basic Monthly,PA to BM POP UP 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Annual to Basic Monthly,PA to BM 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Annual to Basic Monthly,Renewal 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Annual to Premium Monthly,PA to PM POP UP text 출력 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Annual to Premium Monthly,PA to PM POP UP 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Annual to Premium Monthly,PA to PM 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Annual to Premium Monthly,Renewal 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Month Single Pass,Plan Change 불가 POP UP 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Monthly to Basic Annual,PM to BA 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Monthly to Basic Annual,Renewal 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Monthly to Basic Monthly,PM to BM POP UP text 출력 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Monthly to Basic Monthly,PM to BM POP UP 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Monthly to Basic Monthly,PM to BM 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Monthly to Basic Monthly,Renewal 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,Premium Monthly to Premium Annual,PM to PA 동작 확인,True,True,True,True,True,True,True,True
+PLAN Change,"Premium Monthly to Premium Annual
+(Credit)",Credit 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,"Premium Monthly to Premium Annual
+(Credit)",Total Price 감소 확인,True,True,True,True,True,True,True,True
+PLAN Change,Upgrade,Plan Update Email 수신 확인,True,True,True,True,True,True,True,True
+PLAN Change,Upgrade,Receipt Email 확인,True,True,True,True,True,True,True,True
+PLAN Change,Upgrade,Upgrade item 노출 확인,True,True,True,True,True,True,True,True
+PLAN Change,Upgrade,결제 Email 수신 확인,True,True,True,True,True,True,True,True
+PLAN Page,Annual Subscription,Benefit guidance text,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,Benefit guidance text UI 확인,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,Category text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,Per-Unit text UI 확인,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,Per-Unit text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,Price text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,Purchase Button 기능 확인,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,Purchase Button 확인,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,Receipt Email 수신 확인,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,Upgrade 조건 충족 시 Purchase Button stringset 확인,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,User Status text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,item 선택 시 동작 확인,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,title text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,결제 완료 시 동작 확인,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,미로그인 시 Purchase Button 기능 확인,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,상품 결제 시 UI 확인,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,일반 결제 시 Purchase Button stringset 확인,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,통화 기호 확인,True,True,False,False,False,False,False,False
+PLAN Page,Annual Subscription,통화 코드 확인,True,True,False,False,False,False,False,False
+PLAN Page,Basic Category,Advertisement benefit text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Basic Category,Bullet point 확인,True,True,False,False,False,False,False,False
+PLAN Page,Basic Category,Category box 확인,True,True,False,False,False,False,False,False
+PLAN Page,Basic Category,Category text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Basic Category,Content benefit text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Basic Category,Profile benefit text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Basic Category,Renewal benefit text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Basic Category,title text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Confirm Subscription Page,Cancel Button focus 시 UI 확인,False,False,False,True,False,False,False,False
+PLAN Page,Confirm Subscription Page,Cancel Button stringset 확인,False,False,False,True,False,False,False,False
+PLAN Page,Confirm Subscription Page,Cancel Button 기능 확인,False,False,False,True,False,False,False,False
+PLAN Page,Confirm Subscription Page,Cancel Button 확인,False,False,False,True,False,False,False,False
+PLAN Page,Confirm Subscription Page,OK Button focus 시 UI 확인,False,False,False,True,False,False,False,False
+PLAN Page,Confirm Subscription Page,OK Button stringset 확인,False,False,False,True,False,False,False,False
+PLAN Page,Confirm Subscription Page,OK Button 기능 확인,False,False,False,True,False,False,False,False
+PLAN Page,Confirm Subscription Page,OK Button 확인,False,False,False,True,False,False,False,False
+PLAN Page,Confirm Subscription Page,sub text 확인,False,False,False,True,False,False,False,False
+PLAN Page,Confirm Subscription Page,title text 확인,False,False,False,True,False,False,False,False
+PLAN Page,Functional Area,Restore Purchase Button focus 시 UI 확인,False,False,False,True,False,False,False,False
+PLAN Page,Functional Area,Restore Purchase Button stringset 확인,False,False,False,True,False,False,False,False
+PLAN Page,Functional Area,Restore Purchase Button 기능 확인,False,False,False,True,False,False,False,False
+PLAN Page,Functional Area,Restore Purchase Button 확인,False,False,False,True,False,False,False,False
+PLAN Page,Functional Area,User Purchase History 조회 동작 확인,False,False,False,True,False,False,False,False
+PLAN Page,Functional Area,User Purchase History 조회 실패 시 동작 확인,False,False,False,True,False,False,False,False
+PLAN Page,Information Area,Account text UI 확인,False,False,False,False,True,False,False,False
+PLAN Page,Information Area,Information text 확인,False,False,True,True,False,True,True,False
+PLAN Page,Information Area,KOCOWA+ website or mobile apps. text UI 확인,False,False,False,False,True,False,False,False
+PLAN Page,Information Area,My Account text UI 확인,False,False,False,False,True,False,False,False
+PLAN Page,Monthly Subscription,Benefit guidance text,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,Benefit limit guidance text UI 확인,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,Category text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,Per-Unit text UI 확인,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,Per-Unit text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,Price text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,Purchase Button 기능 확인,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,Purchase Button 확인,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,Receipt Email 수신 확인,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,Upgrade 조건 충족 시 Purchase Button stringset 확인,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,User Status text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,item 선택 시 동작 확인,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,title text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,결제 완료 시 동작 확인,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,미로그인 시 Purchase Button 기능 확인,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,상품 결제 시 UI 확인,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,일반 결제 시 Purchase Button stringset 확인,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,통화 기호 확인,True,True,False,False,False,False,False,False
+PLAN Page,Monthly Subscription,통화 코드 확인,True,True,False,False,False,False,False,False
+PLAN Page,PLAN Page,"""14-day Free Trial (Once per account)"" text 출력된다",False,False,False,False,True,False,False,False
+PLAN Page,PLAN Page,Default Setting 확인,False,False,False,False,True,False,False,False
+PLAN Page,PLAN Page,KOCOWA logo image 확인,False,False,False,False,True,False,False,False
+PLAN Page,PLAN Page,title text 확인,True,True,False,False,True,False,False,False
+PLAN Page,Premium Annual,Apple Account Password 입력  시 동작 확인,False,False,False,True,False,False,False,False
+PLAN Page,Premium Annual,Benefit guidance text UI 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Annual,Benefit guidance text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Annual,Check icon 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Annual,Division line 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Annual,Mismatched 결제 시 item 기능 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Annual,Original Price text UI 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Annual,Original Price text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Annual,Per-Unit text UI 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Annual,Per-Unit text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Annual,Price text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Annual,Subscription item 결제 완료 시 동작 확인,False,False,False,True,True,False,False,False
+PLAN Page,Premium Annual,User Status text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Annual,item focus 시 UI 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Annual,item 선택 시 동작 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Annual,sub text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Annual,title text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Annual,통화 기호 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Category,Advertisement benefit text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Premium Category,Category box 확인,True,True,False,False,False,False,False,False
+PLAN Page,Premium Category,Category text 확인,False,False,False,False,False,False,False,False
+PLAN Page,Premium Category,Content benefit text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Premium Category,Download benefit text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Premium Category,Profile benefit text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Premium Category,Renewal benefit text 확인,True,True,False,False,False,False,False,False
+PLAN Page,Premium Monthly,Apple Account Password 입력  시 동작 확인,False,False,False,True,False,False,False,False
+PLAN Page,Premium Monthly,Benefit guidance text ,False,False,False,False,True,False,False,False
+PLAN Page,Premium Monthly,Check icon 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Monthly,Division line 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Monthly,Mismatched 결제 시 item 기능 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Monthly,Per-Unit text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Monthly,Price text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Monthly,Subscription item 결제 완료 시 동작 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Monthly,User Status text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Monthly,item focus 시 UI 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Monthly,item 선택 시 동작 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Monthly,sub text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Monthly,title text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Premium Monthly,통화 기호 확인,False,False,False,False,True,False,False,False
+PLAN Page,Subscription Category Area,Advertisement benefit text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Subscription Category Area,Bullet point 확인,False,False,False,False,True,False,False,False
+PLAN Page,Subscription Category Area,Contents benefit text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Subscription Category Area,Download benefit text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Subscription Category Area,Profile benefit text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Subscription Category Area,Renewal benefit text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Subscription Category Area,sub text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Subscription Category Area,title text 확인,False,False,False,False,True,False,False,False
+PLAN Page,Subscription Terms Page,Cancel Button focus 시 UI 확인,False,False,False,True,False,False,False,False
+PLAN Page,Subscription Terms Page,Cancel Button stringset 확인,False,False,False,True,False,False,False,False
+PLAN Page,Subscription Terms Page,Cancel Button 기능 확인,False,False,False,True,False,False,False,False
+PLAN Page,Subscription Terms Page,Cancel Button 확인,False,False,False,True,False,False,False,False
+PLAN Page,Subscription Terms Page,Continue Button focus 시 UI 확인,False,False,False,True,False,False,False,False
+PLAN Page,Subscription Terms Page,Continue Button stringset 확인,False,False,False,True,False,False,False,False
+PLAN Page,Subscription Terms Page,Continue Button 기능 확인,False,False,False,True,False,False,False,False
+PLAN Page,Subscription Terms Page,Continue Button 확인,False,False,False,True,False,False,False,False
+PLAN Page,Subscription Terms Page,Subscription Renewal Date 확인,False,False,False,True,False,False,False,False
+PLAN Page,Subscription Terms Page,Subscription item Price 확인,False,False,False,True,False,False,False,False
+PLAN Page,Subscription Terms Page,Subscription item text 확인,False,False,False,True,False,False,False,False
+PLAN Page,Subscription Terms Page,sub text 확인,False,False,False,True,False,False,False,False
+PLAN Page,Subscription Terms Page,title text 확인,False,False,False,True,False,False,False,False
+Player Page,Player UI,0.5x 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,0.75x 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,1.25x 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,1.5x 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,1.75x 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,15Sec Forword Button UI 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,15Sec Forword Button 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,15Sec Rewind Button UI 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,15Sec Rewind Button 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,1x 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,2X 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Background Color 항목 stringset 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Background Color 항목 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Background Color 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Background Opacity 항목 stringset 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Background Opacity 항목 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Background Opacity 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Chinese 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Content Episode Numbering 노출 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Content Name 노출 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Default Setting 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,English 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Episode List Button 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Episode List Button 노출 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Espanol 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Font Family 항목 stringset 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Font Family 항목 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Font Family 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Font Size 항목 stringset 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Font Size 항목 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Font Size 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Next Episode Button 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Next Episode Button 노출 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Next Episode POP UP 노출 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Off 항목 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Off 항목 영어 노출 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Off 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Pause Button UI 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Pause Button 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Pause Button 선택 시 UI 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Play Button 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Play Button 선택 시 UI 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Playback Speed Selection POP UP 노출 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Portuguese 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Recommended POP UP 노출 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Reset 항목 stringset 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Reset 항목 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Reset 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Setting Button 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Setting Button 노출 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Subtitle text 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Subtitle 선택 창 노출 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Text Color 항목 stringset 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Text Color 항목 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Text Color 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Text Edge Style 항목 stringset 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Text Edge Style 항목 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Text Edge Style 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Text Opacity 항목 stringset 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Text Opacity 항목 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Text Opacity 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Thumbnail 노출 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Video Detail POP UP 노출 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Vietnamese 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Volume Button Hover 시 text box 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Volume Button UI 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Volume Button hover 시 Sound Bar 노출 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Volume Button 선택 시 UI 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Volume Button 선택 시 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Volume Control Bar 조절 시 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Volume Mute Button Hover 시 Control Bar 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Volume Mute Button Hover 시 text box 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Volume Mute Button UI 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Volume Mute Button 선택 시 UI 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Volume Mute Button 선택 시 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Window Color 항목 stringset 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Window Color 항목 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Window Color 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Window Opacity 항목 stringset 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Window Opacity 항목 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,Window Opacity 항목 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,playback speed text 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,title text 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,재생 바 영역 UI 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,재생 바 조작 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,재생 시간 영역 UI 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,재생 화면 UI 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,전체 화면 UI확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,전체 화면 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,전체 화면 상태에서 ESC 입력 시 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,전체 화면 상태에서 icon 선택 시 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,전체 화면 상태에서 더클 클릭 시 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,항목 기능 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,항목 선택 시 POP UP 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,항목 선택 시 UI 확인,False,False,False,False,False,False,False,True
+Player Page,Player UI,항목 선택 시 동작 확인,False,False,False,False,False,False,False,True
+Player Screen,Bottom Player UI,Current Time UI 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,Current Time 동작 확인,True,True,False,False,True,False,False,False
+Player Screen,Bottom Player UI,Current Time 확인,True,True,False,False,True,False,False,False
+Player Screen,Bottom Player UI,Dimmed Next Episode Play Button 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,Episode List Button stringset 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,Episode List Button 기능 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,Episode List Button 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,Left Swipe 시 동작 확인,False,False,False,True,False,False,False,False
+Player Screen,Bottom Player UI,Milestone 구간 이동 시 동작 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,Milestone 노출 여부 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,Milestone 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,Movie Content 재생 시 Episode List Button 노출 여부 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,Next Episode Play Button stringset 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,Next Episode Play Button 기능 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,Next Episode Play Button 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,Progress Bar 확인,True,True,False,False,True,False,False,False
+Player Screen,Bottom Player UI,Remain Time 동작 확인,False,False,False,False,True,False,False,False
+Player Screen,Bottom Player UI,Remain Time 확인,False,False,False,False,True,False,False,False
+Player Screen,Bottom Player UI,Right Swipe 시 동작 확인,False,False,False,True,False,False,False,False
+Player Screen,Bottom Player UI,Scrub Button Drag 시 UI 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,Scrub Button Drag 시 동작 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,Scrub Button Drop 시 동작 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,Scrub Button 확인,True,True,False,False,True,False,False,False
+Player Screen,Bottom Player UI,Total Time UI 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,Total Time 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,다음 회차 없을 시 Next Episode Play Button 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,다음 회차 재생 이력 있을 시 Next Episode Play Button 기능 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,미재생 구간 Progress Bar UI 확인,True,True,False,False,False,False,False,False
+Player Screen,Bottom Player UI,이전 재생 구간 Progress Bar UI 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,Forward Button text 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,Forward Button 기능 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,Forward Button 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,Pause Button 기능 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,Pause Button 선택 시 동작 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,Pause Button 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,Play Button 기능 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,Play Button 선택 시 동작 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,Play Button 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,Rewind Button text 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,Rewind Button 기능 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,Rewind Button 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,우측 Gesture Area 2번 선택 시 text 노출 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,우측 Gesture Area 2번 선택 시 동작 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,우측 Gesture Area 2번 선택 시 아이콘 노출 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,좌측 Gesture Area 2번 선택 시 text 노출 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,좌측 Gesture Area 2번 선택 시 동작 확인,True,True,False,False,False,False,False,False
+Player Screen,Controller Player UI,좌측 Gesture Area 2번 선택 시 아이콘 노출 확인,True,True,False,False,False,False,False,False
+Player Screen,Player Screen,10초간 일시 정지 시 동작 확인,True,True,False,False,False,False,False,False
+Player Screen,Player Screen,1분간 재생 시 동작 확인,True,True,False,False,False,False,False,False
+Player Screen,Player Screen,30초간 재생 시 동작 확인,True,True,False,False,False,False,False,False
+Player Screen,Player Screen,5분간 재생 시 동작 확인,True,True,False,False,False,False,False,False
+Player Screen,Player Screen,5초 대기 시 동작 확인,False,False,False,False,True,False,False,False
+Player Screen,Player Screen,Bottom Player UI 확인,True,True,False,False,True,False,False,False
+Player Screen,Player Screen,Content 1분 재생 확인,False,False,False,False,True,False,False,False
+Player Screen,Player Screen,Content 30초 재생 확인,False,False,False,False,True,False,False,False
+Player Screen,Player Screen,Content 5분 재생 확인,False,False,False,False,True,False,False,False
+Player Screen,Player Screen,Content 정상 재생 여부 확인,True,True,False,False,False,False,False,False
+Player Screen,Player Screen,Continue 시 Player UI 노출 확인,True,True,False,False,True,False,False,False
+Player Screen,Player Screen,Downloaded Content 재생 동작 확인,True,True,False,False,False,False,False,False
+Player Screen,Player Screen,KOCOWA Bump 영상 노출 여부 확인,True,True,False,False,True,False,False,False
+Player Screen,Player Screen,KOCOWA Bump 영상 종료 시 동작 확인,True,True,False,False,True,False,False,False
+Player Screen,Player Screen,KOCOWA Bump 영상 확인,True,True,False,False,True,False,False,False
+Player Screen,Player Screen,Next Episode POP UP 노출 여부 확인,True,True,False,False,True,False,False,False
+Player Screen,Player Screen,Next Episode POP UP 확인,True,True,False,False,True,False,False,False
+Player Screen,Player Screen,Player Controller 확인,True,True,False,False,False,False,False,False
+Player Screen,Player Screen,Player Screen 선택 시 동작 확인,True,True,False,False,False,False,False,False
+Player Screen,Player Screen,Subtitle Default Setting 확인,True,True,False,False,False,False,False,False
+Player Screen,Player Screen,Top Player UI 확인,True,True,False,False,True,False,False,False
+Player Screen,Player Screen,Trailers Content 재생 완료 시 동작 확인,False,False,False,False,True,False,False,False
+Player Screen,Player Screen,광고 영상 재생 여부 확인,True,True,False,False,False,False,False,False
+Player Screen,Player Screen,광고 영상 재생 완료 시 동작 확인,True,True,False,False,False,False,False,False
+Player Screen,Player Screen,광고 영상 편성 여부 확인,True,True,False,False,False,False,False,False
+Player Screen,Player Screen,광고 영상 확인,True,True,False,False,False,False,False,False
+Player Screen,Player Screen,다음 회차 Subtitle Setting 연동 확인,True,True,False,False,True,False,False,False
+Player Screen,Player Screen,다음 회차 자동 재생 동작 확인,True,True,False,False,False,False,False,False
+Player Screen,Player Screen,대기 시 Player UI 동작 확인,True,True,False,False,False,False,False,False
+Player Screen,Player Screen,마지막 재생 시점 Play 확인,True,True,False,False,True,False,False,False
+Player Screen,Player Screen,마지막 회차 재생 완료 시 UII 확인,True,True,False,False,False,False,False,False
+Player Screen,Player Screen,마지막 회차 재생 완료 시 동작 확인,True,True,False,False,True,False,False,False
+Player Screen,Top Player UI,Close Button 기능 확인,True,True,False,False,False,False,False,False
+Player Screen,Top Player UI,Close Button 확인,True,True,False,False,False,False,False,False
+Player Screen,Top Player UI,Content Series Name text 확인,True,True,False,False,True,False,False,False
+Player Screen,Top Player UI,Episode Content Name text 확인,True,True,False,False,True,False,False,False
+Player Screen,Top Player UI,Mirror Casting icon 기능 확인,True,True,False,False,False,False,False,False
+Player Screen,Top Player UI,Mirror Casting icon 확인,True,True,False,False,False,False,False,False
+Player Screen,Top Player UI,PIP Button 기능 확인,True,True,False,False,False,False,False,False
+Player Screen,Top Player UI,PIP Button 확인,True,True,False,False,False,False,False,False
+Player Screen,Top Player UI,Setting icon 기능 확인,True,True,False,False,False,False,False,False
+Player Screen,Top Player UI,Setting icon 선택 시 동작 확인,True,True,False,False,False,False,False,False
+Player Screen,Top Player UI,Setting icon 확인,True,True,False,False,False,False,False,False
+Player Screen,Top Player UI,여백 선택 시 동작 확인,True,True,False,False,False,False,False,False
+Premium Pass,AVOD,미결제 상태에서 Premium Pass 사용 가능 확인,True,True,True,True,True,True,True,True
+Premium Pass,Basic Annual,Registration POP UP 노출 확인,True,True,True,True,True,True,True,True
+Premium Pass,Basic Annual,결제 상태에서 Premium Pass 사용 불가 확인,True,True,True,True,True,True,True,True
+Premium Pass,Basic Monthly,Registration POP UP 노출 확인,True,True,True,True,True,True,True,True
+Premium Pass,Basic Monthly,결제 상태에서 Premium Pass 사용 불가 확인,True,True,True,True,True,True,True,True
+Premium Pass,Premium Annual,결제 상태에서 Premium Pass 사용 가능 확인,True,True,True,True,True,True,True,True
+Premium Pass,Premium Monthly,결제 상태에서 Premium Pass 사용 가능 확인,True,True,True,True,True,True,True,True
+Premium Pass,Registration POP UP,OK 버튼 기능 확인,True,True,True,True,True,True,True,True
+Premium Pass,Registration POP UP,Title text 출력 확인,True,True,True,True,True,True,True,True
+Premium Pass,Registration POP UP,sub text 출력 확인,True,True,True,True,True,True,True,True
+Profile Data Input Page,Agreement Area,Agreement Area 노출 확인,False,False,False,False,False,False,False,True
+Profile Data Input Page,Agreement Area,Check Box 선택 시 UI 확인,False,False,False,False,False,False,False,True
+Profile Data Input Page,Agreement Area,Check Box 선택 시 text UI 확인,False,False,False,False,False,False,False,True
+Profile Data Input Page,Agreement Area,Default Setting 확인,False,False,False,False,False,False,False,True
+Profile Data Input Page,Agreement Area,Text Default Setting 확인,False,False,False,False,False,False,False,True
+Profile Data Input Page,Agreement Area,Text 출력 확인,False,False,False,False,False,False,False,True
+Profile Data Input Page,Birthday Area,Default Setting 확인,False,False,False,False,False,False,False,True
+Profile Data Input Page,Birthday Area,Dropdown Box 선택 시 UI 확인,False,False,False,False,False,False,False,True
+Profile Data Input Page,Birthday Area,Dropdown Box 선택 시 동작 확인,False,False,False,False,False,False,False,True
+Profile Data Input Page,Birthday Area,Dropdown Box 확인,False,False,False,False,False,False,False,True
+Profile Data Input Page,Birthday Area,Placeholder 확인,True,True,False,False,True,False,False,False
+Profile Data Input Page,Birthday Area,input box focus 시 UI 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Birthday Area,input box focus 시 동작 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Birthday Area,input box 기능 확인,True,True,False,False,True,False,False,False
+Profile Data Input Page,Birthday Area,input box 확인,True,True,False,False,True,False,False,False
+Profile Data Input Page,Birthday Area,title text 확인,True,True,False,False,True,False,False,False
+Profile Data Input Page,Birthday Area,미래 일자 선택 가능 여부 확인,False,True,False,False,False,False,False,False
+Profile Data Input Page,Birthday Area,유효한 일자 선택 시 동작 확인,False,True,False,False,False,False,False,False
+Profile Data Input Page,Birthday Area,일자 선택 시 동작 확인,True,True,False,False,False,False,False,False
+Profile Data Input Page,Confirm Button,Account Profile Data 적용 확인,True,True,False,False,False,False,False,True
+Profile Data Input Page,Confirm Button,Age Restriction Error message text UI 확인,True,True,False,False,False,False,False,False
+Profile Data Input Page,Confirm Button,Age Restriction Error message text 확인,True,True,False,False,False,False,False,False
+Profile Data Input Page,Confirm Button,Agreement 미선택 시 Confirm Button UI 확인,False,False,False,False,False,False,False,True
+Profile Data Input Page,Confirm Button,Confirm Button 기능 확인,True,True,False,False,False,False,False,True
+Profile Data Input Page,Confirm Button,Confirm Button 확인,True,True,False,False,False,False,False,False
+Profile Data Input Page,Confirm Button,Dimmed Confirm Button 기능 확인,True,True,False,False,False,False,False,True
+Profile Data Input Page,Confirm Button,Invalid Birtdate 입력 시 Confirm Button 기능 확인,True,True,False,False,False,False,False,False
+Profile Data Input Page,Confirm Button,비유효 Profile Data 입력 시 Confirm Button UI 확인,False,False,False,False,False,False,False,True
+Profile Data Input Page,Date Subject,Placeholder 확인,False,False,False,False,False,False,False,True
+Profile Data Input Page,Functional Area,Confirm Button stringset 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Functional Area,Confirm Button 기능 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Functional Area,Confirm Button 선택 시 동작 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Functional Area,Confirm Button 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Functional Area,Verification Radion Button 미선택 시 Confirm Button focus 가능 여부 확인,False,False,True,False,False,False,False,False
+Profile Data Input Page,Gender Area,Default Setting 확인,True,True,False,False,False,False,False,False
+Profile Data Input Page,Gender Area,Female Radio Button 확인,True,True,False,False,True,False,False,False
+Profile Data Input Page,Gender Area,Female 항목 text UI 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Gender Area,Female 항목 text 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Gender Area,Gender 적용 여부 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Gender Area,Male Radio Button 확인,True,True,False,False,True,False,False,False
+Profile Data Input Page,Gender Area,Male 항목 text UI 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Gender Area,Male 항목 text 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Gender Area,Other Radio Button 확인,True,True,False,False,True,False,False,False
+Profile Data Input Page,Gender Area,Other 항목 text UI 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Gender Area,Other 항목 text 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Gender Area,Prefer not to say Radio Button 확인,True,True,False,False,True,False,False,False
+Profile Data Input Page,Gender Area,Prefer not to say 항목 text UI 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Gender Area,Prefer not to say 항목 text 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Gender Area,Radio Button 선택 시 UI 확인,True,True,False,False,True,False,False,True
+Profile Data Input Page,Gender Area,Radio Button 선택 시 동작 확인,True,True,False,False,False,False,False,True
+Profile Data Input Page,Gender Area,Radio Button 중복 선택 여부 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Gender Area,Radio Button 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Gender Area,title text 확인,True,True,False,False,True,False,False,False
+Profile Data Input Page,IME,Default Setting 확인,False,False,False,True,False,False,False,False
+Profile Data Input Page,IME,Delete Button 기능 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,IME,Dimmed text focus 확인,False,False,False,True,False,False,False,False
+Profile Data Input Page,IME,Placeholder 노출 여부 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,IME,digit input box 확인,False,False,False,True,False,False,False,False
+Profile Data Input Page,IME,text Dimmed 처리 확인,False,False,False,True,False,False,False,False
+Profile Data Input Page,IME,text 삭제 시 동작 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,IME,리모컨 취소 Button 입력 시 동작 확인,False,False,False,False,False,False,True,False
+Profile Data Input Page,Month Subject,Placeholder 확인,False,False,False,False,False,False,False,True
+Profile Data Input Page,Profile Data Input Page,Back icon 기능 확인,True,True,False,False,False,False,False,False
+Profile Data Input Page,Profile Data Input Page,Back icon 확인,True,True,False,False,False,False,False,False
+Profile Data Input Page,Profile Data Input Page,Default Settings 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Profile Data Input Page,KOCOWA logo image 확인,True,True,False,False,True,False,False,False
+Profile Data Input Page,Profile Data Input Page,title text 확인,True,True,False,False,True,False,False,False
+Profile Data Input Page,Validation,Absence Birthday Error message text stringset 확인,False,False,False,True,False,False,True,False
+Profile Data Input Page,Validation,Absence Birthday message text UI 확인,False,False,False,True,False,False,True,False
+Profile Data Input Page,Validation,Birthday Data 미입력 시 Confirm Button 기능 확인,False,False,False,True,False,False,True,False
+Profile Data Input Page,Validation,Invalid Birthday Error message text UI 확인,False,False,True,False,False,False,False,False
+Profile Data Input Page,Validation,Invalid Birthday Error message text 확인,False,False,True,False,False,False,False,False
+Profile Data Input Page,Validation,Invalid Birthday message text UI 확인,False,False,False,False,False,False,True,False
+Profile Data Input Page,Validation,Invalid Birthday message text stringset 확인,False,False,False,False,False,False,True,False
+Profile Data Input Page,Validation,Invalid Birthday message text 확인,False,False,False,False,False,False,True,False
+Profile Data Input Page,Validation,Next Button 기능 확인,False,False,False,True,False,False,True,False
+Profile Data Input Page,Validation,Next Button 선택 시 동작 확인,False,False,False,True,False,False,True,False
+Profile Data Input Page,Validation,Verification Radion Button 미선택 시 Confirm Button 기능 확인,False,False,False,True,False,False,True,False
+Profile Data Input Page,Validation,비유효한 Birthdate 값 입력 시 Confirm Button 기능 확인,False,False,True,False,False,False,False,False
+Profile Data Input Page,Verification Area,Check box 선택 시 UI 확인,True,True,False,False,False,False,False,False
+Profile Data Input Page,Verification Area,Check box 선택 시 sub text UI 확인,True,True,False,False,False,False,False,False
+Profile Data Input Page,Verification Area,Check box 선택 시 동작 확인,True,True,False,False,False,False,False,False
+Profile Data Input Page,Verification Area,Check box 확인,True,True,False,False,False,False,False,False
+Profile Data Input Page,Verification Area,Default Setting 확인,True,True,False,False,True,False,False,False
+Profile Data Input Page,Verification Area,Radio Button 선택 시 UI 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Verification Area,Radio Button 재선택 시 가능 여부 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Verification Area,Radio Button 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Verification Area,Verification Area focus 시 UI 확인,False,False,False,False,True,False,False,False
+Profile Data Input Page,Verification Area,sub text 확인,True,True,False,False,False,False,False,False
+Profile Data Input Page,Welcome Email - Create user,Welcome Email - Create user 수신 확인,True,True,False,False,False,False,False,False
+Profile Data Input Page,Year Subject,Placeholder 확인,False,False,False,False,False,False,False,True
+QR Sign In Page,Functional Area,Back Button stringset 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Functional Area,Back Button 기능 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Functional Area,Back Button 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Functional Area,Dimmed Refresh Button focus 여부 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Functional Area,Refresh Button UI 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Functional Area,Refresh Button stringset 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Functional Area,Refresh Button 기능 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Functional Area,Refresh Button 선택 시 동작 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Functional Area,Refresh Button 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,QR Sign In Page,title text 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Step 1 Area,QR Code image 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Step 1 Area,QR Code 인식 시 동작 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Step 1 Area,sub text 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Step 1 Area,title text 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Step 2 Area,4-digit input box 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Step 2 Area,Countdown Setting 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Step 2 Area,Countdown 기능 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Step 2 Area,Countdown 완료 시 UI 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Step 2 Area,Countdown 완료 시 input box UI 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Step 2 Area,Countdown 완료 시 동작 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Step 2 Area,Countdown 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Step 2 Area,PIN Code Expired error message text 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Step 2 Area,User PIN Code 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Step 2 Area,sub text 확인,False,False,False,False,True,False,False,False
+QR Sign In Page,Step 2 Area,title text 확인,False,False,False,False,True,False,False,False
+Renewal Subscription,Basic Annual,구독 갱신 시 Billing history 갱신 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Basic Annual,구독 갱신 시 Email 수신 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Basic Annual,구독 갱신 시 My subscription 정보 노출 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Basic Annual,구독 갱신 시 요금 결제 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Basic Annual,구독 갱신 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Basic Annual Cancel Plan,구독 취소 동작 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Basic Annual Single Pass,구독 취소 동작 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Basic Month Single Pass,구독 취소 동작 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Basic Monthly,구독 갱신 시 Billing history 갱신 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Basic Monthly,구독 갱신 시 Email 수신 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Basic Monthly,구독 갱신 시 My subscription 정보 노출 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Basic Monthly,구독 갱신 시 요금 결제 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Basic Monthly,구독 갱신 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Basic Monthly Cancel Plan,구독 취소 동작 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Premium Annual,구독 갱신 시 Billing history 갱신 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Premium Annual,구독 갱신 시 Email 수신 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Premium Annual,구독 갱신 시 My subscription 정보 노출 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Premium Annual,구독 갱신 시 요금 결제 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Premium Annual,구독 갱신 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Premium Annual Cancel Plan,구독 취소 동작 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Premium Annual Single Pass,구독 취소 동작 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Premium Month Single Pass,구독 취소 동작 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Premium Monthly,구독 갱신 시 Billing history 갱신 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Premium Monthly,구독 갱신 시 Email 수신 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Premium Monthly,구독 갱신 시 My subscription 정보 노출 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Premium Monthly,구독 갱신 시 요금 결제 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Premium Monthly,구독 갱신 확인,True,True,True,True,True,True,True,True
+Renewal Subscription,Premium Monthly Cancel Plan,구독 취소 동작 확인,True,True,True,True,True,True,True,True
+Resume PLAN,Premium Annual,Resume Button 선택 시 기능 확인,True,True,True,True,True,True,True,True
+Resume PLAN,Premium Annual,구독 갱신 text 출력 확인,True,True,True,True,True,True,True,True
+Resume PLAN,Premium Annual,구독 갱신 일자 노출 확인,True,True,True,True,True,True,True,True
+Resume PLAN,Premium Monthly,Resume Button 선택 시 기능 확인,True,True,True,True,True,True,True,True
+Resume PLAN,Premium Monthly,구독 갱신 text 출력 확인,True,True,True,True,True,True,True,True
+Resume PLAN,Premium Monthly,구독 갱신 일자 노출 확인,True,True,True,True,True,True,True,True
+Sign In Page,Email Input Area,Placeholder 확인,False,False,False,False,True,False,False,False
+Sign In Page,Email Input Area,input box focus 시 UI 확인,False,False,False,False,True,False,False,False
+Sign In Page,Email Input Area,input box 기능 확인,False,False,False,False,True,False,False,False
+Sign In Page,Email Input Area,input box 확인,False,False,False,False,True,False,False,False
+Sign In Page,Email input box,Placeholder 확인,True,True,False,False,False,False,False,False
+Sign In Page,Email input box,input box 기능 확인,True,True,False,False,False,False,False,False
+Sign In Page,Email input box,input box 확인,True,True,False,False,False,False,False,False
+Sign In Page,Extra,Social 계정 정보 입력 시 Sign in Button 기능 확인,True,True,False,False,False,False,False,False
+Sign In Page,Extra,미존재 계정 입력 시 Sign in Button 기능 확인,True,True,False,False,False,False,False,False
+Sign In Page,Extra,비유효 계정 정보 입력 시 Sign in Button 기능 확인,True,True,False,False,False,False,False,False
+Sign In Page,Forgot Password Button,Forgot Password Button 기능 확인,True,True,False,False,False,False,False,False
+Sign In Page,Forgot Password Button,Forgot Password Button 확인,True,True,False,False,False,False,False,False
+Sign In Page,Functional Area,Forgot Password text Button 기능 확인,False,False,False,False,True,False,False,False
+Sign In Page,Functional Area,Forgot Password text Button 확인,False,False,False,False,True,False,False,False
+Sign In Page,Functional Area,KOCOWA Sign In Button 확인,False,False,False,False,True,False,False,False
+Sign In Page,Functional Area,Sign In with KOCOWA Button focus 시 UI 확인,False,False,False,False,True,False,False,False
+Sign In Page,Header Area,Header Area 상단 Fix 확인,False,False,False,False,False,False,False,True
+Sign In Page,Header Area,Home Button 기능 확인,False,False,False,False,False,False,False,True
+Sign In Page,Header Area,Home Button 확인,False,False,False,False,False,False,False,True
+Sign In Page,Header Area,KOCOWA logo image 기능 확인,False,False,False,False,False,False,False,True
+Sign In Page,Header Area,KOCOWA logo image 확인,False,False,False,False,False,False,False,True
+Sign In Page,Header Area,Language icon Hover 시 동작 확인,False,False,False,False,False,False,False,True
+Sign In Page,Header Area,Language icon 확인,False,False,False,False,False,False,False,True
+Sign In Page,IME,Absence Error message text 확인,True,True,False,False,False,False,False,False
+Sign In Page,IME,At 미입력 시 동작 확인,True,True,False,False,False,False,False,False
+Sign In Page,IME,Domain 미입력 시 동작 확인,True,True,False,False,False,False,False,False
+Sign In Page,IME,Done Button 기능 확인,False,False,False,False,True,False,False,False
+Sign In Page,IME,Done Button 선택 시 동작 확인,False,False,False,True,False,False,False,False
+Sign In Page,IME,Email 공란 시 동작 확인,True,True,False,False,False,False,False,False
+Sign In Page,IME,Enter Button 선택 시 동작 확인,False,False,False,False,False,False,True,False
+Sign In Page,IME,Hide Password icon 기능 확인,True,True,False,False,False,False,False,False
+Sign In Page,IME,Hide Password icon 선택 시 동작 확인,True,True,False,False,False,False,False,False
+Sign In Page,IME,Hide Password icon 확인,True,True,False,False,False,False,False,False
+Sign In Page,IME,Invalid Error message text 확인,True,True,False,False,False,False,False,False
+Sign In Page,IME,Next Button 기능 확인,False,False,False,False,True,False,False,False
+Sign In Page,IME,Next Button 선택 시 동작 확인,False,False,False,True,False,False,False,False
+Sign In Page,IME,Placeholder 노출 여부 확인,False,False,False,False,True,False,False,False
+Sign In Page,IME,Show Password icon 기능 확인,True,True,False,False,False,False,False,False
+Sign In Page,IME,Show Password icon 선택 시 동작 확인,True,True,False,False,False,False,False,False
+Sign In Page,IME,Show Password icon 확인,True,True,False,False,False,False,False,False
+Sign In Page,IME,User Password 암호화 확인,False,False,False,False,True,False,False,False
+Sign In Page,IME,text 삭제 시 Placeholder 노출 여부 확인,True,True,False,False,False,False,False,False
+Sign In Page,IME,text 삭제 시 동작 확인,False,False,False,False,True,False,False,False
+Sign In Page,IME,text 선택 시 동작 확인,True,True,False,False,True,False,False,False
+Sign In Page,IME,text 입력 시 UI 확인,True,True,False,False,False,False,False,False
+Sign In Page,IME,비유효 Email 입력 시 Next Button 기능 확인,False,False,True,True,False,False,True,False
+Sign In Page,IME,비유효 암호 입력 시 Done Button 기능 확인,False,False,True,True,False,False,True,False
+Sign In Page,KOCOWA Sign In,KOCOWA Sign In Button 기능 확인,False,False,False,False,True,False,False,False
+Sign In Page,KOCOWA Sign In,KOCOWA Sign In Button 선택 시 동작 확인,False,False,False,False,True,False,False,False
+Sign In Page,KOCOWA Sign In,미결제 계정 Sign In 동작 확인,False,False,False,False,True,False,False,False
+Sign In Page,New device login,New device login Email 수신 확인,False,False,False,False,True,False,False,False
+Sign In Page,Output,21자 이상 입력 시 동작 확인,True,True,False,False,False,False,False,False
+Sign In Page,Output,6자 미만 입력 시 동작 확인,True,True,False,False,False,False,False,False
+Sign In Page,Output,Absence Error message text 확인,True,True,False,False,False,False,False,False
+Sign In Page,Output,Limit Error message text 확인,True,True,False,False,False,False,False,False
+Sign In Page,Output,Password 공란 시 동작 확인,True,True,False,False,False,False,False,False
+Sign In Page,Password Input Area,Hide icon focus 시 UI 확인,False,False,False,False,True,False,False,False
+Sign In Page,Password Input Area,Hide icon 기능 확인,False,False,False,False,True,False,False,False
+Sign In Page,Password Input Area,Hide icon 선택 시 동작 확인,False,False,False,False,True,False,False,False
+Sign In Page,Password Input Area,Hide icon 확인,False,False,False,False,True,False,False,False
+Sign In Page,Password Input Area,Placeholder 확인,False,False,False,False,True,False,False,False
+Sign In Page,Password Input Area,Show icon focus 시 UI 확인,False,False,False,False,True,False,False,False
+Sign In Page,Password Input Area,Show icon 기능 확인,False,False,False,False,True,False,False,False
+Sign In Page,Password Input Area,Show icon 선택 시 동작 확인,False,False,False,False,True,False,False,False
+Sign In Page,Password Input Area,Show icon 확인,False,False,False,False,True,False,False,False
+Sign In Page,Password Input Area,input box focus 시 UI 확인,False,False,False,False,True,False,False,False
+Sign In Page,Password Input Area,input box 기능 확인,False,False,False,False,True,False,False,False
+Sign In Page,Password Input Area,input box 확인,False,False,False,False,True,False,False,False
+Sign In Page,Password input box,Placeholder 확인,True,True,False,False,False,False,False,False
+Sign In Page,Password input box,input box 기능 확인,True,True,False,False,False,False,False,False
+Sign In Page,Password input box,input box 선택 시 동작 확인,True,True,False,False,False,False,False,False
+Sign In Page,Sign In Button,Dimmed Sign in Button 기능 확인,True,True,False,False,False,False,False,False
+Sign In Page,Sign In Button,Sign in Button 기능 확인,True,True,False,False,False,False,False,False
+Sign In Page,Sign In Button,Sign in Button 확인,True,True,False,False,False,False,False,False
+Sign In Page,Sign In Button,Sign in 동작 확인,True,True,False,False,False,False,False,False
+Sign In Page,Sign In Button,유효한 KOCOWA ID 입력 시 UI 확인,True,True,False,False,False,False,False,False
+Sign In Page,Sign In Page,Back icon 기능 확인,True,True,False,False,False,False,False,False
+Sign In Page,Sign In Page,Back icon 확인,True,True,False,False,False,False,False,False
+Sign In Page,Sign In Page,KOCOWA logo image 확인,True,True,False,False,True,False,False,False
+Sign In Page,Sign In Page,title text 확인,True,True,False,False,False,False,False,False
+Sign In Page,Sign In Page,리모컨 취소 Button 입력 시 동작 확인,False,False,False,False,True,False,False,False
+Sign In Page,Sign Up Button,Sign Up text Button 기능 확인,True,True,False,False,False,False,False,False
+Sign In Page,Sign Up Button,Sign Up text Button 확인,True,True,False,False,False,False,False,False
+Sign In Page,Sign Up Button,sub text 확인,True,True,False,False,False,False,False,False
+Sign In Page,Social Sign In,Apple Social Sign In 동작 확인,False,False,False,True,False,False,False,False
+Sign In Page,Social Sign In,Apple Social Sign in Button focus 시 UI 확인,False,False,False,True,False,False,False,False
+Sign In Page,Social Sign In,Apple Social Sign in Button stringset 확인,False,False,False,True,False,False,False,False
+Sign In Page,Social Sign In,Apple Social Sign in Button 기능 확인,False,False,False,True,False,False,False,False
+Sign In Page,Social Sign In,Apple Social Sign in Button 확인,False,False,False,True,False,False,False,False
+Sign In Page,Social Sign In,Apple icon 확인,False,False,False,True,False,False,False,False
+Sign In Page,Social Sign In,Division Line 확인,False,False,False,False,True,False,False,False
+Sign In Page,Social Sign In,Google Social Sign In 동작 확인,False,False,True,False,False,False,False,False
+Sign In Page,Social Sign In,Google Social Sign in Button focus 시 UI 확인,False,False,True,False,False,False,False,False
+Sign In Page,Social Sign In,Google Social Sign in Button stringset 확인,False,False,True,False,False,False,False,False
+Sign In Page,Social Sign In,Google Social Sign in Button 기능 확인,False,False,True,False,False,False,False,False
+Sign In Page,Social Sign In,Google icon 확인,False,False,True,False,False,False,False,False
+Sign In Page,Social Sign In,ROKU Social Sign In 동작 확인,False,False,False,False,False,False,True,False
+Sign In Page,Social Sign In,ROKU Social Sign in Button focus 시 UI 확인,False,False,False,False,False,False,True,False
+Sign In Page,Social Sign In,ROKU Social Sign in Button stringset 확인,False,False,False,False,False,False,True,False
+Sign In Page,Social Sign In,ROKU Social Sign in Button 기능 확인,False,False,False,False,False,False,True,False
+Sign In Page,Social Sign In,ROKU Social Sign in Button 확인,False,False,False,False,False,False,True,False
+Sign In Page,Social Sign In,title text 확인,False,False,False,False,True,False,False,False
+Sign In Page,Validation,Absence Email error message text stringset 확인,False,False,False,False,True,False,False,False
+Sign In Page,Validation,Absence Email error message text 확인,False,False,False,False,True,False,False,False
+Sign In Page,Validation,Absence Password error message text stringset 확인,False,False,False,False,True,False,False,False
+Sign In Page,Validation,Absence Password error message text 확인,False,False,False,False,True,False,False,False
+Sign In Page,Validation,Invalid Email error message text stringset 확인,False,False,False,False,True,False,False,False
+Sign In Page,Validation,Invalid Email error message text 확인,False,False,False,False,True,False,False,False
+Sign In Page,Validation,Invalid Password error message text stringset 확인,False,False,False,False,True,False,False,False
+Sign In Page,Validation,Invalid Password error message text 확인,False,False,False,False,True,False,False,False
+Sign In Page,Validation,Social 계정 입력 시 KOCOWA Sign In Button 기능 확인,False,False,False,False,True,False,False,False
+Sign In Page,Validation,비유효 값 입력 시 KOCOWA Sign In Button 기능 확인,False,False,False,False,True,False,False,False
+Sign In Page,Validation,비유효 계정 정보 입력 시 KOCOWA Sign In Button 기능 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Agreement Area,Condition text 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Agreement Area,Privacy Policy text Button 기능 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Agreement Area,Privacy Policy text Button 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Agreement Area,Privacy Policy(Brazil) text Button 기능 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Agreement Area,Privacy Policy(Brazil) text Button 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Agreement Area,Privacy Policy(Europe) text Button 기능 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Agreement Area,Privacy Policy(Europe) text Button 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Agreement Area,Privacy Policy(Oceania) text Button 기능 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Agreement Area,Privacy Policy(Oceania) text Button 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Agreement Area,Terms of Use text Button 기능 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Agreement Area,Terms of Use text Button 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Email Input Area,Placeholder 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Email Input Area,input box focus 시 UI 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Email Input Area,input box 기능 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Email Input Area,input box 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Email input box,Placeholder 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Email input box,input box 기능 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Functional Area,Next Button focus 시 UI 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Functional Area,Next Button 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Header Area,Header Area 상단 Fix 확인,False,False,False,False,False,False,False,True
+Sign Up Page,Header Area,Home Button 기능 확인,False,False,False,False,False,False,False,True
+Sign Up Page,Header Area,Home Button 확인,False,False,False,False,False,False,False,True
+Sign Up Page,Header Area,KOCOWA logo image 기능 확인,False,False,False,False,False,False,False,True
+Sign Up Page,Header Area,KOCOWA logo image 확인,False,False,False,False,False,False,False,True
+Sign Up Page,Header Area,Language icon Hover 시 동작 확인,False,False,False,False,False,False,False,True
+Sign Up Page,Header Area,Language icon 확인,False,False,False,False,False,False,False,True
+Sign Up Page,Header Area,Sign In text Button 기능 확인,False,False,False,False,False,False,False,True
+Sign Up Page,Header Area,Sign In text Button 노출 확인,False,False,False,False,False,False,False,True
+Sign Up Page,IME,21자 이상 입력 시 동작 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,6자 미만 입력 시 동작 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,Absence Error message text 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,At 미입력 시 동작 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,Delete Button 기능 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,Domain 미입력 시 동작 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,Done Button 기능 확인,False,False,False,False,True,False,False,False
+Sign Up Page,IME,Done Button 선택 시 동작 확인,False,False,False,False,True,False,False,False
+Sign Up Page,IME,Email 공란 시 동작 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,Error message text UI 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,Hide Password icon 기능 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,Hide Password icon 선택 시 동작 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,Hide Password icon 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,IME 종료 시 동작 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,Invalid Error message text 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,Limit Error message text 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,Name 공란 시 동작 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,Next Button 기능 확인,False,False,False,False,True,False,False,False
+Sign Up Page,IME,Next Button 선택 시 동작 확인,False,False,False,False,True,False,False,False
+Sign Up Page,IME,Password 공란 시 동작 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,Password 암호화 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,Placeholder 노출 여부 확인,True,True,False,False,True,False,False,False
+Sign Up Page,IME,Show Password icon 기능 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,Show Password icon 선택 시 동작 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,Show Password icon 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,User Password 암호화 확인,False,False,False,False,True,False,False,False
+Sign Up Page,IME,text 삭제 시 Placeholder 노출 여부 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,text 삭제 시 동작 확인,False,False,False,False,True,False,False,False
+Sign Up Page,IME,text 선택 시 동작 확인,True,True,False,False,True,False,False,False
+Sign Up Page,IME,text 입력 시 UI 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,비유효 Email 입력 시 Next Button 기능 확인,False,False,True,True,False,False,True,False
+Sign Up Page,IME,비유효 Name 입력 시 Next Button 기능 확인,False,False,True,True,False,False,True,False
+Sign Up Page,IME,비유효 Name 입력 시 UI 확인,True,True,False,False,False,False,False,False
+Sign Up Page,IME,비유효 암호 입력 시 Done Button 기능 확인,False,False,True,True,False,False,True,False
+Sign Up Page,IME,외부 영역 선택 시 동작 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Name Input Area,Placeholder 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Name Input Area,input box focus 시 UI 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Name Input Area,input box 기능 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Name Input Area,input box 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Name input box,Name Placeholder 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Name input box,input box 기능 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Next Button,Dimmed Next Button 기능 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Next Button,Mismatched Data 입력 시 Next Button 기능 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Next Button,Next Button 기능 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Next Button,Next Button 선택 시 동작 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Next Button,Next Button 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Next Button,Signed Up KOCOWA Account Data 입력 시 Next Button 기능 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Next Button,Signed Up KOCOWA Account 입력 시 Next Button 기능 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Next Button,Social Account Data 입력 시 Next Button 기능 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Next Button,Wrong KOCOWA Account Data 입력 시 Next Button 기능 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Password Input Area,Hide icon focus 시 UI 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Password Input Area,Hide icon 기능 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Password Input Area,Hide icon 선택 시 동작 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Password Input Area,Hide icon 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Password Input Area,Placeholder 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Password Input Area,Show icon focus 시 UI 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Password Input Area,Show icon 기능 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Password Input Area,Show icon 선택 시 동작 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Password Input Area,Show icon 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Password Input Area,input box focus 시 UI 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Password Input Area,input box 기능 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Password Input Area,input box 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Password input box,Placeholder 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Password input box,input box 기능 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Password input box,input box 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Sign Up Area,KOCOWA ID Sign Up Area 확인,False,False,False,False,False,False,False,True
+Sign Up Page,Sign Up Area,Privacy Policy (Brazil) text Button 기능 확인,False,False,False,False,False,False,False,True
+Sign Up Page,Sign Up Area,Privacy Policy (Europe) text Button 기능 확인,False,False,False,False,False,False,False,True
+Sign Up Page,Sign Up Area,Privacy Policy (Oceania) text Button 기능 확인,False,False,False,False,False,False,False,True
+Sign Up Page,Sign Up Area,Privacy Policy text Button 기능 확인,False,False,False,False,False,False,False,True
+Sign Up Page,Sign Up Area,Social Sign Up Area 확인,False,False,False,False,False,False,False,True
+Sign Up Page,Sign Up Area,Terms of Use text Button 기능 확인,False,False,False,False,False,False,False,True
+Sign Up Page,Sign Up Page,Back icon 기능 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Sign Up Page,Back icon 확인,True,True,False,False,False,False,False,False
+Sign Up Page,Sign Up Page,KOCOWA logo image 확인,True,True,False,False,True,False,False,False
+Sign Up Page,Sign Up Page,Page 재진입 시 Account Data 저장 여부 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Sign Up Page,title text 확인,True,True,False,False,True,False,False,False
+Sign Up Page,Sign Up Page,리모컨 취소 Button 입력 시 동작 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Social Sign Up,Apple Social Sign Up Button focus 시 UI 확인,False,False,False,True,False,False,False,False
+Sign Up Page,Social Sign Up,Apple Social Sign Up Button stringset 확인,False,False,False,True,False,False,False,False
+Sign Up Page,Social Sign Up,Apple Social Sign Up Button 기능 확인,False,False,False,True,False,False,False,False
+Sign Up Page,Social Sign Up,Apple Social Sign Up Button 확인,False,False,False,True,False,False,False,False
+Sign Up Page,Social Sign Up,Apple Social Sign Up 동작 확인,False,False,False,True,False,False,False,False
+Sign Up Page,Social Sign Up,Apple icon 확인,False,False,False,True,False,False,False,False
+Sign Up Page,Social Sign Up,Division Line 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Social Sign Up,Google Social Sign Up Button focus 시 UI 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Social Sign Up,Google Social Sign Up Button stringset 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Social Sign Up,Google Social Sign Up Button 기능 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Social Sign Up,Google Social Sign Up Button 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Social Sign Up,Google Social Sign Up 동작 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Social Sign Up,Google icon 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Social Sign Up,ROKU Social Sign Up Button 기능 확인,False,False,False,False,False,False,True,False
+Sign Up Page,Social Sign Up,ROKU Social Sign Up 동작 확인,False,False,False,False,False,False,True,False
+Sign Up Page,Social Sign Up,title text 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Validation,Absence Email error message text stringset 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Validation,Absence Email error message text 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Validation,Absence Name error message text stringset 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Validation,Absence Name error message text 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Validation,Absence Password error message text stringset 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Validation,Absence Password error message text 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Validation,Invalid Email error message text stringset 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Validation,Invalid Email error message text 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Validation,Invalid Name error message text stringset 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Validation,Invalid Name error message text 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Validation,Invalid Password error message text stringset 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Validation,Invalid Password error message text 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Validation,Social 계정 입력 시 Next Button 기능 확인,False,False,False,False,True,False,False,False
+Sign Up Page,Validation,비유효 값 입력 시 Next Button focus 여부 확인,False,False,False,False,False,False,True,False
+Sign Up Page,Validation,비유효 값 입력 시 Next Button 기능 확인,False,False,False,False,True,False,False,False
+Social Account Sign In,Apple,Apple Social Sign In 동작 확인,True,True,False,False,False,False,False,False
+Social Account Sign In,Apple,Apple logo Button 기능 확인,True,True,False,False,False,False,False,False
+Social Account Sign In,Apple,연동되지 않은 Apple Social Sign In 시 동작 확인,True,True,False,False,False,False,False,False
+Social Account Sign In,Facebook,Facebook Social Sign In 동작 확인,True,True,False,False,False,False,False,False
+Social Account Sign In,Facebook,Facebook logo Button 기능 확인,True,True,False,False,False,False,False,False
+Social Account Sign In,Facebook,연동되지 않은 Facebook Social Sign In 시 동작 확인,True,True,False,False,False,False,False,False
+Social Account Sign In,Google,Google Social Sign In 동작 확인,True,True,False,False,False,False,False,False
+Social Account Sign In,Google,Google logo Button 기능 확인,True,True,False,False,False,False,False,False
+Social Account Sign In,Google,연동되지 않은 Google Social Sign In 시 동작 확인,True,True,False,False,False,False,False,False
+Social Account Sign In,ODK,ODK Social Sign In 동작 확인,True,True,False,False,False,False,False,False
+Social Account Sign In,ODK,ODK logo Button 기능 확인,True,True,False,False,False,False,False,False
+Social Account Sign In,ODK,연동되지 않은 ODK Social Sign In 시 동작 확인,True,True,False,False,False,False,False,False
+Social Account Sign In,Social Account Sign In,title text 확인,True,True,False,False,False,False,False,False
+Social Account Sign Up,Apple,Apple Social Sign Up 동작 확인,True,True,False,False,False,False,False,False
+Social Account Sign Up,Apple,Apple logo Button 기능 확인,True,True,False,False,False,False,False,False
+Social Account Sign Up,Apple,Apple logo Button 확인,True,True,False,False,False,False,False,False
+Social Account Sign Up,Apple,연동되지 않은 Apple Social Sign Up 시 동작 확인,True,True,False,False,False,False,False,False
+Social Account Sign Up,Facebook,Facebook Social Sign Up 동작 확인,True,True,False,False,False,False,False,False
+Social Account Sign Up,Facebook,Facebook logo Button 기능 확인,True,True,False,False,False,False,False,False
+Social Account Sign Up,Facebook,Facebook logo Button 확인,True,True,False,False,False,False,False,False
+Social Account Sign Up,Facebook,연동되지 않은 Facebook Social Sign Up 시 동작 확인,True,True,False,False,False,False,False,False
+Social Account Sign Up,Google,Google Social Sign Up 동작 확인,True,True,False,False,False,False,False,False
+Social Account Sign Up,Google,Google logo Button 기능 확인,True,True,False,False,False,False,False,False
+Social Account Sign Up,Google,Google logo Button 확인,True,True,False,False,False,False,False,False
+Social Account Sign Up,Google,연동되지 않은 Google Social Sign Up 시 동작 확인,True,True,False,False,False,False,False,False
+Social Account Sign Up,Social Account Sign Up,title text 확인,True,True,False,False,False,False,False,False
+Social Sign In,Apple Sign In POP UP,Apple Social Sign In 기능 확인,False,False,False,False,False,False,False,True
+Social Sign In,Apple Sign In POP UP,Apple Social Sign In 시 동작 확인,False,False,False,False,False,False,False,True
+Social Sign In,Apple Sign In POP UP,Apple Social Sign Up 기능 확인,False,False,False,False,False,False,False,True
+Social Sign In,Apple Sign In POP UP,Apple Social Sign Up 시 동작 확인,False,False,False,False,False,False,False,True
+Social Sign In,Apple Social Sign In,Apple Social Sign In Button 기능 확인,False,False,False,False,False,False,False,True
+Social Sign In,Apple Social Sign In,Apple Social Sign In Button 확인,False,False,False,False,False,False,False,True
+Social Sign In,Facebook Sign In POP UP,Facebook Social Sign In 기능 확인,False,False,False,False,False,False,False,True
+Social Sign In,Facebook Sign In POP UP,Facebook Social Sign In 시 동작 확인,False,False,False,False,False,False,False,True
+Social Sign In,Facebook Sign In POP UP,Facebook Social Sign Up 기능 확인,False,False,False,False,False,False,False,True
+Social Sign In,Facebook Sign In POP UP,Facebook Social Sign Up 시 동작 확인,False,False,False,False,False,False,False,True
+Social Sign In,Facebook Social Sign In,Facebook Social Sign In Button 기능 확인,False,False,False,False,False,False,False,True
+Social Sign In,Facebook Social Sign In,Facebook Social Sign In Button 확인,False,False,False,False,False,False,False,True
+Social Sign In,Google Sign In POP UP,Google Social Sign In 기능 확인,False,False,False,False,False,False,False,True
+Social Sign In,Google Sign In POP UP,Google Social Sign In 시 동작 확인,False,False,False,False,False,False,False,True
+Social Sign In,Google Sign In POP UP,Google Social Sign Up 기능 확인,False,False,False,False,False,False,False,True
+Social Sign In,Google Sign In POP UP,Google Social Sign Up 시 동작 확인,False,False,False,False,False,False,False,True
+Social Sign In,Google Social Sign In,Google Social Sign In Button 기능 확인,False,False,False,False,False,False,False,True
+Social Sign In,Google Social Sign In,Google Social Sign In Button 확인,False,False,False,False,False,False,False,True
+Social Sign In,OnDemandKorea Social Sign In,OnDemandKorea Social Sign In Button 기능 확인,False,False,False,False,False,False,False,True
+Social Sign In,OnDemandKorea Social Sign In,OnDemandKorea Social Sign In Button 확인,False,False,False,False,False,False,False,True
+Social Sign Up,Welcome Email with SSO,Welcome Email with SSO 수신 확인,True,True,False,False,False,False,False,False
+Subscription Purchasing,KOCOWA Payment Receipt,KOCOWA Payment Receipt Email 수신 확인,True,True,False,False,True,False,False,True
+Subscription Purchasing,Subscription Purchasing,Additional Profile Benefit 적용 확인,False,False,False,False,True,False,False,False
+Subscription Purchasing,Subscription Purchasing,Profile Benefit 적용 확인,False,False,False,False,True,False,False,False
+Subscription Purchasing,Subscription Purchasing,Subscription item 적용 확인,False,False,False,False,True,False,False,False
+Webcomics Viewer Screen,Bottom Area,Dimmed Next Button 기능 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Bottom Area,Dimmed Next Button 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Bottom Area,Dimmed Previous Button 기능 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Bottom Area,Dimmed Previous Button 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Bottom Area,Divison Line 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Bottom Area,List icon 기능 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Bottom Area,List icon 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Bottom Area,Next Button UI 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Bottom Area,Next Button 기능 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Bottom Area,Next Button 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Bottom Area,Previous Button UI 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Bottom Area,Previous Button 기능 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Bottom Area,Previous Button 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Bottom Episode List Area,Bottom Navigation Button UI 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Bottom Navigation Button 노출 여부 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Bottom Navigation Button 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Content Numbering 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Dimmed Left Navigation icon 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Dimmed Right Navigation icon 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Free icon UI 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Free icon 노출 여부 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Free icon 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Language icon 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Left Navigation icon 기능 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Left Navigation icon 노출 여부 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Left Navigation icon 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,New icon UI 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,New icon 노출 여부 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,New icon 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Right Navigation icon 기능 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Right Navigation icon 노출 여부 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Right Navigation icon 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Top Navigation Button UI 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Top Navigation Button 노출 여부 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,Top Navigation Button 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,item counter 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,poster image hover 시 UI 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,poster image hover 시 동작 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,poster image 기능 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,poster image 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,미결제 시 유료 Content poster image 기능 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,열람 이력 있을 시 poster image UI 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Bottom Episode List Area,열람 중인 poster image UI 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Prevent illegal Copying,Screen Capture 방지 동작 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Area,Back icon 기능 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Top Area,Back icon 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Top Area,Division Line 노출 여부 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Top Area,Division Line 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Top Area,Episode Content Name text 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Top Area,Episode Content Name 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Top Episode List POP UP,Bottom Navigation Button UI 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,Bottom Navigation Button 노출 여부 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,Bottom Navigation Button 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,Content Numbering 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,Dimmed Left Navigation icon 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,Dimmed Right Navigation icon 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,Free icon UI 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,Free icon 노출 여부 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,Free icon 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,Language icon 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,Left Navigation icon 기능 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,Left Navigation icon 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,New icon UI 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,New icon 노출 여부 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,New icon 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,Right Navigation icon 기능 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,Right Navigation icon 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,Top Navigation Button UI 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,Top Navigation Button 노출 여부 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,Top Navigation Button 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,item counter 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,poster image hover 시 UI 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,poster image hover 시 동작 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,poster image 기능 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,poster image 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,미결제 시 유료 Content poster image 기능 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,열람 이력 있을 시 poster image UI 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Episode List POP UP,열람 중인 poster image UI 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Function Bar,Back icon 기능 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Function Bar,Back icon 노출 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Function Bar,Content Episode Numbering 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Function Bar,Content Series Name 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Function Bar,Dimmed Next Button 기능 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Function Bar,Dimmed Previous Button 기능 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Function Bar,Division Line 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Function Bar,Episode Numbering 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Function Bar,Next Button 기능 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Function Bar,Next Button 선택 시 동작 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Function Bar,Next Button 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Function Bar,Previous Button 기능 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Function Bar,Previous Button 선택 시 동작 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Function Bar,Previous Button 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Top Function Bar,미결제 시 Next Button 기능 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Webcomics Viewer Screen,Auto Moving 시 동작 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Webcomics Viewer Screen,Auto Moving 확인,True,True,False,False,False,False,False,False
+Webcomics Viewer Screen,Webcomics Viewer Screen,Bottom Moving icon Hover 시 UI 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Webcomics Viewer Screen,Bottom Moving icon 기능 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Webcomics Viewer Screen,Bottom Moving icon 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Webcomics Viewer Screen,Continue Watching 기능 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Webcomics Viewer Screen,Continue Watching 진입 시 동작 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Webcomics Viewer Screen,Default Setting 확인,True,True,False,False,False,False,False,True
+Webcomics Viewer Screen,Webcomics Viewer Screen,Top Moving icon Hover 시 UI 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Webcomics Viewer Screen,Top Moving icon 기능 확인,False,False,False,False,False,False,False,True
+Webcomics Viewer Screen,Webcomics Viewer Screen,Top Moving icon 확인,False,False,False,False,False,False,False,True
+Welcome To KOCOWA Page,Header Area,Header Area 상단 Fix 확인,False,False,False,False,False,False,False,True
+Welcome To KOCOWA Page,Header Area,Home text Button 기능 확인,False,False,False,False,False,False,False,True
+Welcome To KOCOWA Page,Header Area,KOCOWA logo image 기능 확인,False,False,False,False,False,False,False,True
+Welcome To KOCOWA Page,Header Area,KOCOWA logo image 확인,False,False,False,False,False,False,False,True
+Welcome To KOCOWA Page,Header Area,Language icon Hover 시 동작 확인,False,False,False,False,False,False,False,True
+Welcome To KOCOWA Page,Header Area,Language icon 확인,False,False,False,False,False,False,False,True
+Welcome To KOCOWA Page,Header Area,Sign Out text Button 기능 확인,False,False,False,False,False,False,False,True
+Welcome To KOCOWA Page,User Data Area,Background image 확인,False,False,False,False,False,False,False,True
+Welcome To KOCOWA Page,User Data Area,Next text Button 기능 확인,False,False,False,False,False,False,False,True
+Welcome To KOCOWA Page,User Data Area,SUBSCRIBE Button 기능 확인,False,False,False,False,False,False,False,True
+Welcome To KOCOWA Page,User Data Area,User Email Address 확인,False,False,False,False,False,False,False,True
+Welcome To KOCOWA Page,Welcome To KOCOWA Page,Background image 확인,False,False,False,False,True,False,False,False
+Welcome To KOCOWA Page,Welcome To KOCOWA Page,Email Verify Inform text 확인,False,False,False,False,True,False,False,False
+Welcome To KOCOWA Page,Welcome To KOCOWA Page,KOCOWA logo image 확인,False,False,False,False,True,False,False,False
+Welcome To KOCOWA Page,Welcome To KOCOWA Page,Sign Out text Button 기능 확인,False,False,False,False,True,False,False,False
+Welcome To KOCOWA Page,Welcome To KOCOWA Page,Sign Out text Button 확인,False,False,False,False,True,False,False,False
+Welcome To KOCOWA Page,Welcome To KOCOWA Page,Subscribe Button stringset 확인,False,False,False,False,True,False,False,False
+Welcome To KOCOWA Page,Welcome To KOCOWA Page,Subscribe Button 기능 확인,False,False,False,False,True,False,False,False
+Welcome To KOCOWA Page,Welcome To KOCOWA Page,Subscribe Button 확인,False,False,False,False,True,False,False,False
+Welcome To KOCOWA Page,Welcome To KOCOWA Page,User Email address 확인,False,False,False,False,True,False,False,False
+Welcome To KOCOWA Page,Welcome To KOCOWA Page,sub text 확인,False,False,False,False,True,False,False,False
+Welcome To KOCOWA Page,Welcome To KOCOWA Page,title text 확인,False,False,False,False,True,False,False,False
+Welcome To KOCOWA Page,Welcome To KOCOWA Page,리모컨 취소 Button 입력 시 동작 확인,False,False,False,False,True,False,False,False
+Welcome to KOCOWA Page,Body,Next Button 기능 확인,True,True,False,False,False,False,False,False
+Welcome to KOCOWA Page,Body,Next Button 확인,True,True,False,False,False,False,False,False
+Welcome to KOCOWA Page,Body,User Email address 확인,True,True,False,False,False,False,False,False
+Welcome to KOCOWA Page,Body,sub text 확인,True,True,False,False,False,False,False,False
+Welcome to KOCOWA Page,Body,title text 확인,True,True,False,False,False,False,False,False
+Welcome to KOCOWA Page,Header,title text 확인,True,True,False,False,False,False,False,False

@@ -2,84 +2,99 @@ import streamlit as st
 import pandas as pd
 from datetime import date
 
-# Run streamlit run qc-request/qc_form_generator.py 
+# Run with: streamlit run qc-request/qc_form_generator.py
 
 # Load test case dataset
-df = pd.read_csv("qc-request/data/20250331_processed_billing_test_cases.csv")
+df = pd.read_csv("qc-request/data/20250404_processed_test_cases.csv")
 
-# Preprocess dataset
-all_regions = ['US', 'Argentina', 'United Kingdom', 'Australia', 'Brazil', 'Spain']
-non_region_categories = df[~df['Region/Category'].isin(all_regions)]['Region/Category'].unique().tolist()
+# Define available devices
+available_devices = [
+    'Android Mobile', 'Apple Mobile', 'Android TV', 'Apple TV',
+    'Connected TV', 'Fire TV', 'Roku', 'Web'
+]
 
-# Group data for checkbox hierarchy
-grouped = df.groupby(['Region/Category', '중분류', '소분류'])['테스트 항목'].unique().reset_index()
+available_regions = ["All Regions", "NA", "LATAM", "EU", "OCD", "BRL"]
 
 # --- UI Components ---
-st.title("🧪 QC Request Form Generator (Deployed Version)")
+st.title("🧪 QC Request Form Generator (Device-Based)")
 
 # 1. Basic Info
 st.subheader("📌 Basic Information")
 request_date = date.today()
 st.markdown(f"**Request Date:** {request_date}")
 requester = st.text_input("Requester")
-target_qc = st.selectbox("Target for QC", ["Web", "Android Mobile", "Android TV", "iOS", "tvOS", "Roku", "Fire TV", "Smart TV", "Vizio"])
+target_qc = st.selectbox("Target Device for QC", ["Select a device..."] + available_devices)
+region = st.selectbox("Target Region", available_regions)
 version = st.text_input("Version", placeholder="ex) v3.4.0_2")
 task_name = st.selectbox("Task Name", ["New SMS Billing Gateway System"] + ["Other"])
 if task_name == "Other":
     task_name = st.text_input("Enter new task name")
 test_env = st.selectbox("Test Environment", ["Staging", "Production"])
 
-# 2. Region + Type Info
-st.subheader("🌍 Region & QC Type")
-region_options = all_regions
-selected_regions = st.multiselect("Region(s)", region_options, placeholder="Skip for Non-Regional Scopes")
-if "All Regions" in selected_regions:
-    selected_regions = all_regions  # override with all regions
+# 2. Type Info
+st.subheader("🧩 Type & Metadata")
 qc_type = st.selectbox("Type for QC", ["New", "Bug Fix", "Routine", "Other"])
 qc_round = st.selectbox("Round", list(range(1, 11)))
 urgency = st.selectbox("Urgency Level", ["Normal", "Urgent"])
 reference_doc = st.text_input("Reference Document (URL)")
 
 # 3. Scope of Development & Tests
-st.subheader("🧩 Scope of Development")
-selected_scope = []
-selected_scope_tree = []
+st.subheader("📦 Scope of Development")
 
-for region in selected_regions + non_region_categories:
-    region_group = grouped[grouped['Region/Category'] == region]
-    st.markdown(f"**{region}**")
-    for mid_cat in region_group['중분류'].unique():
-        if st.checkbox(f"{mid_cat}", key=f"{region}_{mid_cat}_solo"):
-            selected_scope_tree.append(f"{mid_cat} ({region})")
-            matched_rows = region_group[region_group['중분류'] == mid_cat]
-            for 항목_list in matched_rows['테스트 항목']:
-                selected_scope.extend(항목_list)
+selected_scope_tree = []
+selected_tests = []
+
+if target_qc != "Select a device...":
+    df_filtered = df[df[target_qc] == True]
+
+    for category in sorted(df_filtered['대분류'].unique()):
+        cat_group = df_filtered[df_filtered['대분류'] == category]
+        subcategories = sorted(cat_group['소분류'].unique())
+
+        with st.expander(f"{category}"):
+            # Select all checkbox
+            select_all_key = f"select_all_{category}"
+            select_all = st.checkbox("Select all", key=select_all_key)
+
+            if len(subcategories) == 1 and subcategories[0] == category:
+                if st.checkbox(f"{category} (All)", key=f"{category}_solo") or select_all:
+                    selected_scope_tree.append(category)
+                    selected_tests.extend(cat_group['테스트 항목'].tolist())
+            else:
+                for sub in subcategories:
+                    sub_items = cat_group[cat_group['소분류'] == sub]['테스트 항목'].tolist()
+                    if select_all or st.checkbox(f"↳ {sub}", key=f"{category}_{sub}"):
+                        selected_scope_tree.append(f"{category} > {sub}")
+                        selected_tests.extend(sub_items)
 
 # Deduplicate selected 항목s directly
-unique_selected = sorted(set(selected_scope))
+unique_selected = sorted(set(selected_tests))
 included_formatted = '<br>'.join(unique_selected)
 development_scope_formatted = '<br>'.join(selected_scope_tree)
 
 # --- Generate Output ---
 st.subheader("📋 Generated QC Request Form")
 if st.button("Generate QC Form"):
-    html_output = f"""
-    <table>
-        <tr><th>Field</th><th>Value</th></tr>
-        <tr><td>Request Date</td><td>{request_date}</td></tr>
-        <tr><td>Requester</td><td>{requester}</td></tr>
-        <tr><td>Target for QC</td><td>{target_qc}</td></tr>
-        <tr><td>Version</td><td>{version}</td></tr>
-        <tr><td>Task Name</td><td>{task_name}</td></tr>
-        <tr><td>Test Environment</td><td>{test_env}</td></tr>
-        <tr><td>Region</td><td>{', '.join(selected_regions)}</td></tr>
-        <tr><td>Type for QC</td><td>{qc_type} Round {qc_round}</td></tr>
-        <tr><td>Urgency Level</td><td>{urgency}</td></tr>
-        <tr><td>Reference Document</td><td>{reference_doc}</td></tr>
-        <tr><td>Scope of Development</td><td>{development_scope_formatted}</td></tr>
-        <tr><td>Included in Tests</td><td>{included_formatted}</td></tr>
-        <tr><td>Excluded from Tests</td><td>**해당사항 기입해주시기를 바랍니다.**</td></tr>
-    </table>
-    """
-    st.markdown(html_output, unsafe_allow_html=True)
-    st.success("✅ QC Request Form Generated! Copy it to your Jira ticket.")
+    if target_qc == "Select a device...":
+        st.error("Please select a valid target device before generating the form.")
+    else:
+        html_output = f"""
+        <table>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>Request Date</td><td>{request_date}</td></tr>
+            <tr><td>Requester</td><td>{requester}</td></tr>
+            <tr><td>Target Device</td><td>{target_qc}</td></tr>
+            <tr><td>Region</td><td>{region}</td></tr>
+            <tr><td>Version</td><td>{version}</td></tr>
+            <tr><td>Task Name</td><td>{task_name}</td></tr>
+            <tr><td>Test Environment</td><td>{test_env}</td></tr>
+            <tr><td>Type for QC</td><td>{qc_type} Round {qc_round}</td></tr>
+            <tr><td>Urgency Level</td><td>{urgency}</td></tr>
+            <tr><td>Reference Document</td><td>{reference_doc}</td></tr>
+            <tr><td>Scope of Development</td><td>{development_scope_formatted}</td></tr>
+            <tr><td>Included in Tests</td><td>{included_formatted}</td></tr>
+            <tr><td>Excluded from Tests</td><td>**해당사항 기입해주시기를 바랍니다.**</td></tr>
+        </table>
+        """
+        st.markdown(html_output, unsafe_allow_html=True)
+        st.success("✅ QC Request Form Generated! Copy it to your Jira ticket.")
