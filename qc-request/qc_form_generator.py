@@ -68,7 +68,7 @@ if target_qc != "Select a device...":
 
                 if select_all or st.checkbox(f"↳ {comp}", key=comp_key):
                     selected_scope_tree.append(f"{main_cat} > {comp}")
-                    selected_tests.append((comp, test_cases))  # preserve grouping
+                    # selected_tests.append((comp, test_cases))  # preserve grouping
 
 grouped_tests = defaultdict(set)
 for comp, test_list in selected_tests:
