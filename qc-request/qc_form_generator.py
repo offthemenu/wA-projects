@@ -45,29 +45,33 @@ reference_doc = st.text_input("Reference Document (URL)", placeholder="Link to t
 
 # 3. Scope of Development & Tests
 st.subheader("Scope of Development")
-selected_scope_tree = []
-selected_tests = []
 
-if target_qc != "Select a device...":
-    # Filter based on selected device
-    df_filtered = df_project[df_project[target_qc] == True].copy()
+col1, col2 = st.columns([1,1])
 
-    for main_cat in sorted(df_filtered['main_category'].unique()):
-        with st.expander(main_cat):
-            cat_df = df_filtered[df_filtered['main_category'] == main_cat]
-            select_all = st.checkbox(
-                f"✅ Select all components",
-                key=f"{main_cat}_select"
-            )
+with col1:
+    selected_scope_tree = []
+    selected_tests = []
 
-            for _, row in cat_df.iterrows():
-                comp = row['component']
-                test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()]
-                comp_key = f"{main_cat}_{comp}"
+    if target_qc != "Select a device...":
+        # Filter based on selected device
+        df_filtered = df_project[df_project[target_qc] == True].copy()
 
-                if select_all or st.checkbox(f"↳ {comp}", key=comp_key):
-                    selected_scope_tree.append(f"{main_cat} > {comp}")
-                    selected_tests.append((comp, test_cases))  # preserve grouping
+        for main_cat in sorted(df_filtered['main_category'].unique()):
+            with st.expander(main_cat):
+                cat_df = df_filtered[df_filtered['main_category'] == main_cat]
+                select_all = st.checkbox(
+                    f"✅ Select all components",
+                    key=f"{main_cat}_select"
+                )
+
+                for _, row in cat_df.iterrows():
+                    comp = row['component']
+                    test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()]
+                    comp_key = f"{main_cat}_{comp}"
+
+                    if select_all or st.checkbox(f"↳ {comp}", key=comp_key):
+                        selected_scope_tree.append(f"{main_cat} > {comp}")
+                        selected_tests.append((comp, test_cases))  # preserve grouping
 
 grouped_tests = defaultdict(set)
 for comp, test_list in selected_tests:
@@ -83,10 +87,10 @@ for comp in sorted(grouped_tests):
 development_scope_formatted = '<br>'.join(selected_scope_tree)
 
 # --- Generate Output ---
-st.subheader("Generated QC Request Form")
-if st.button("Generate QC Form"):
+with col2:
+    st.markdown("### 📋 QC Request Form Preview")
     if target_qc == "Select a device...":
-        st.error("Please select a valid target device before generating the form.")
+        st.warning("Please select a valid device to preview the request.")
     else:
         html_output = f"""
         <table>
@@ -107,4 +111,7 @@ if st.button("Generate QC Form"):
         </table>
         """
         st.markdown(html_output, unsafe_allow_html=True)
-        st.success("✅ QC Request Form Generated! Copy it to your Jira ticket.")
+        st.success("✅ This is your preview. Click below to finalize.")
+
+if st.button("✅ Generate Final QC Form for Jira"):
+    st.toast("You can now copy the preview above into your Jira ticket ✨")
