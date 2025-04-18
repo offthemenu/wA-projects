@@ -6,7 +6,7 @@ from collections import defaultdict
 # Run with: streamlit run qc-request/qc_form_generator.py
 
 # Load test case dataset
-df = pd.read_csv("data/processed/processed_KOCOWA_4.0_tc_connectedTV.csv")
+df = pd.read_csv("qc-request/data/processed/processed_KOCOWA_4.0_tc_connectedTV.csv")
 
 # Define available devices
 available_devices = ['Android Mobile', 'Apple Mobile', 'Android TV', 'Apple TV', 'Fire TV', 'Roku', 'Web', 'Smart TV', 'Vizio TV']
