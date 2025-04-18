@@ -103,9 +103,11 @@ if st.button("Generate QC Form"):
             <tr><td>Urgency Level</td><td>{urgency}</td></tr>
             <tr><td>Reference Document</td><td>{reference_doc}</td></tr>
             <tr><td>Scope of Development</td><td>{development_scope_formatted}</td></tr>
-            <tr><td>Included in Tests</td><td>{included_formatted}</td></tr>
             <tr><td>Excluded from Tests</td><td>**해당사항 기입해주시기를 바랍니다.**</td></tr>
         </table>
         """
         st.markdown(html_output, unsafe_allow_html=True)
         st.success("✅ QC Request Form Generated! Copy it to your Jira ticket.")
+
+# save for later if needed
+# <tr><td>Included in Tests</td><td>{included_formatted}</td></tr>
