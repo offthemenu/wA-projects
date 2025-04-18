@@ -57,7 +57,7 @@ if target_qc != "Select a device...":
         with st.expander(main_cat):
             cat_df = df_filtered[df_filtered['main_category'] == main_cat]
             select_all = st.checkbox(
-                f"✅ Select all components",
+                "✅ Select all components",
                 key=f"{main_cat}_select"
             )
 
