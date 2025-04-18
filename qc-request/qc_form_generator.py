@@ -44,7 +44,7 @@ urgency = st.selectbox("Urgency Level", ["Normal", "Urgent"])
 reference_doc = st.text_input("Reference Document (URL)", placeholder="Link to the relevant Zeplin Dashboard")
 
 # 3. Scope of Development & Tests
-st.subheader("📦 Scope of Development")
+st.subheader("Scope of Development")
 selected_scope_tree = []
 selected_tests = []
 
@@ -83,7 +83,7 @@ for comp in sorted(grouped_tests):
 development_scope_formatted = '<br>'.join(selected_scope_tree)
 
 # --- Generate Output ---
-st.subheader("📋 Generated QC Request Form")
+st.subheader("Generated QC Request Form")
 if st.button("Generate QC Form"):
     if target_qc == "Select a device...":
         st.error("Please select a valid target device before generating the form.")
