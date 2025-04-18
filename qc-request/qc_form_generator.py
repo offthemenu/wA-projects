@@ -29,7 +29,7 @@ request_date = date.today()
 st.markdown(f"**Request Date:** {request_date}")
 requester = st.text_input("Requester")
 target_qc = st.selectbox("Target Device for QC", ["Select a device..."] + available_devices)
-region = st.checkbox("Target Region", available_regions)
+region = st.checkbox(available_regions)
 version = st.text_input("Version", placeholder="ex) v4.0.0_0")
 task_name = st.selectbox("Task Name", sorted(df_project['project_name'].unique().tolist() + ["Other"]))
 if task_name == "Other":
