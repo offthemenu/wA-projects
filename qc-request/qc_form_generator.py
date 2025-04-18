@@ -101,7 +101,7 @@ if st.button("Generate QC Form"):
             <tr><td>Request Date</td><td>{request_date}</td></tr>
             <tr><td>Requester</td><td>{requester}</td></tr>
             <tr><td>Target Device</td><td>{target_qc}</td></tr>
-            <tr><td>Region</td><td>{region}</td></tr>
+            <tr><td>Region</td><td>{selected_regions}</td></tr>
             <tr><td>Version</td><td>{version}</td></tr>
             <tr><td>Task Name</td><td>{task_name}</td></tr>
             <tr><td>Test Environment</td><td>{test_env}</td></tr>
