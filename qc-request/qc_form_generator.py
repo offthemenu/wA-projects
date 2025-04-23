@@ -6,7 +6,9 @@ from collections import defaultdict
 # Run with: streamlit run qc-request/qc_form_generator.py
 
 # Load test case dataset
-df = pd.read_csv("qc-request/data/processed/processed_KOCOWA_4.0_tc_connectedTV.csv")
+# df = pd.read_csv("qc-request/data/processed/processed_KOCOWA_4.0_tc_connectedTV.csv")
+# For running local
+df = pd.read_csv("data/processed/processed_KOCOWA_4.0_tc_connectedTV.csv")
 
 # Define available devices
 available_devices = ['Android Mobile', 'Apple Mobile', 'Android TV', 'Apple TV', 'Fire TV', 'Roku', 'Web', 'Smart TV', 'Vizio TV']
@@ -67,14 +69,40 @@ if target_qc != "Select a device...":
                 key=f"{main_cat}_select"
             )
 
-            for _, row in cat_df.iterrows():
-                comp = row['component']
-                test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()]
-                comp_key = f"{main_cat}_{comp}"
+            # If user checks the "Select all components" box for this main category...
+            if select_all:
+                # Add a simplified message instead of listing every component individually
+                selected_scope_tree.append(f"All Components under '{main_cat}' Selected")
+                
+                # Iterate through all rows/components under this main category
+                for _, row in cat_df.iterrows():
+                    comp = row['component']
 
-                if select_all or st.checkbox(f"↳ {comp}", key=comp_key):
-                    selected_scope_tree.append(f"{main_cat} > {comp}")
-                    # selected_tests.append((comp, test_cases))  # preserve grouping
+                    # Split the test_case string into a clean list (by newline or comma)
+                    test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()]
+                    
+                    # Store as a tuple to keep track of which test cases belong to which component
+                    selected_tests.append((comp, test_cases))
+
+            # If user is manually selecting components one by one...
+            else:
+                for _, row in cat_df.iterrows():
+                    comp = row['component']
+
+                    # Prepare test cases (split + strip like above)
+                    test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()]
+                    
+                    # Create a unique key to persist checkbox state
+                    comp_key = f"{main_cat}_{comp}"
+
+                    # If this specific component is checked...
+                    if st.checkbox(f"↳ {comp}", key=comp_key):
+                        # Add to scope tree as "Main > Component"
+                        selected_scope_tree.append(f"{main_cat} > {comp}")
+
+                        # Track associated test cases
+                        selected_tests.append((comp, test_cases))
+
 
 grouped_tests = defaultdict(set)
 for comp, test_list in selected_tests:
