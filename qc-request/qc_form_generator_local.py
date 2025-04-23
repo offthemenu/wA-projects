@@ -37,9 +37,9 @@ selected_regions = st.multiselect(
 if "All Regions" in selected_regions:
     selected_regions = ["All Regions"]
 version = st.text_input("Version", placeholder="ex) v4.0.0_0")
-task_name = st.selectbox("Task Name", sorted(df_project['project_name'].unique().tolist() + ["Other"]))
-if task_name == "Other":
-    task_name = st.text_input("Enter a new task name")
+# task_name = st.selectbox("Task Name", sorted(df_project['project_name'].unique().tolist() + ["Other"]))
+# if task_name == "Other":
+#     task_name = st.text_input("Enter a new task name")
 test_env = st.selectbox("Test Environment", ["Staging", "Production", "Live"])
 
 # 2. Type Info
