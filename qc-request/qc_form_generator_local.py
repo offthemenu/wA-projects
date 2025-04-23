@@ -3,10 +3,10 @@ import pandas as pd
 from datetime import date
 from collections import defaultdict
 
-# Run with: streamlit run qc-request/qc_form_generator.py
+# Run with: streamlit run qc_form_generator_local.py
 
-# Load test case dataset
-df = pd.read_csv("qc-request/data/processed/processed_KOCOWA_4.0_tc_connectedTV.csv")
+# For running local
+df = pd.read_csv("data/processed/processed_KOCOWA_4.0_tc_connectedTV.csv")
 
 # Define available devices
 available_devices = ['Android Mobile', 'Apple Mobile', 'Android TV', 'Apple TV', 'Fire TV', 'Roku', 'Web', 'Smart TV', 'Vizio TV']
@@ -132,7 +132,7 @@ for main_cat in sorted(grouped_scope):
     for item in grouped_scope[main_cat]:
         development_scope_formatted += f"{item}<br>\n"
     development_scope_formatted += "<br>\n"  # line break between sections
-
+    
 # --- Generate Output ---
 st.subheader("Generated QC Request Form")
 if st.button("Generate QC Form"):
