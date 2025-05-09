@@ -3,9 +3,9 @@ KOCOWA 4.0,Content Details,Bookmarked Button,"Bookmarked Button 확인
 Bookmarked Button icon 확인
 Bookmarked Button focus 시 UI 확인
 Bookmarked Button 선택 시 동작 확인
-Bookmarked Button 기능 확인",True,True,True,True,False,False,False,True,True
+Bookmarked Button 기능 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Cast Section,"title text 확인
-Content Cast 확인",True,True,True,True,False,False,False,True,True
+Content Cast 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Continue Watching Button,"Continue Watching Button 확인
 Continue Watching Button icon 확인
 Continue Watching Button stringset 확인
@@ -14,7 +14,7 @@ User Watching History 조회 확인
 Continue Watching Button focus 시 UI 확인
 Continue Watching Button 선택 시 동작 확인
 Continue Watching Button 기능 확인
-Continue Watching Button 노출 여부 확인",True,True,True,True,False,False,False,True,True
+Continue Watching Button 노출 여부 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Details Section,"Content Released Year 확인
 Genre text 확인
 Division Line 확인
@@ -26,9 +26,9 @@ item counter 노출 여부 확인
 Running Time text 확인
 Running Time text Stringset 확인
 Continue Watching Time text 확인
-Continue Watching Time text Stringset 확인",True,True,True,True,False,False,False,True,True
+Continue Watching Time text Stringset 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Director Section,"title text 확인
-Content Cast 확인",True,True,True,True,False,False,False,True,True
+Content Cast 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Episodes List Screen,"Sorting Button 확인
 Sorting Button stringset 확인
 Sorting Button focus 시 UI 확인
@@ -64,12 +64,12 @@ Cast 생략 확인
 synopsis 확인
 synopsis Max Line 확인
 synopsis 생략 확인
-Episode 미노출 확인",True,True,True,True,False,False,False,True,True
+Episode 미노출 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Favorites Button,"Favorites Button 확인
 Favorites Button icon 확인
 Favorites Button focus 시 UI 확인
 Favorites Button 선택 시 동작 확인
-Favorites Button 기능 확인",True,True,True,True,False,False,False,True,True
+Favorites Button 기능 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Information Section,"Content Name 생략 확인
 Comma 확인
 Image 형태의 Series Content Name 확인
@@ -82,26 +82,26 @@ Content name text 확인
 synopsis 확인
 title text 확인
 Content Genre 확인
-Comma 확인",True,True,True,True,False,False,False,True,True
+Comma 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,LIKE Button,"LIKE Button icon 확인
 LIKE Button focus 시 UI 확인
 LIKE Button 선택 시 동작 확인
-LIKE Button 기능 확인",True,True,True,True,False,False,False,True,True
+LIKE Button 기능 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,LIKED Button,"LIKED Button 확인
 LIKED Button icon 확인
 LIKED Button focus 시 UI 확인
 LIKED Button 선택 시 동작 확인
-LIKED Button 기능 확인",True,True,True,True,False,False,False,True,True
+LIKED Button 기능 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,More Like This Screen,"poster image 확인
 poster image focus 시 UI 확인
 poster image 기능 확인
-poster image 갯수 확인",True,True,True,True,False,False,False,True,True
+poster image 갯수 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Progress Bar Area,"Progress Bar Area 노출 여부 확인
 Progress Bar Area 확인
 Progress Bar 확인
 Filled Progress Bar UI 확인
 Left Time 확인
-Left Time stringset 확인",True,True,True,True,False,False,False,True,True
+Left Time stringset 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Rating Section,"Rating icon 확인
 Content Rating icon 확인
 TV-Y Rating icon 확인
@@ -130,18 +130,18 @@ PG-13 Rating icon 확인
 TV-14 Rating icon 확인
 R Rating icon 확인
 TV-MA Rating icon 확인
-NC-17 Rating icon 확인",True,True,True,True,False,False,False,True,True
+NC-17 Rating icon 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Released Year Section,"title text 확인
-Content Cast 확인",True,True,True,True,False,False,False,True,True
+Content Cast 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Running Time Section,"title text 확인
-Running Time text Stringset 확인",True,True,True,True,False,False,False,True,True
+Running Time text Stringset 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Series Detailed Page,"리모컨 위 방향키 입력 시 동작 확인
 리모컨 아래 방향키 입력 시 동작 확인
 리모컨 좌측 방향키 입력 시 동작 확인
 리모컨 우측 방향키 입력 시 동작 확인
 리모컨 취소 버튼 입력 시 동작 확인
 Default Setting 확인
-Background image 확인",True,True,True,True,False,False,False,True,True
+Background image 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Sorting POP UP,"Background image 확인
 Newest Button 확인
 Newest Button stringset 확인
@@ -152,7 +152,7 @@ Oldest Button 확인
 Oldest Button stringset 확인
 Oldest Button focus 시 UI 확인
 Oldest Button 선택 시 동작 확인
-Oldest Button 기능 확인",True,True,True,True,False,False,False,True,True
+Oldest Button 기능 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Subtitle Section,"title text 확인
 Comma 노출 확인
 Content Subtitle stringset 확인
@@ -178,12 +178,12 @@ Spanish Subtitle stringset 확인
 Chinese Subtitle 확인
 Chinese Subtitle stringset 확인
 Vietnamese Subtitle 확인
-Vietnamese Subtitle stringset 확인",True,True,True,True,False,False,False,True,True
+Vietnamese Subtitle stringset 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Synopsis Section,"Synopsis text 확인
 Max line 적용 확인
 Synopsis text 생략 여부 확인
 synopsis Inform message text 확인
-synopsis Inform message text stringset 확인",True,True,True,True,False,False,False,True,True
+synopsis Inform message text stringset 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Tab Menu Area,"Tab Menu focus 시 UI 확인
 Tab Menu focus 시 동작 확인
 Episodes Tab Menu 확인
@@ -200,7 +200,7 @@ Show Info Tab Menu 선택 시 동작 확인
 More Like This Tab Menu 확인
 More Like This Tab Menu stringset 확인
 More Like This Tab Menu 선택 시 동작 확인
-More Like This Tab Menu 기능 확인",True,True,True,True,False,False,False,True,True
+More Like This Tab Menu 기능 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Trailers and more List Screen,"thumbnail image 확인
 thumbnail image focus 시 UI 확인
 thumbnail image 기능 확인
@@ -211,21 +211,21 @@ Progress Bar 노출 여부 확인
 Content Name text 확인
 Content Name text stringset 확인
 Content Name text stringset 확인
-Content Name text stringset 확인",True,True,True,True,False,False,False,True,True
+Content Name text stringset 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Watch Button,"Watch Button 확인
 Watch Button stringset 확인
 MOVIE Content일 시 Watch Button stringset 확인
 Watch Button focus 시 UI 확인
 Watch Button 기능 확인
-Watch Button 노출 여부 확인",True,True,True,True,False,False,False,True,True
+Watch Button 노출 여부 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Watch Next Episode Button,"Watch Next Episode Button 확인
 Watch Next Episode Button stringset 확인
 Episode Numbering 확인
 Watch Next Episode Button focus 시 UI 확인
 Watch Next Episode Button 선택 시 동작 확인
-Watch Next Episode Button 기능 확인",True,True,True,True,False,False,False,True,True
+Watch Next Episode Button 기능 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Content Details,Writer Section,"title text 확인
-Content Cast 확인",True,True,True,True,False,False,False,True,True
+Content Cast 확인",True,True,True,True,True,True,True,True,True
 KOCOWA 4.0,Drama Channel Page,Content List Area,"Scroll Down 동작 확인
 Scroll Up 동작 확인
 poster image 확인
