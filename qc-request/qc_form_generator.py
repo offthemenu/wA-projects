@@ -47,7 +47,7 @@ st.subheader("Type & Metadata")
 qc_type = st.selectbox("Type for QC", ["New", "Bug Fix", "Routine", "Other"])
 qc_round = st.selectbox("Round", list(range(1, 11)))
 urgency = st.selectbox("Urgency Level", ["Normal", "Urgent"])
-reference_doc = st.text_input("Reference Document (URL)", placeholder="Link to the relevant Zeplin Dashboard")
+reference_doc = st.text_input("Reference Document (URL)", placeholder="Link to the relevant Zeplin Page Reference or Dashboard")
 
 # 3. Scope of Development & Tests
 st.subheader("Scope of Development")
@@ -70,7 +70,7 @@ if target_qc != "Select a device...":
             # If user checks the "Select all components" box for this main category...
             if select_all:
                 # Add a simplified message instead of listing every component individually
-                selected_scope_tree.append(f"All Components under '{main_cat}' Selected\n")
+                selected_scope_tree.append(f"All Components under '{main_cat}'\n")
                 
                 # Iterate through all rows/components under this main category
                 for _, row in cat_df.iterrows():
@@ -94,7 +94,7 @@ if target_qc != "Select a device...":
                     comp_key = f"{main_cat}_{comp}"
 
                     # If this specific component is checked...
-                    if st.checkbox(f"↳ {comp}", key=comp_key):
+                    if st.checkbox(f"{comp}", key=comp_key):
                         # Add to scope tree as "Main > Component"
                         selected_scope_tree.append(f"{main_cat} > {comp}")
 
@@ -132,7 +132,7 @@ for main_cat in sorted(grouped_scope):
     for item in grouped_scope[main_cat]:
         development_scope_formatted += f"{item}<br>\n"
     development_scope_formatted += "<br>\n"  # line break between sections
-
+    
 # --- Generate Output ---
 st.subheader("Generated QC Request Form")
 if st.button("Generate QC Form"):
