@@ -74,7 +74,7 @@ if target_qc != "Select a device...":
                 
                 # Iterate through all rows/components under this main category
                 for _, row in cat_df.iterrows():
-                    comp = row['component']
+                    comp = row['scope_of_dev']
 
                     # Split the test_case string into a clean list (by newline or comma)
                     test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()]
@@ -85,7 +85,7 @@ if target_qc != "Select a device...":
             # If user is manually selecting components one by one...
             else:
                 for _, row in cat_df.iterrows():
-                    comp = row['component']
+                    comp = row['scope_of_dev']
 
                     # Prepare test cases (split + strip like above)
                     test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()]
