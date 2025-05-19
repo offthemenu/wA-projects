@@ -342,23 +342,23 @@ Sign In Page,Password input Area,Validation,Sign In Page>Password input Area>Val
 Sign In Page,Password input Area,Validation,Sign In Page>Password input Area>Validation,Password Limit Error message text 확인,"""Your password must contain<br>6-20 characters."" text 출력된다",UNTESTED,UNTESTED,UNTESTED,UNTESTED
 Sign In Page,Password input Area,Validation,Sign In Page>Password input Area>Validation,Password Limit Error message text UI 확인,Password Limit Error message text 빨간색으로 강조되어 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
 Sign In Page,Password input Area,Validation,Sign In Page>Password input Area>Validation,Password Limit Error message text 동작 확인,Password Limit Error message text 사라진다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-Sign In Page,Function Area,Forgot Password Button,Sign In Page>Function Area>Forgot Password Button,Forgot Password Button 확인,Forgot Password Button 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-Sign In Page,Function Area,Forgot Password Button,Sign In Page>Function Area>Forgot Password Button,Forgot Password Button stringset 확인,"""Forgot Password"" text 출력된다",UNTESTED,UNTESTED,UNTESTED,UNTESTED
-Sign In Page,Function Area,Forgot Password Button,Sign In Page>Function Area>Forgot Password Button,Forgot Password text Button focus 시 UI 확인,Forgot password Button 강조되어 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-Sign In Page,Function Area,Forgot Password Button,Sign In Page>Function Area>Forgot Password Button,Forgot Password text Button 기능 확인,Forgot Password Page 진입된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-Sign In Page,Function Area,,Sign In Page>Function Area,Sign In Button 확인,"""Sign In"" Button 노출된다",UNTESTED,UNTESTED,UNTESTED,UNTESTED
-Sign In Page,Function Area,,Sign In Page>Function Area,Sign In Button UI 확인,Sign In Button Dimmed 처리되어 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-Sign In Page,Function Area,,Sign In Page>Function Area,Sign In Button focus 시 UI 확인,Sign In Button 강조되어 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-Sign In Page,Function Area,,Sign In Page>Function Area,Sign In Button 선택 시 동작 확인,계정 정보 유효성 검사 동작한다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-Sign In Page,Function Area,,Sign In Page>Function Area,Sign In Button 기능 확인,Sign In 동작한다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-Sign In Page,Function Area,Validation,Sign In Page>Function Area>Validation,Email 미입력 시 Sign In Button 기능 확인,Absence Email Message 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-Sign In Page,Function Area,Validation,Sign In Page>Function Area>Validation,At 미입력 시 Sign In Button 기능 확인,Inavalid Email Message 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-Sign In Page,Function Area,Validation,Sign In Page>Function Area>Validation,Domain 미입력 시 Sign In Button 기능 확인,Inavalid Email Message 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-Sign In Page,Function Area,Validation,Sign In Page>Function Area>Validation,Password 미입력 시 Sign In Button 기능 확인,Absence Password Message 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-Sign In Page,Function Area,Validation,Sign In Page>Function Area>Validation,Invalid Password 입력 시 Sign In Button 기능 확인,Invalid Password Message 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-Sign In Page,Function Area,Validation,Sign In Page>Function Area>Validation,비유효 Password 입력 시 Sign In Button 기능 확인,Incorrect Password Message 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-Sign In Page,Function Area,Validation,Sign In Page>Function Area>Validation,Social 계정 정보 입력 시 Sign In Button 기능 확인,SNS LINK POP UP 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-Sign In Page,Function Area,Validation,Sign In Page>Function Area>Validation,유효한 계정 정보 입력 시 Sign In Button 기능 확인,Multi-Profile Main Page 진입된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+Sign In Page,Functional Area,Forgot Password Button,Sign In Page>Functional Area>Forgot Password Button,Forgot Password Button 확인,Forgot Password Button 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+Sign In Page,Functional Area,Forgot Password Button,Sign In Page>Functional Area>Forgot Password Button,Forgot Password Button stringset 확인,"""Forgot Password"" text 출력된다",UNTESTED,UNTESTED,UNTESTED,UNTESTED
+Sign In Page,Functional Area,Forgot Password Button,Sign In Page>Functional Area>Forgot Password Button,Forgot Password text Button focus 시 UI 확인,Forgot password Button 강조되어 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+Sign In Page,Functional Area,Forgot Password Button,Sign In Page>Functional Area>Forgot Password Button,Forgot Password text Button 기능 확인,Forgot Password Page 진입된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+Sign In Page,Functional Area,,Sign In Page>Functional Area,Sign In Button 확인,"""Sign In"" Button 노출된다",UNTESTED,UNTESTED,UNTESTED,UNTESTED
+Sign In Page,Functional Area,,Sign In Page>Functional Area,Sign In Button UI 확인,Sign In Button Dimmed 처리되어 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+Sign In Page,Functional Area,,Sign In Page>Functional Area,Sign In Button focus 시 UI 확인,Sign In Button 강조되어 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+Sign In Page,Functional Area,,Sign In Page>Functional Area,Sign In Button 선택 시 동작 확인,계정 정보 유효성 검사 동작한다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+Sign In Page,Functional Area,,Sign In Page>Functional Area,Sign In Button 기능 확인,Sign In 동작한다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+Sign In Page,Functional Area,Validation,Sign In Page>Functional Area>Validation,Email 미입력 시 Sign In Button 기능 확인,Absence Email Message 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+Sign In Page,Functional Area,Validation,Sign In Page>Functional Area>Validation,At 미입력 시 Sign In Button 기능 확인,Inavalid Email Message 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+Sign In Page,Functional Area,Validation,Sign In Page>Functional Area>Validation,Domain 미입력 시 Sign In Button 기능 확인,Inavalid Email Message 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+Sign In Page,Functional Area,Validation,Sign In Page>Functional Area>Validation,Password 미입력 시 Sign In Button 기능 확인,Absence Password Message 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+Sign In Page,Functional Area,Validation,Sign In Page>Functional Area>Validation,Invalid Password 입력 시 Sign In Button 기능 확인,Invalid Password Message 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+Sign In Page,Functional Area,Validation,Sign In Page>Functional Area>Validation,비유효 Password 입력 시 Sign In Button 기능 확인,Incorrect Password Message 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+Sign In Page,Functional Area,Validation,Sign In Page>Functional Area>Validation,Social 계정 정보 입력 시 Sign In Button 기능 확인,SNS LINK POP UP 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+Sign In Page,Functional Area,Validation,Sign In Page>Functional Area>Validation,유효한 계정 정보 입력 시 Sign In Button 기능 확인,Multi-Profile Main Page 진입된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
 Sign In Page,Social Sign In Area,,Sign In Page>Social Sign In Area,sub text 확인,"""Or"" text 출력된다",UNTESTED,UNTESTED,UNTESTED,UNTESTED
 Sign In Page,Social Sign In Area,,Sign In Page>Social Sign In Area,Division Line 확인,구분선 형태의 Division Line 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
 Sign In Page,Social Sign In Area,Google,Sign In Page>Social Sign In Area>Google,Google Sign In Button 확인,Google Sign In Button 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
@@ -417,17 +417,17 @@ QR Sign In Page,PIN Code Area,,QR Sign In Page>PIN Code Area,Countdown 만료 �
 QR Sign In Page,PIN Code Area,,QR Sign In Page>PIN Code Area,PIN Expiration Message text 확인,PIN Expiration Message text 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
 QR Sign In Page,PIN Code Area,,QR Sign In Page>PIN Code Area,PIN Expiration Message text stringset 확인,"""Your pin code has expired. Please try again with a new code."" text 출력된다",UNTESTED,UNTESTED,UNTESTED,UNTESTED
 QR Sign In Page,PIN Code Area,,QR Sign In Page>PIN Code Area,PIN Expiration Message text UI 확인,PIN Expiration text 빨간색으로 강조되어 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-QR Sign In Page,Function Area,,QR Sign In Page>Function Area,Refresh Button 확인,Refresh Button 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-QR Sign In Page,Function Area,,QR Sign In Page>Function Area,Refresh Button stringset 확인,"""Get a New PIN Code"" text 출력된다",UNTESTED,UNTESTED,UNTESTED,UNTESTED
-QR Sign In Page,Function Area,,QR Sign In Page>Function Area,Refresh Button UI 확인,Refresh Button Dimmed 처리되어 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-QR Sign In Page,Function Area,,QR Sign In Page>Function Area,Dimmed Refresh Button 선택 가능 여부 확인,focus 이동하지 않는다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-QR Sign In Page,Function Area,,QR Sign In Page>Function Area,Refresh Button focus 시 UI 확인,Refresh Button 흰색으로 강조되어 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-QR Sign In Page,Function Area,,QR Sign In Page>Function Area,Refresh Button 선택 시 동작 확인,PIN Code 변경된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-QR Sign In Page,Function Area,,QR Sign In Page>Function Area,Refresh Button 기능 확인,Countdown 재가동한다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-QR Sign In Page,Function Area,,QR Sign In Page>Function Area,Back Button 확인,Back Button 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-QR Sign In Page,Function Area,,QR Sign In Page>Function Area,Back Button stringset 확인,"""Back"" text 출력된다",UNTESTED,UNTESTED,UNTESTED,UNTESTED
-QR Sign In Page,Function Area,,QR Sign In Page>Function Area,Back Button focus 시 UI 확인,Back Button 흰색으로 강조되어 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
-QR Sign In Page,Function Area,,QR Sign In Page>Function Area,Back Button 기능 확인,이전 화면으로 이동한다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+QR Sign In Page,Functional Area,,QR Sign In Page>Functional Area,Refresh Button 확인,Refresh Button 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+QR Sign In Page,Functional Area,,QR Sign In Page>Functional Area,Refresh Button stringset 확인,"""Get a New PIN Code"" text 출력된다",UNTESTED,UNTESTED,UNTESTED,UNTESTED
+QR Sign In Page,Functional Area,,QR Sign In Page>Functional Area,Refresh Button UI 확인,Refresh Button Dimmed 처리되어 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+QR Sign In Page,Functional Area,,QR Sign In Page>Functional Area,Dimmed Refresh Button 선택 가능 여부 확인,focus 이동하지 않는다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+QR Sign In Page,Functional Area,,QR Sign In Page>Functional Area,Refresh Button focus 시 UI 확인,Refresh Button 흰색으로 강조되어 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+QR Sign In Page,Functional Area,,QR Sign In Page>Functional Area,Refresh Button 선택 시 동작 확인,PIN Code 변경된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+QR Sign In Page,Functional Area,,QR Sign In Page>Functional Area,Refresh Button 기능 확인,Countdown 재가동한다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+QR Sign In Page,Functional Area,,QR Sign In Page>Functional Area,Back Button 확인,Back Button 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+QR Sign In Page,Functional Area,,QR Sign In Page>Functional Area,Back Button stringset 확인,"""Back"" text 출력된다",UNTESTED,UNTESTED,UNTESTED,UNTESTED
+QR Sign In Page,Functional Area,,QR Sign In Page>Functional Area,Back Button focus 시 UI 확인,Back Button 흰색으로 강조되어 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
+QR Sign In Page,Functional Area,,QR Sign In Page>Functional Area,Back Button 기능 확인,이전 화면으로 이동한다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
 Initial Page,,,Initial Page,Background image 확인,Background image 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
 Initial Page,,,Initial Page,KOCOWA logo 확인,KOCOWA logo 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
 Initial Page,,,Initial Page,title text 확인,title text 노출된다,UNTESTED,UNTESTED,UNTESTED,UNTESTED
