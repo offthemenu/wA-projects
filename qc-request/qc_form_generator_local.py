@@ -7,6 +7,7 @@ from collections import defaultdict
 
 # For running local
 df = pd.read_csv("data/processed/processed_KOCOWA_4.0_tc_connectedTV.csv")
+df.columns = df.columns.str.strip()
 
 # Define available devices
 available_devices = ['Android Mobile', 'Apple Mobile', 'Android TV', 'Apple TV', 'Fire TV', 'Roku', 'Web', 'Smart TV', 'Vizio TV']
