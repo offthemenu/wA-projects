@@ -60,47 +60,54 @@ if target_qc != "Select a device...":
     # Filter based on selected device
     df_filtered = df_project[df_project[target_qc] == True].copy()
 
-    for main_cat in sorted(df_filtered['main_category'].unique()):
-        with st.expander(main_cat):
-            cat_df = df_filtered[df_filtered['main_category'] == main_cat]
-            select_all = st.checkbox(
-                "✅ Select all components",
-                key=f"{main_cat}_select"
-            )
+    # Add this before the loop that iterates over main categories
+    global_select_all = st.checkbox("✅ Select ALL Components from ALL Categories (First QC Run)")
+    
+    if global_select_all:
+        for main_cat in sorted(df_filtered['main_category'].unique()):
+            selected_scope_tree.append(f"All Components under '{main_cat}'\n")
+    else:
+        for main_cat in sorted(df_filtered['main_category'].unique()):
+            with st.expander(main_cat):
+                cat_df = df_filtered[df_filtered['main_category'] == main_cat]
+                select_all = st.checkbox(
+                    "✅ Select all components",
+                    key=f"{main_cat}_select"
+                )
 
-            # If user checks the "Select all components" box for this main category...
-            if select_all:
-                # Add a simplified message instead of listing every component individually
-                selected_scope_tree.append(f"All Components under '{main_cat}'\n")
-                
-                # Iterate through all rows/components under this main category
-                for _, row in cat_df.iterrows():
-                    comp = row['scope_of_dev']
-
-                    # Split the test_case string into a clean list (by newline or comma)
-                    test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()]
+                # If user checks the "Select all components" box for this main category...
+                if select_all:
+                    # Add a simplified message instead of listing every component individually
+                    selected_scope_tree.append(f"All Components under '{main_cat}'\n")
                     
-                    # Store as a tuple to keep track of which test cases belong to which component
-                    selected_tests.append((comp, test_cases))
+                    # Iterate through all rows/components under this main category
+                    for _, row in cat_df.iterrows():
+                        comp = row['scope_of_dev']
 
-            # If user is manually selecting components one by one...
-            else:
-                for _, row in cat_df.iterrows():
-                    comp = row['scope_of_dev']
-
-                    # Prepare test cases (split + strip like above)
-                    test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()]
-                    
-                    # Create a unique key to persist checkbox state
-                    comp_key = f"{main_cat}_{comp}"
-
-                    # If this specific component is checked...
-                    if st.checkbox(f"{comp}", key=comp_key):
-                        # Add to scope tree as "Main > Component"
-                        selected_scope_tree.append(f"{main_cat} > {comp}")
-
-                        # Track associated test cases
+                        # Split the test_case string into a clean list (by newline or comma)
+                        test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()]
+                        
+                        # Store as a tuple to keep track of which test cases belong to which component
                         selected_tests.append((comp, test_cases))
+
+                # If user is manually selecting components one by one...
+                else:
+                    for _, row in cat_df.iterrows():
+                        comp = row['scope_of_dev']
+
+                        # Prepare test cases (split + strip like above)
+                        test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()]
+                        
+                        # Create a unique key to persist checkbox state
+                        comp_key = f"{main_cat}_{comp}"
+
+                        # If this specific component is checked...
+                        if st.checkbox(f"{comp}", key=comp_key):
+                            # Add to scope tree as "Main > Component"
+                            selected_scope_tree.append(f"{main_cat} > {comp}")
+
+                            # Track associated test cases
+                            selected_tests.append((comp, test_cases))
 
 
 grouped_tests = defaultdict(set)
