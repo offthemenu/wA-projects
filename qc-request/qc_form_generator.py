@@ -68,11 +68,6 @@ if target_qc != "Select a device...":
     if global_select_all:
         for main_cat in sorted(df_filtered['main_category'].unique()):
             selected_scope_tree.append(f"All Components under '{main_cat}'\n")
-            cat_df = df_filtered[df_filtered['main_category'] == main_cat]
-            for _, row in cat_df.iterrows():
-                comp = row['scope_of_dev']
-                test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()]
-                selected_tests.append((comp, test_cases))
     else:
         for main_cat in sorted(df_filtered['main_category'].unique()):
             with st.expander(main_cat):
