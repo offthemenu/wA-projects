@@ -60,12 +60,19 @@ if target_qc != "Select a device...":
     # Filter based on selected device
     df_filtered = df_project[df_project[target_qc] == True].copy()
 
-    # Add this before the loop that iterates over main categories
-    global_select_all = st.checkbox("✅ Select ALL Components from ALL Categories (First QC Run)")
+    global_select_all = False
+    if qc_round == 1:
+        # Add this before the loop that iterates over main categories
+        global_select_all = st.checkbox("✅ Select ALL Components from ALL Categories (First QC Run)")
     
     if global_select_all:
         for main_cat in sorted(df_filtered['main_category'].unique()):
             selected_scope_tree.append(f"All Components under '{main_cat}'\n")
+            cat_df = df_filtered[df_filtered['main_category'] == main_cat]
+            for _, row in cat_df.iterrows():
+                comp = row['scope_of_dev']
+                test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()]
+                selected_tests.append((comp, test_cases))
     else:
         for main_cat in sorted(df_filtered['main_category'].unique()):
             with st.expander(main_cat):
