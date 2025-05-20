@@ -46,7 +46,7 @@ test_env = st.selectbox("Test Environment", ["Staging", "Production", "Live"])
 # 2. Type Info
 st.subheader("Type & Metadata")
 qc_type = st.selectbox("Type for QC", ["New", "Bug Fix", "Routine", "Other"])
-qc_round = st.selectbox("Round", list(range(1, 11)))
+qc_round = st.selectbox("Round", list(range(1, 7)))
 urgency = st.selectbox("Urgency Level", ["Normal", "Urgent"])
 reference_doc = st.text_input("Reference Document (URL)", placeholder="Link to the relevant Zeplin Page Reference or Dashboard")
 
