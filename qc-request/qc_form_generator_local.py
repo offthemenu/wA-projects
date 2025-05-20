@@ -161,7 +161,7 @@ if st.button("Generate QC Form"):
             <tr><td>Urgency Level</td><td>{urgency}</td></tr>
             <tr><td>Reference Document</td><td>{reference_doc}</td></tr>
             <tr><td>Scope of Development</td><td>{development_scope_formatted}</td></tr>
-            <tr><td>Excluded from Tests</td><td>**해당사항은 직접 기입해주시기 바랍니다.**</td></tr>
+            <tr><td>Excluded from Tests</td><td>**해당 시 직접 기입해주시기 바랍니다.**</td></tr>
         </table>
         """
         st.markdown(html_output, unsafe_allow_html=True)
