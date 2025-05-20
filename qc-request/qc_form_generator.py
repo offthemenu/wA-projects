@@ -150,18 +150,18 @@ if st.button("Generate QC Form"):
         html_output = f"""
         <table>
             <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>Request Date</td><td>{request_date}</td></tr>
-            <tr><td>Requester</td><td>{requester}</td></tr>
-            <tr><td>Target Device</td><td>{target_qc}</td></tr>
-            <tr><td>Region</td><td>{selected_regions}</td></tr>
-            <tr><td>Version</td><td>{version}</td></tr>
-            <tr><td>Task Name</td><td>{selected_project}</td></tr>
-            <tr><td>Test Environment</td><td>{test_env}</td></tr>
-            <tr><td>Type for QC</td><td>{qc_type} Round {qc_round}</td></tr>
-            <tr><td>Urgency Level</td><td>{urgency}</td></tr>
-            <tr><td>Reference Document</td><td>{reference_doc}</td></tr>
-            <tr><td>Scope of Development</td><td>{development_scope_formatted}</td></tr>
-            <tr><td>Excluded from Tests</td><td>**해당 시 직접 기입해주시기 바랍니다.**</td></tr>
+            <tr><td valign="top">Request Date</td><td>{request_date}</td></tr>
+            <tr><td valign="top">Requester</td><td>{requester}</td></tr>
+            <tr><td valign="top">Target Device</td><td>{target_qc}</td></tr>
+            <tr><td valign="top">Region</td><td>{selected_regions}</td></tr>
+            <tr><td valign="top">Version</td><td>{version}</td></tr>
+            <tr><td valign="top">Task Name</td><td>{selected_project}</td></tr>
+            <tr><td valign="top">Test Environment</td><td>{test_env}</td></tr>
+            <tr><td valign="top">Type for QC</td><td>{qc_type} Round {qc_round}</td></tr>
+            <tr><td valign="top">Urgency Level</td><td>{urgency}</td></tr>
+            <tr><td valign="top">Reference Document</td><td>{reference_doc}</td></tr>
+            <tr><td valign="top">Scope of Development</td><td>{development_scope_formatted}</td></tr>
+            <tr><td valign="top">Excluded from Tests</td><td>**해당 시 직접 기입해주시기 바랍니다.**</td></tr>
         </table>
         """
         st.markdown(html_output, unsafe_allow_html=True)
