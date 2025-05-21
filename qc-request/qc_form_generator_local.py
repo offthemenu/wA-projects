@@ -49,6 +49,7 @@ qc_type = st.selectbox("Type for QC", ["New", "Bug Fix", "Routine", "Other"])
 qc_round = st.selectbox("Round", list(range(1, 11)))
 urgency = st.selectbox("Urgency Level", ["Normal", "Urgent"])
 reference_doc = st.text_input("Reference Document (URL)", placeholder="Link to the relevant Zeplin Page Reference or Dashboard")
+build_link = st.text_input("Build Download Link (URL)", placeholder="If applicable, please copy/paste the link to download the test build")
 
 # 3. Scope of Development & Tests
 st.subheader("Scope of Development")
@@ -167,6 +168,7 @@ if st.button("Generate QC Form"):
             <tr><td valign="top">Type for QC</td><td>{qc_type} Round {qc_round}</td></tr>
             <tr><td valign="top">Urgency Level</td><td>{urgency}</td></tr>
             <tr><td valign="top">Reference Document</td><td>{reference_doc}</td></tr>
+            <tr><td valign="top">Build Download Link</td><td>{build_link}</td></tr>
             <tr><td valign="top">Scope of Development</td><td>{development_scope_formatted}</td></tr>
             <tr><td valign="top">Excluded from Tests</td><td>**해당 시 직접 기입해주시기 바랍니다.**</td></tr>
         </table>
