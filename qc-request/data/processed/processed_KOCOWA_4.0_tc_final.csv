@@ -532,6 +532,179 @@ Scrolling 동작 시 UI 확인
 리모컨 좌측 방향키 입력 시 동작 확인
 리모컨 취소 버튼 입력 시 동작 확인
 리모컨 취소 버튼 입력 시 동작 확인",True,True,True,True,False,False,False,True,True
+KOCOWA 4.0,Get Started Page,FAQ's page > 1st Content,"Content Hover 시 UI 확인
+title text 확인
+title text stringset 확인
+title text UI 확인
+sub text 확인
+sub text stringset 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > 2nd Content,"Content Hover 시 UI 확인
+title text 확인
+title text stringset 확인
+title text UI 확인
+Samsung logo image 확인
+LG logo image 확인
+AppleTV logo image 확인
+GoogleTV logo image 확인
+ROKU logo image 확인
+VIZIO logo image 확인
+App Store logo image 확인
+Google Play logo image 확인
+Google Cast logo image 확인
+FireTV logo image 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > 3rd Content,"Content Hover 시 UI 확인
+title text 확인
+title text stringset 확인
+title text UI 확인
+sub text 확인
+sub text stringset 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > 4th Content,"Content Hover 시 UI 확인
+title text 확인
+title text stringset 확인
+title text UI 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+title text UI 확인
+Arrow icon 확인
+Arrow icon 확인
+Need Help Button 기능 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > 5th Content,"Content Hover 시 UI 확인
+title text 확인
+title text stringset 확인
+title text UI 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > Basic Annual Subscription Item,"통화 기호 확인
+Price text 확인
+Price text stringset 확인
+통화 코드 확인
+Per-Unit text 확인
+Per-Unit text stringset 확인
+Per-Unit text UI 확인
+Subscribe Button 확인
+Subscribe Button stringset 확인
+Subscribe Button UI 확인
+Subscribe Button 기능 확인
+Benefit guidance text 확인
+Benefit guidance text stringset 확인
+Benefit guidance text UI 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > Basic Benefit Informataion Area,"Profile Benefit icon 확인
+Profile Benefit text 확인
+Profile Benefit text stringset 확인
+Content Benefit icon 확인
+Content Benefit text 확인
+Content Benefit text stringset 확인
+Renewal Benefit icon 확인
+Renewal Benefit text 확인
+Renewal Benefit text stringset 확인
+Brief Ads Inform icon 확인
+Brief Ads Inform text 확인
+Brief Ads Inform text stringset 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > Basic Monthly Subscription Item,"통화 기호 확인
+Price text 확인
+Price text stringset 확인
+통화 코드 확인
+Per-Unit text 확인
+Per-Unit text stringset 확인
+Per-Unit text UI 확인
+Subscribe Button 확인
+Subscribe Button stringset 확인
+Subscribe Button UI 확인
+Subscribe Button 기능 확인
+Benefit guidance text 확인
+Benefit guidance text stringset 확인
+Benefit guidance text UI 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > Basic Subscription Section,"title text 확인
+title text stringset 확인
+title text UI 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > Footer Area,"title text 확인
+title text UI 확인
+Help Center 항목 확인
+Help Center text 확인
+Help Center Right Arrow icon 확인
+Help Center 항목 기능 확인
+Terms of Use 항목 확인
+Terms of Use Right Arrow icon 확인
+Terms of Use 항목 기능 확인
+Privacy Policy 항목 확인
+Privacy Policy Right Arrow icon 확인
+Privacy Policy 항목 기능 확인
+Privacy Policy (Europe) 항목 확인
+Privacy Policy (Europe) Right Arrow icon 확인
+Privacy Policy (Europe) 항목 기능 확인
+Privacy Policy (Oceania) 항목 확인
+Privacy Policy (Oceania) Right Arrow icon 확인
+Privacy Policy (Oceania) 항목 기능 확인
+Privacy Policy (Brazil) 항목 확인
+Privacy Policy (Brazil) Right Arrow icon 확인
+Privacy Policy (Brazil) 항목 기능 확인
+Ratings Guidelines 항목 확인
+Ratings Guidelines Right Arrow icon 확인
+Ratings Guidelines 항목 기능 확인
+title text 확인
+Corporate Information 항목 확인
+Corporate Information 항목 기능 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > Header,"Back icon 확인
+Back icon 기능 확인
+title text 출력 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > Minus Button,"Minus Button 확인
+Minus Button 선택 시 동작 확인
+Minus Button 기능 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > Plus Button,"Plus Button 확인
+Plus Button 선택 시 동작 확인
+Plus Button 기능 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > Premium Annual Subscription Item,"통화 기호 확인
+Price text 확인
+Price text stringset 확인
+통화 코드 확인
+Per-Unit text 확인
+Per-Unit text stringset 확인
+Per-Unit text UI 확인
+Subscribe Button 확인
+Subscribe Button stringset 확인
+Subscribe Button UI 확인
+Subscribe Button 기능 확인
+Benefit guidance text 확인
+Benefit guidance text stringset 확인
+Benefit guidance text UI 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > Premium Benefit Informataion Area,"Advertisement Benefit icon 확인
+Advertisement Benefit text 확인
+Advertisement Benefit text stringset 확인
+Profile Benefit icon 확인
+Profile Benefit text 확인
+Profile Benefit text stringset 확인
+Download Benefit icon 확인
+Download Benefit text 확인
+Download Benefit text stringset 확인
+Content Benefit icon 확인
+Content Benefit text 확인
+Content Benefit text stringset 확인
+Renewal Benefit icon 확인
+Renewal Benefit text 확인
+Renewal Benefit text stringset 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > Premium Monthly Subscription Item,"통화 기호 확인
+Price text 확인
+Price text stringset 확인
+통화 코드 확인
+Per-Unit text 확인
+Per-Unit text stringset 확인
+Per-Unit text UI 확인
+Subscribe Button 확인
+Subscribe Button stringset 확인
+Subscribe Button UI 확인
+Subscribe Button 기능 확인
+Benefit guidance text 확인
+Benefit guidance text stringset 확인
+Benefit guidance text UI 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > Premium Subscription Section,"title text 확인
+title text stringset 확인
+title text UI 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > sub text,"sub text stringset 확인
+sub text UI 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,FAQ's page > title text,"title text stringset 확인
+sub text 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,Functional Area > Downward indicator icon,"Downward indicator icon 노출 확인
+Scroll down",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Get Started Page,Functional Area > Free Trial Button,"Free Trial Button 확인
 Free Trial Button stringset 확인
 Free Trial Button focus 시 UI 확인
@@ -550,12 +723,50 @@ KOCOWA 4.0,Get Started Page,Functional Area > Sign In Button,"Sign In Button 확
 Sign In Button stringset 확인
 Sign In Button focus 시 UI 확인
 Sign In Button 기능 확인",True,True,True,True,False,False,False,True,True
+KOCOWA 4.0,Get Started Page,Functional Area > Sign In button,"Sign In button 노출 확인
+Scroll down
+Sign In button text 출력 확인
+Sign In button 선택",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,Functional Area > Sign up button,"Sign up button 노출 확인
+Scroll down
+Sign up button text 출력 확인
+Sign up button UI 확인
+Sign up button 선택",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Get Started Page,Functional Area > sub text,"sub text 노출 여부 확인
 sub text stringset 확인",True,True,True,True,False,False,False,True,True
+KOCOWA 4.0,Get Started Page,KOCOWA logo,"KOCOWA logo 확인
+Fix 동작 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,Menu POP UP > FAQ's Area,"title text 확인
+icon 노출 확인
+Division Line 노출 확인
+icon 기능 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,Menu POP UP > Home Area,"title text 확인
+icon 노출 확인
+Division Line 노출 확인
+icon 기능 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,Menu POP UP > Privacy policy Area,"title text 확인
+icon 노출 확인
+Division Line 노출 확인
+icon 기능 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,Menu POP UP > Terms of Use Area,"title text 확인
+icon 노출 확인
+Division Line 노출 확인
+icon 기능 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,Menu POP UP > help Center Area,"title text 확인
+icon 노출 확인
+icon 기능 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,Menu icon,"Menu icon 확인
+Fix 동작 확인
+Menu icon 기능 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Get Started Page,Offline Page > Functional Area,"OK Button 확인
 OK Button stringset 확인
 OK Button focus 시 UI 확인
 OK Button 기능 확인",True,True,True,True,False,False,False,True,True
+KOCOWA 4.0,Get Started Page,Perfect Starting Day For,"Background image 확인
+title text 확인
+sub text 확인
+sub text UI 확인
+poster image 노출 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Get Started Page,Privacy Policy Screen > Privacy Policy,"Privacy Policy 항목 확인
 Privacy Policy 항목 stringset 확인
 리모컨 우측 방향키 입력 시 동작 확인
@@ -612,6 +823,97 @@ Scroll Down 동작 가능 여부 확인
 text Paragraph 확인
 Scroll indicator 확인
 Scroll indicator 동작 확인",True,True,True,True,False,False,False,True,True
+KOCOWA 4.0,Get Started Page,Promotion text,"Promotion text 확인
+Promotion text UI 확인
+Promotion text stringset 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,Subscription Banner > title text,"title text 확인
+title text stringset 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,Subtitle Banner > Background,"Background image 확인
+Trailer image 노출 확인
+Content Subtitle 확인
+Content Subtitle UI 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,Subtitle Banner > Subtitle,"Content Subtitle 확인
+Content Subtitle UI 확인
+English Subtitle 확인
+English Subtitle 적용 확인
+Portuguese Subtitle 확인
+Portuguese Subtitle 적용 확인
+Spanish Subtitle 확인
+Spanish Subtitle 적용 확인
+Chinese Subtitle 확인
+Chinese Subtitle 적용 확인
+Vietnamese Subtitle 확인
+Vietnamese Subtitle 적용 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,Trending Now in Korea Area > Description Section,"Content Name 확인
+Content Name max line 확인
+Rating icon 확인
+Content Rating icon 확인
+International Content Rating icon 확인
+rating icon Division Line 노출 확인
+Released Year 확인
+Released Year stringset 확인
+Released Year Division Line 노출 확인
+Genre 확인
+Content Genre 확인
+Genre Division Line 노출 확인
+Item Counter 확인
+Item Counter stringset 확인
+다회차 편성 시 Item Counter stringset 확인
+Item Counter 동작 확인
+Item Counter 노출 여부 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,Trending Now in Korea Area > poster image,"poster image 확인
+poster image 구성 확인
+Language icon 노출 확인
+좌측 Swipe 동작 확인
+우측 Swipe 동작 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,Trending Now in Korea Area > title text,"title text 확인
+title text stringset 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,Trending Now in Korea info POP UP > Description Section,"Content Name 확인
+Content Name max line 확인
+Image 형태의 Series Content Name 확인
+Rating icon 확인
+Content Rating icon 확인
+International Content Rating icon 확인
+Rating icon Division Line 노출 확인
+Released Year 확인
+Released Year stringset 확인
+Released Year Division Line 노출 확인
+Genre 확인
+Content Genre 확인
+Genre Division Line 노출 확인
+Item Counter 확인
+Item Counter stringset 확인
+다회차 편성 시 Item Counter stringset 확인
+Item Counter 동작 확인
+Item Counter 노출 여부 확인
+language icon 노출 확인
+Content Subtitle 확인
+Content Subtitle stringset 확인
+delimiter 확인
+English Subtitle 확인
+English Subtitle stringset 확인
+Portuguese Subtitle 확인
+Portuguese Subtitle stringset 확인
+Spanish Subtitle 확인
+Spanish Subtitle stringset 확인
+Chinese Subtitle 확인
+Chinese Subtitle stringset 확인
+Vietnamese Subtitle 확인
+Vietnamese Subtitle stringset 확인
+synopsis text 확인
+synopsis text Max Line 확인
+synopsis text 생략 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,Trending Now in Korea info POP UP > Header,"Back icon 확인
+Back icon 기능 확인
+Menu icon 확인
+Menu icon 기능 확인
+Header scroll 시 고정 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,Trending Now in Korea info POP UP > poster image,"poster image 확인
+Language icon 노출 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,sub text,"sub text 확인
+sub text stringset 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Get Started Page,title text,"title text 확인
+title text stringset 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Home Main,Content List Area > Continue Watching Rail,"Continue Watching Rail 노출 여부 확인
 Content 1개 재생 시 Continue Watching Rail 노출 여부 확인
 Content 3종 재생 시 Continue Watching Rail 노출 여부 확인
@@ -1058,8 +1360,13 @@ KOCOWA 4.0,My KOCOWA,History Tab Screen > information icon,"Information icon 확
 Information icon 기능 확인",False,False,False,False,True,False,False,False,False
 KOCOWA 4.0,My KOCOWA Page,Download Screen > Bottom Toast POP UP,"Share 항목 확인
 Share icon 확인
-Share 항목 기능 확인
-Share 항목 선택 시 동작 확인",False,False,False,False,False,True,True,False,False
+Share 항목 기능 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,My KOCOWA Page,Download Screen > Download List Area,"Content Series poster image 확인
+Content Series poster 내 지구본 icon 확인
+Content Series title text 확인
+Content Series title text 구분 동작 확인
+Content Series title text 말줄임표 확인
+Content Episodes text 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,My KOCOWA Page,Download Screen > Empty Screen,"title text 확인
 sub text 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,My KOCOWA Page,Download Screen > Series Episode List Page,"Episode title text 확인
@@ -1070,7 +1377,10 @@ Capacity text 확인
 Capacity text 확인
 Clock image 확인
 Available viewing date text 확인
-Available viewing date UI 확인",False,False,False,False,False,True,True,False,False
+Available viewing date UI 확인
+Content Series Sub text 확인
+Content Series Sub text 구분 동작 확인
+Content Series Sub text 말줄임표 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,My KOCOWA Page,Download Screen > Share POP UP,"Home Indicator 확인
 Instagram Storiesg Button 확인
 Instagram Storiesg title text 노출 확인
@@ -1101,6 +1411,8 @@ Open Spotify Link 확인
 우측 Rolling 동작 확인
 우측 Rolling 동작 불가 여부 확인
 좌측 Rolling 동작 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,My KOCOWA Page,Download Screen > View More,"View More icon 확인
+View More icon 기능 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,My KOCOWA Page,Favorite Content List Area > Delete Favorite POP UP,"title text 확인
 title text stringset 확인
 sub text 확인
@@ -1116,51 +1428,64 @@ KOCOWA 4.0,My KOCOWA Page,Favorite Content List Area > Empty Screen,"Speech Bubb
 sub text 확인",True,True,True,True,False,False,False,True,True
 KOCOWA 4.0,My KOCOWA Page,Favorite Screen > Empty Screen,"Empty image 확인
 sub text 확인",False,False,False,False,False,True,True,False,False
-KOCOWA 4.0,My KOCOWA Page,Header,"Casting icon 확인
-Favorites Tab 확인
-History Tab 확인
-Download Tab 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,My KOCOWA Page,History Screen > Bottom Toast POP UP,"Share 항목 확인
+Share icon 확인
+Share 항목 기능 확인
+Share 항목 선택 시 동작 확인
+information 항목 확인
+information icon 확인
+information 항목 기능 확인
+information 항목 선택 시 동작 확인
+information 항목 확인
+Delete 항목 확인
+Delete icon 확인
+Delete 항목 기능 확인
+Delete 항목 선택 시 동작 확인
+Delete 항목 선택 시 동작 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,My KOCOWA Page,History Screen > Delete All,"Delete All text 확인
+Delete All text 확인
+Delete All text 확인
+Delete All text 확인
+Delete All text 확인
+Delete All text 확인
+Delete All text 확인
+Delete All text 확인
+Delete All text 확인
+Delete All text 확인
+Delete All text 확인
+Delete All text 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,My KOCOWA Page,History Screen > Empty Screen,"Empty image 확인
 sub text 확인",False,False,False,False,False,True,True,False,False
-KOCOWA 4.0,My KOCOWA Page,History Screen > Episode Information POP UP,"Scroll Down 동작 확인
-Scroll Up 동작 확인
-Scroll Up 동작 불가 여부 확인
-Scroll Down 동작 불가 여부 확인
-Episode Background image 확인
-Content Background image 확인
-Close Button 확인
-Close Button 기능 확인
-title text 확인
-Sub text 확인
-Content Sub text 출력 여부 확인
-Movie content Sub text 출력 여부 확인
-Rating icon 확인
-Content Rating icon 확인
-Division Line 확인
-Content Released Year 확인
-Division Line 확인
-Content Genre 확인
-Division Line 확인
-Screen Time text 확인
-Screen Time text 노출 여부 확인
-Episode Numbering text 확인
-Subtitles text 확인
-Content Subtitle 확인
-delimiter 확인
-English Subtitle 확인
-English Subtitle stringset 확인
-Portuguese Subtitle 확인
-Portuguese Subtitle stringset 확인
-Spanish Subtitle 확인
-Spanish Subtitle stringset 확인
-Chinese Subtitle 확인
-Chinese Subtitle stringset 확인
-Vietnamese Subtitle 확인
-Vietnamese Subtitle stringset 확인
-Cast text 확인
-Content Cast 확인
-synopsis text 확인
-장문의 synopsis text 노출 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,My KOCOWA Page,History Screen > Share POP UP,"Home Indicator 확인
+Instagram Storiesg Button 확인
+Instagram Storiesg title text 노출 확인
+Instagram Storiesg text stringset 확인
+Instagram Storiesg Button 기능 확인
+Facebook Button 확인
+Facebook title text 노출 확인
+Facebook text stringset 확인
+Facebook Button 기능 확인
+Twitter Button 확인
+Twitter title text 노출 확인
+Twitter text stringset 확인
+Twitter Button 기능 확인
+Copy to URL Button 확인
+Copy to URL title text 노출 확인
+Copy to URL text stringset 확인
+Copy to URL Button 기능 확인
+Copy to URL Button 선택 시 동작 확인
+URL copied toast POP UP title text 노출 확인
+URL copied toast POP UP text stringset 노출 확인
+Auto Close 동작 확인
+More Button 확인
+More title text 노출 확인
+More text stringset 확인
+More Button 기능 확인
+Open Spotify Link 확인
+좌측 Rolling 동작 불가 여부 확인
+우측 Rolling 동작 확인
+우측 Rolling 동작 불가 여부 확인
+좌측 Rolling 동작 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,My KOCOWA Page,History Screen > View More,"View More icon 확인
 View More icon 기능 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,My KOCOWA Page,History Screen > Viewing History List Area,"Content Series title text 확인
@@ -1184,6 +1509,12 @@ Cancle Button stringset 확인
 Cancle Button 기능 확인",True,True,True,True,False,False,False,True,True
 KOCOWA 4.0,My KOCOWA Page,My Watch History List Area > Empty Screen,"Speech Bubble image 확인
 sub text 확인",True,True,True,True,False,False,False,True,True
+KOCOWA 4.0,PLAN Page,Basic Category,"title text 확인
+Bullet point 확인
+Advertisement benefit text 확인
+Profile benefit text 확인
+Content benefit text 확인
+Renewal benefit text 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,PLAN Page,Option List Area > Premium Annual,"sub text 확인
 title text 확인
 Original Price text 확인
@@ -1213,11 +1544,86 @@ QR Code URL 노출 확인
 Subscription item 결제 완료 시 동작 확인
 Check icon 확인
 User Status text 확인",True,True,True,True,False,False,False,True,True
+KOCOWA 4.0,PLAN Page,Premium Category,"title text 확인
+Bullet point 확인
+Advertisement benefit text 확인
+Profile benefit text 확인
+Download benefit text 확인
+Content benefit text 확인
+Renewal benefit text 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,PLAN Page,Subscription Category Area > Information Area,"Information text 확인
 My Account text UI 확인
 Account text UI 확인
 KOCOWA+ website or mobile apps. text UI 확인",True,True,True,True,False,False,False,True,True
+KOCOWA 4.0,Payment Page,Billing History Area > Header,"Date Sorting text 확인
+Item Sorting text 확인
+Price Sorting text 확인
+Payment Sorting text 확인
+Division Line 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Payment Page,Billing History Area > Purchase List,"결제 이력 없을 시 UI 확인
+guideliness text 확인
+User Purchase Date text 확인
+Purchase Date text 확인
+User Purchase item Name text 확인
+User Purchase item Name max line 확인
+User Purchase item Name 말줄임 확인
+Item Price 통화 코드 확인
+Item Price 확인
+App 결제 시 Price text 노출 여부 확인
+Payment text 확인
+AOS 결제 시 Payment text 확인
+iOS 결제 시 Payment text 확인
+Web 결제 시 Payment text 확인
+Roku 결제 시 Payment text 확인
+Amazon 결제 시 Payment text 확인
+Vizio 결제 시 Payment text 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Payment Page,My Subscription Area > Cancel - Resume Button,"Cancel - Resume Button 노출 확인
+Mobile 결제 Cancel - Resume Button 기능 확인
+Web 결제 Cancel - Resume Button 기능 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Payment Page,My Subscription Area > Cancel Plan Button,"Cancel Plan Button 확인
+Cancel Plan Button 노출 여부 확인
+Cancel Plan Button 기능 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Payment Page,My Subscription Area > Current Subscription Section,"Subscription Information Box 확인
+미결제 시 Subscription text 확인
+item Name text 확인
+Basic Monthly 결제 시 item Name text 확인
+Basic Annual 결제 시 item Name text 확인
+Premium Monthly 결제 시 item Name text 확인
+Premium Annual 결제 시 item Name text 확인
+item Description text 노출 여부 확인
+Next Billing Date text 확인
+User Next Billing Date 확인
+User Next Billing Time 확인
+User Next Billing Time 국가 코드 확인
+User Next Billing Time Zone 확인
+Next Billing Date Local Time 적용 확인
+Valid Date text 확인
+User Valid Date 확인
+User Valid Date Time 확인
+User Valid Date Time 국가 코드 확인
+User Valid Date Time Zone 확인
+Valid Date Local Time 적용 확인
+Expired on text 확인
+User Expired on 확인
+User Expired on 확인
+User Expired on 국가 코드 확인
+User Expired on Time Zone 확인
+Expired on Local Time 적용 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Payment Page,My Subscription Area > Next Subscription Section,"Subscription Information Box 확인
+item Name text 확인
+Basic Monthly 결제 시 item Name text 확인
+Basic Annual 결제 시 item Name text 확인
+Premium Monthly 결제 시 item Name text 확인
+item Description text 노출 여부 확인
+Starting text 확인
+User Next Billing Date 확인
+User Next Billing Time 확인
+User Time Zone 확인
+User Time Zone 확인
+Local Time 적용 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Payment Tab Screen,My Subscription Area > Cancel Resume Button,Cancel Resume Button 노출 여부 확인,False,False,False,False,True,False,False,False,False
+KOCOWA 4.0,Player UI,Video playback ends,"Home Main Page 경로 진입 시 종료 동작 확인
+Series Detailed Page 경로 진입 시 종료 동작 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Privacy Policy Page,Content Area,"text Paragraph 확인
 Page indicator 확인
 Page indicator UI 확인
@@ -1284,6 +1690,11 @@ sub text 확인
 QR Code image 확인
 QR Code 인식 시 동작 확인
 Sign In 시 동작 확인",True,True,True,True,False,False,False,True,True
+KOCOWA 4.0,Series Detailed Page,Bottom Toast POP UP,"Share 항목 확인
+Share icon 확인
+Division Line 확인
+Share 항목 기능 확인
+Share 항목 선택 시 동작 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Series Detailed Page,Continue POP UP,"title text 확인
 title text 확인
 sub text 확인
@@ -1338,11 +1749,9 @@ Vietnamese Subtitle 확인
 Vietnamese Subtitle stringset 확인",False,False,False,False,True,False,False,False,False
 KOCOWA 4.0,Series Detailed Page,Description Area > synopsios text,"synopsios text 확인
 synopsios text Max line 확인",False,False,False,False,True,False,False,False,False
-KOCOWA 4.0,Series Detailed Page,Details Section > Coming Soon Text,"Coming Soon 노출 여부 확인
-Coming Soon 노출 여부 확인
-MOVIE Content일 시 Coming Soon 노출 여부 확인
+KOCOWA 4.0,Series Detailed Page,Details Area > Coming Soon Text,"Coming Soon 확인
 MOVIE Content일 시 Coming Soon 노출 여부 확인",False,False,False,False,False,True,True,False,False
-KOCOWA 4.0,Series Detailed Page,Details Section > Continue Watching Button,"Continue Watching Button 확인
+KOCOWA 4.0,Series Detailed Page,Details Area > Continue Watching Button,"Continue Watching Button 확인
 Continue Watching Button icon 확인
 Continue Watching Button stringset 확인
 MOVIE Content 재생 시 Continue Watching Button stringset 확인
@@ -1356,31 +1765,38 @@ Continue Watching Button 기능 확인
 남은 영상 시간 1시간 미만일 시 노출 확인
 Continue Watching Button 노출 여부 확인
 Movie Continue Watching Button 노출 여부 확인",False,False,False,False,False,True,True,False,False
-KOCOWA 4.0,Series Detailed Page,Details Section > Favorites Button,"Favorites Button 확인
+KOCOWA 4.0,Series Detailed Page,Details Area > Details Section,"Content Released Year 확인
+Genre text 확인
+Division Line 확인
+item counter 확인
+item counter stringset 확인
+다수일 시 item counter stringset 확인
+Trailer 영상만 존재 시 stringset 확인
+아무 영상이 없을 시 counter stringset 확인
+item counter 집계 확인
+item counter 노출 여부 확인
+Running Time text 확인
+Running Time text Stringset 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Series Detailed Page,Details Area > Favorites Button,"Favorites Button 확인
 Favorites Button icon 확인
-Favorites Button focus 시 UI 확인
 Favorites Button 선택 시 동작 확인
 Favorites Button 기능 확인
 Filled Star 형태의 Favorites Button 확인
 Filled Star 형태의 Favorites Button icon 확인
-Filled Star 형태의 Favorites Button focus 시 UI 확인
 Filled Star 형태의 Favorites Button 선택 시 동작 확인
 Filled Star 형태의 Favorites Button 기능 확인",False,False,False,False,False,True,True,False,False
-KOCOWA 4.0,Series Detailed Page,Details Section > Information Section,"Content Name 노출 확인
-Content Name 생략 확인
+KOCOWA 4.0,Series Detailed Page,Details Area > Information Section,"Content Name 노출 확인
 Content Name 생략 확인
 Update Cycle text 확인
 주간 Update Cycle text 확인",False,False,False,False,False,True,True,False,False
-KOCOWA 4.0,Series Detailed Page,Details Section > LIKE Button,"LIKE Button icon 확인
-LIKE Button focus 시 UI 확인
+KOCOWA 4.0,Series Detailed Page,Details Area > LIKE Button,"LIKE Button icon 확인
 LIKE Button 선택 시 동작 확인
 LIKE Button 기능 확인
 LIKED Button 확인
 LIKED Button icon 확인
-LIKED Button focus 시 UI 확인
 LIKED Button 선택 시 동작 확인
 LIKED Button 기능 확인",False,False,False,False,False,True,True,False,False
-KOCOWA 4.0,Series Detailed Page,Details Section > Rating Section,"Rating icon 확인
+KOCOWA 4.0,Series Detailed Page,Details Area > Rating Section,"Rating icon 확인
 Content Rating icon 확인
 TV-Y Rating icon 확인
 TV-Y7 Rating icon 확인
@@ -1394,13 +1810,11 @@ TV-14 Rating icon 확인
 R Rating icon 확인
 TV-MA Rating icon 확인
 NC-17 Rating icon 확인",False,False,False,False,False,True,True,False,False
-KOCOWA 4.0,Series Detailed Page,Details Section > Share Button,"Share Button icon 확인
-Share Button focus 시 UI 확인
+KOCOWA 4.0,Series Detailed Page,Details Area > Share Button,"Share Button icon 확인
 Share Button 선택 시 동작 확인
 Share More Button 기능 확인
 Share 기능 확인",False,False,False,False,False,True,True,False,False
-KOCOWA 4.0,Series Detailed Page,Details Section > Subtitle Section,"Subtitle icon 확인
-Content Subtitle stringset 확인
+KOCOWA 4.0,Series Detailed Page,Details Area > Subtitle Section,"Subtitle icon 확인
 English Subtitle 확인
 English Subtitle stringset 확인
 Portuguese Subtitle 확인
@@ -1410,27 +1824,27 @@ Spanish Subtitle stringset 확인
 Chinese Subtitle 확인
 Chinese Subtitle stringset 확인
 Vietnamese Subtitle 확인
-Vietnamese Subtitle stringset 확인",False,False,False,False,False,True,True,False,False
-KOCOWA 4.0,Series Detailed Page,Details Section > Synopsis Section,"Synopsis text 확인
+Vietnamese Subtitle stringset 확인
+0",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Series Detailed Page,Details Area > Synopsis Section,"Synopsis text 확인
 Max line 적용 확인
 Synopsis text 생략 여부 확인
 synopsis Inform message text 확인
 synopsis Inform message text stringset 확인",False,False,False,False,False,True,True,False,False
-KOCOWA 4.0,Series Detailed Page,Details Section > Watch Button,"Watch Button 확인
+KOCOWA 4.0,Series Detailed Page,Details Area > Watch Button,"Watch Button 확인
 Watch Button stringset 확인
 MOVIE Content일 시 Watch Button stringset 확인
 Watch Button focus 시 UI 확인
 Watch Button 기능 확인",False,False,False,False,False,True,True,False,False
-KOCOWA 4.0,Series Detailed Page,Details Section > Watch Next Episode Button,"Watch Next Episode Button 확인
+KOCOWA 4.0,Series Detailed Page,Details Area > Watch Next Episode Button,"Watch Next Episode Button 확인
 Watch Next Episode Button stringset 확인
 Episode Numbering 확인
 Watch Next Episode Button focus 시 UI 확인
 Watch Next Episode Button 선택 시 동작 확인
 Watch Next Episode Button 기능 확인",False,False,False,False,False,True,True,False,False
-KOCOWA 4.0,Series Detailed Page,Details Section > Watch Trailer Button,"Watch Trailer Button 노출 여부 확인
+KOCOWA 4.0,Series Detailed Page,Details Area > Watch Trailer Button,"Watch Trailer Button 노출 여부 확인
 Watch Trailer Button stringset 확인
 Trailer Numbering 확인
-Watch Trailer Button focus 시 UI 확인
 Watch Trailer Button 선택 시 동작 확인
 Watch Trailer Button 기능 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Series Detailed Page,Episode Rail > Description Section,"Content Name text 확인
@@ -1480,6 +1894,7 @@ Progress Bar 노출 여부 확인
 미결제 시 Locked thumnail image 선택 시 동작 확인
 thumnail image 선택 시 동작 확인
 thumnail image 기능 확인",False,False,False,False,True,False,False,False,False
+KOCOWA 4.0,Series Detailed Page,Episodes List Screen > Auto Positioning,Auto Positioning 확인,False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Series Detailed Page,Episodes List Screen > Episode Detail,"Episode Number 노출 확인
 Content 업로드 일자 노출 확인
 Division Line 노출 확인
@@ -1490,93 +1905,18 @@ synopsis 확인
 synopsis Max Line 확인
 synopsis 생략 확인
 Episode 미노출 확인",False,False,False,False,False,True,True,False,False
-KOCOWA 4.0,Series Detailed Page,Episodes List Screen > Thumbnail,"Episode Thumbnail 노출 확인
-Thumbnail 내 지구본 형태의 Language icon 노출 확인
-Thumbnail 내 Progress Bar 미노출 확인
-Thumbnail Progress Bar 노출 확인",False,False,False,False,False,True,True,False,False
-KOCOWA 4.0,Series Detailed Page,Episodes Screen > Bottom Toast POP UP,"Share 항목 확인
-Share icon 확인
-Division Line 확인
-Share 항목 기능 확인
-Share 항목 선택 시 동작 확인",False,False,False,False,False,True,True,False,False
-KOCOWA 4.0,Series Detailed Page,Episodes Screen > Share POP UP,"Home Indicator 확인
-Instagram Storiesg Button 확인
-Instagram Storiesg title text 노출 확인
-Instagram Storiesg text stringset 확인
-Instagram Storiesg Button 기능 확인
-Facebook Button 확인
-Facebook title text 노출 확인
-Facebook text stringset 확인
-Facebook Button 기능 확인
-Twitter Button 확인
-Twitter title text 노출 확인
-Twitter text stringset 확인
-Twitter Button 기능 확인
-Copy to URL Button 확인
-Copy to URL title text 노출 확인
-Copy to URL text stringset 확인
-Copy to URL Button 기능 확인
-Copy to URL Button 선택 시 동작 확인
-URL copied toast POP UP title text 노출 확인
-URL copied toast POP UP text stringset 노출 확인
-Auto Close 동작 확인
-More Button 확인
-More title text 노출 확인
-More text stringset 확인
-More Button 기능 확인
-Open Spotify Link 확인
-좌측 Rolling 동작 불가 여부 확인
-우측 Rolling 동작 확인
-우측 Rolling 동작 불가 여부 확인
-좌측 Rolling 동작 확인",False,False,False,False,False,True,True,False,False
-KOCOWA 4.0,Series Detailed Page,Episodes Screen > information POP UP,"information Text 확인
-information icon 확인
-information POP UP 노출 확인
-information POP UP 가로 해상도 확인
-information POP UP 세로 해상도 확인
-Content Name 노출 확인
-Content Name 모두 노출 확인
-Rating icon 확인
-Content Rating icon 확인
-TV-Y Rating icon 확인
-TV-Y7 Rating icon 확인
-TV-Y7-FV Rating icon 확인
-TV-G Rating icon 확인
-G Rating icon 확인
-TV-PG Rating icon 확인
-PG Rating icon 확인
-PG-13 Rating icon 확인
-TV-14 Rating icon 확인
-R Rating icon 확인
-TV-MA Rating icon 확인
-NC-17 Rating icon 확인
-Content Released Year 확인
-Genre text 확인
-Division Line 확인
-Running Time text 확인
-Running Time text Stringset 확인
-Subtitle Text 확인
-Content Subtitle stringset 확인
-English Subtitle 확인
-English Subtitle stringset 확인
-Portuguese Subtitle 확인
-Portuguese Subtitle stringset 확인
-Spanish Subtitle 확인
-Spanish Subtitle stringset 확인
-Chinese Subtitle 확인
-Chinese Subtitle stringset 확인
-Vietnamese Subtitle 확인
-Vietnamese Subtitle stringset 확인
-Cast text 확인
-Casting 확인
-Synopsis text 확인
-Synopsis text 모두 노출 확인
-Scroll 확인
-Scroll 확인
-Scroll 확인
-Scroll 확인
-Scroll 확인
-Scroll 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Series Detailed Page,Episodes List Screen > Sorting Button,Auto Positioning 동작 시 Sorting Button 확인,False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Series Detailed Page,Episodes List Screen > thumbnail image,"thumbnail image 확인
+Lock icon 확인
+Lock icon 노출 여부 확인
+Language icon 확인
+Language icon 노출 여부 확인
+Progress Bar 확인
+Progress Bar 노출 여부 확인
+미로그인 시 thumbnail image 선택 시 동작 확인
+미결제 시 Locked thumbnail image 선택 시 동작 확인
+thumbnail image 선택 시 동작 확인
+thumbnail image 기능 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Series Detailed Page,Functional Area > Bookmarked icon,"Bookmarked icon 확인
 Bookmarked icon 선택 시 동작 확인
 Bookmarked icon 기능 확인",False,False,False,False,True,False,False,False,False
@@ -1634,11 +1974,9 @@ KOCOWA 4.0,Series Detailed Page,More Like This Rail > Poster image,"Poster image
 Language icon 확인
 Poster image Hover 시 UI 확인
 Poster image 기능 확인",False,False,False,False,True,False,False,False,False
-KOCOWA 4.0,Series Detailed Page,More like this Screen,"Content List 확인
-Scroll Down 동작 확인
-Scroll Up 동작 확인
-Scroll Up 동작 불가 여부 확인
-Scroll Down 동작 불가 여부 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Series Detailed Page,More like this Screen > Poster image,"Poster image 확인
+Language icon 확인
+Poster image 기능 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Series Detailed Page,Non-subscription POP UP,"title text 확인
 title text 확인
 Sub text 확인
@@ -1760,7 +2098,8 @@ KOCOWA 4.0,Series Detailed Page,Show Info Area > title text,"title text 확인
 title text stringset 확인",False,False,False,False,True,False,False,False,False
 KOCOWA 4.0,Series Detailed Page,Tab Menu Area > Episodes,"Episodes Tab 노출 확인
 Episodes Tab 기능 확인
-Episodes Tab 미노출 확인",False,False,False,False,False,True,True,False,False
+Episodes Tab 미노출 확인
+Red Dot 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Series Detailed Page,Tab Menu Area > Episodes Tab Menu,"Episodes Tab Menu 확인
 Episodes Tab Menu stringset 확인
 Episodes Tab Menu 기능 확인
@@ -1778,18 +2117,20 @@ Show Info Tab Menu stringset 확인
 Show Info Tab Menu 기능 확인",False,False,False,False,True,False,False,False,False
 KOCOWA 4.0,Series Detailed Page,Tab Menu Area > Trailers and more,"Trailers and more Tab 노출 확인
 Trailers and more Tab 기능 확인
-Trailers and more Tab 미노출 확인",False,False,False,False,False,True,True,False,False
+Trailers and more Tab 미노출 확인
+Red Dot 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Series Detailed Page,Tab Menu Area > Trailers and more Tab Menu,"Trailers and more Tab Menu 확인
 Trailers and more Tab Menu stringset 확인
 Trailers and more Tab Menu 기능 확인
 Trailers and more Tab Menu 노출 여부 확인",False,False,False,False,True,False,False,False,False
+KOCOWA 4.0,Series Detailed Page,Tab Menu Area > Webcomic,"Webcomic Tab 노출 확인
+Webcomic Tab 기능 확인
+Webcomic Tab 미노출 확인
+Red Dot 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Series Detailed Page,Tab Menu Area > Webcomic Tab Menu,"Webcomic Tab Menu 확인
 Webcomic Tab Menu stringset 확인
 Webcomic Tab Menu 기능 확인
 Webcomic Tab Menu 노출 여부 확인",False,False,False,False,True,False,False,False,False
-KOCOWA 4.0,Series Detailed Page,Tab Menu Area > Webcomics,"Webcomics Tab 노출 확인
-Webcomics Tab 기능 확인
-Webcomics Tab 미노출 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Series Detailed Page,Top Area > Series Name text,"Series Name text 확인
 Content Series Name text 확인
 Series Name text Max line 확인",False,False,False,False,True,False,False,False,False
@@ -1807,9 +2148,13 @@ KOCOWA 4.0,Series Detailed Page,Trailer Player Area > Play icon,"Trailer Player 
 Trailer Player Play icon 버튼 선택 시 동작 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Series Detailed Page,Trailer Player Area > Progress Bar,"Trailer Player Progress Bar 노출 확인
 Trailer Player Progress Bar 진행 확인
+Progress Bar scrub 가능 여부 확인
 Trailer Player 모두 재생 확인
 Trailer Player 모두 재생 후 정지 확인
 Trailer Player 다시 재생 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Series Detailed Page,Trailer Player Area > Subtitle,"subtitle 편성되지 않은 trailer Subtitle 노출 여부 확인
+subtitle 편성 된 trailer Subtitle 노출 여부 확인
+subtitle 편성 된 trailer Subtitle setting 연동 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Series Detailed Page,Trailer Player Area > Volume icon,"Trailer Player Volume icon 노출 확인
 Trailer Player Volume 출력 확인
 Trailer Player Volume icon 버튼 선택 시 동작 확인
@@ -1980,7 +2325,170 @@ Content Writer stringset 확인
 Content Subtitle 확인
 Content Subtitle stringset 확인
 Content Subtitle text 확인
-delimiter 확인",False,False,False,False,False,True,True,False,False
+delimiter 확인
+Sorting Button 확인
+Sorting Button 확인
+Sorting Button stringset 확인
+Sorting Button UI 확인
+Language icon 확인
+synopsis text 확인
+synopsis text 구분 동작 확인
+synopsis text 말줄임표 확인
+View More icon 확인
+View More icon 기능 확인
+Update inform text 확인
+Update inform text stringset 확인
+New icon 확인
+New icon stringest 확인
+New icon UI 확인
+Free icon 확인
+Free icon stringest 확인
+Free icon UI 확인
+Last Viewed icon 확인
+Last Viewed icon stringest 확인
+Last Viewed icon User 추적 동작 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Series Detailed Page,information POP UP,"information Text 확인
+information icon 확인
+information POP UP 노출 확인
+information POP UP 가로 해상도 확인
+information POP UP 세로 해상도 확인
+Content Name 노출 확인
+Content Name 모두 노출 확인
+Rating icon 확인
+Content Rating icon 확인
+TV-Y Rating icon 확인
+TV-Y7 Rating icon 확인
+TV-Y7-FV Rating icon 확인
+TV-G Rating icon 확인
+G Rating icon 확인
+TV-PG Rating icon 확인
+PG Rating icon 확인
+PG-13 Rating icon 확인
+TV-14 Rating icon 확인
+R Rating icon 확인
+TV-MA Rating icon 확인
+NC-17 Rating icon 확인
+Content Released Year 확인
+Genre text 확인
+Division Line 확인
+Running Time text 확인
+Running Time text Stringset 확인
+Subtitle Text 확인
+Content Subtitle stringset 확인
+English Subtitle 확인
+English Subtitle stringset 확인
+Portuguese Subtitle 확인
+Portuguese Subtitle stringset 확인
+Spanish Subtitle 확인
+Spanish Subtitle stringset 확인
+Chinese Subtitle 확인
+Chinese Subtitle stringset 확인
+Vietnamese Subtitle 확인
+Vietnamese Subtitle stringset 확인
+Cast text 확인
+Casting 확인
+Synopsis text 확인
+Synopsis text 모두 노출 확인
+Scroll 확인
+Scroll 확인
+Scroll 확인
+Scroll 확인
+Scroll 확인
+Scroll 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Set the Viewing Age,Adult Subject > Brazil,"Adult radio Button 확인
+Adult radio Button sub text 확인
+Rating icon 확인
+Adult rate 1st icon UI 확인
+Adult rate 1st icon text 확인
+Adult Radio Button 선택 시 동작 확인
+Adult Radio Button 선택 시 UI 확인
+Adult Radio Button 선택 시 Radio Button UI 확인
+Adult Radio Button 선택 시 Bar UI 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Set the Viewing Age,Adult Subject > European,"Adult radio Button 확인
+Adult radio Button sub text 확인
+Rating icon 확인
+Adult rate 1st icon 확인
+Adult Radio Button 선택 시 동작 확인
+Adult Radio Button 선택 시 UI 확인
+Adult Radio Button 선택 시 Radio Button UI 확인
+Adult Radio Button 선택 시 Bar UI 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Set the Viewing Age,Adult Subject > USA,"Adult radio Button 확인
+Adult radio Button sub text 확인
+Rating icon 확인
+Adult rate 1st icon 확인
+Adult rate 2nd icon 확인
+Adult rate 3rd icon 확인
+Adult Radio Button 선택 시 동작 확인
+Adult Radio Button 선택 시 UI 확인
+Adult Radio Button 선택 시 Radio Button UI 확인
+Adult Radio Button 선택 시 Bar UI 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Set the Viewing Age,Family Subject > Brazil,"Family radio Button 확인
+Family radio Button sub text 확인
+Rating icon 확인
+Family rate 1st icon UI 확인
+Family rate 1st icon text 확인
+Family rate 2nd icon UI 확인
+Family rate 2nd icon text 확인
+Family Radio Button 선택 시 동작 확인
+Family Radio Button 선택 시 UI 확인
+Family Radio Button 선택 시 Bar UI 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Set the Viewing Age,Family Subject > European,"Family radio Button 확인
+Family radio Button sub text 확인
+Rating icon 확인
+Family rate 1st icon 확인
+Family rate 2nd icon 확인
+Family rate 3rd icon 확인
+Family Radio Button 선택 시 동작 확인
+Family Radio Button 선택 시 UI 확인
+Family Radio Button 선택 시 Bar UI 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Set the Viewing Age,Family Subject > USA,"Family radio Button 확인
+Family radio Button sub text 확인
+Rating icon 확인
+Family rate 1st icon 확인
+Family rate 2nd icon 확인
+Family rate 3rd icon 확인
+Family rate 4th icon 확인
+Family rate 5th icon 확인
+Family rate 6th icon 확인
+Family rate 7th icon 확인
+Family rate 8th icon 확인
+Family Radio Button 선택 시 동작 확인
+Family Radio Button 선택 시 UI 확인
+Family Radio Button 선택 시 Bar UI 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Set the Viewing Age,Radio Button Area,"Default Parental Setting 적용 확인
+Radio Button Bar 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Set the Viewing Age,Teen Subject > Brazil,"Teen radio Button 확인
+Teen radio Button sub text 확인
+Rating icon 확인
+Teen rate 1st icon UI 확인
+Teen rate 1st icon text 확인
+Teen rate 2nd icon UI 확인
+Teen rate 2nd icon text 확인
+Teen rate 3rd icon UI 확인
+Teen rate 3rd icon text 확인
+Teen Radio Button 선택 시 동작 확인
+Teen Radio Button 선택 시 UI 확인
+Teen Radio Button 선택 시 Radio Button UI 확인
+Teen Radio Button 선택 시 Bar 상단 UI 확인
+Teen Radio Button 선택 시 Bar 하단 UI 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Set the Viewing Age,Teen Subject > European,"Teen radio Button 확인
+Teen radio Button sub text 확인
+Rating icon 확인
+Teen rate 1st icon 확인
+Teen Radio Button 선택 시 동작 확인
+Teen Radio Button 선택 시 UI 확인
+Teen Radio Button 선택 시 Radio Button UI 확인
+Teen Radio Button 선택 시 Bar 상단 UI 확인
+Teen Radio Button 선택 시 Bar 하단 UI 확인",False,False,False,False,False,True,True,False,False
+KOCOWA 4.0,Set the Viewing Age,Teen Subject > USA,"Teen radio Button 확인
+Teen radio Button sub text 확인
+Rating icon 확인
+Teen rate 1st icon 확인
+Teen Radio Button 선택 시 동작 확인
+Teen Radio Button 선택 시 UI 확인
+Teen Radio Button 선택 시 Radio Button UI 확인
+Teen Radio Button 선택 시 Bar 상단 UI 확인
+Teen Radio Button 선택 시 Bar 하단 UI 확인",False,False,False,False,False,True,True,False,False
 KOCOWA 4.0,Setting Page,Category List Area > Delete Data,"Delete Data 항목 확인
 Delete Data 항목 stringset 확인
 Delete Data 항목 기능 확인
