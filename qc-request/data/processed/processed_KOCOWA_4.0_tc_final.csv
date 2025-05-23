@@ -1240,7 +1240,6 @@ KOCOWA 4.0,PLAN Page,Subscription Category Area > Information Area,"Information 
 My Account text UI 확인
 Account text UI 확인
 KOCOWA+ website or mobile apps. text UI 확인",True,True,True,True,False,False,False,True,True
-KOCOWA 4.0,Payment Tab Screen,My Subscription Area > Cancel Resume Button,Cancel Resume Button 노출 여부 확인,False,False,False,False,True,False,False,False,False
 KOCOWA 4.0,Privacy Policy Page,Content Area,"text Paragraph 확인
 Page indicator 확인
 Page indicator UI 확인
