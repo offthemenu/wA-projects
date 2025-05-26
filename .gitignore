@@ -4,3 +4,4 @@ __pycache__/
 .env
 .vscode/
 /qc-request/tc-eda.ipynb
+tc-eda-4.0-connectedTV_webMobile.ipynb
