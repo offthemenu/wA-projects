@@ -37,7 +37,7 @@ selected_regions = st.multiselect(
 )
 if "All Regions" in selected_regions:
     selected_regions = ["All Regions"]
-version = st.text_input("Version", placeholder="ex) v4.0.0_0")
+version = st.text_input("Version", placeholder="ex) v4.0.0")
 # task_name = st.selectbox("Task Name", sorted(df_project['project_name'].unique().tolist() + ["Other"]))
 # if task_name == "Other":
 #     task_name = st.text_input("Enter a new task name")
@@ -149,12 +149,17 @@ for main_cat in sorted(grouped_scope):
         development_scope_formatted += f"{item}<br>\n"
     development_scope_formatted += "<br>\n"  # line break between sections
     
+ticket_title = f"[QC] {target_qc} v{version} ({qc_round}) - {test_env} Round: {qc_round} {selected_project}"
+
 # --- Generate Output ---
 st.subheader("Generated QC Request Form")
 if st.button("Generate QC Form"):
     if target_qc == "Select a device...":
         st.error("Please select a valid target device before generating the form.")
     else:
+        # st.subheader("QTM Jira Ticket Title")
+        st.markdown(f"**QTM Jira Ticket Title**:")
+        st.markdown(f"{ticket_title}")
         html_output = f"""
         <table>
             <tr><th>Field</th><th>Value</th></tr>
@@ -162,7 +167,7 @@ if st.button("Generate QC Form"):
             <tr><td valign="top">Requester</td><td>{requester}</td></tr>
             <tr><td valign="top">Target Device</td><td>{target_qc}</td></tr>
             <tr><td valign="top">Region</td><td>{selected_regions}</td></tr>
-            <tr><td valign="top">Version</td><td>{version}</td></tr>
+            <tr><td valign="top">Version</td><td>{version}_{qc_round}</td></tr>
             <tr><td valign="top">Task Name</td><td>{selected_project}</td></tr>
             <tr><td valign="top">Test Environment</td><td>{test_env}</td></tr>
             <tr><td valign="top">Type for QC</td><td>{qc_type} Round {qc_round}</td></tr>
