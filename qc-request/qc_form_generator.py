@@ -42,6 +42,12 @@ version = st.text_input("Version", placeholder="ex) 4.0.0")
 # if task_name == "Other":
 #     task_name = st.text_input("Enter a new task name")
 test_env = st.selectbox("Test Environment", ["Staging", "Production", "Live"])
+if test_env == "Staging":
+    test_env_print = "STG"
+elif test_env == "Production":
+    test_env_print = "PROD"
+elif test_env == "Live":
+    test_env_print = "LIVE"
 
 # 2. Type Info
 st.subheader("Type & Metadata")
@@ -144,7 +150,7 @@ for main_cat in sorted(grouped_scope):
         development_scope_formatted += f"{item}<br>\n"
     development_scope_formatted += "<br>\n"  # line break between sections
 
-ticket_title = f"[QC] {target_qc} v{version} ({qc_round}) - {test_env} Round: {qc_round} {selected_project}"
+ticket_title = f"[QC] {target_qc} v{version} ({qc_round}) - {test_env_print} Round: {qc_round} {selected_project}"
 
 # --- Generate Output ---
 st.subheader("Generated QC Request Form")
