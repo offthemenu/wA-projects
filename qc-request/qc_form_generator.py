@@ -150,7 +150,7 @@ for main_cat in sorted(grouped_scope):
         development_scope_formatted += f"{item}<br>\n"
     development_scope_formatted += "<br>\n"  # line break between sections
 
-ticket_title = f"[QC] {target_qc} v{version} ({qc_round}) - {test_env_print} Round: {qc_round} {selected_project}"
+ticket_title = f"[QC] {target_qc} v{version} ({qc_round}) - {test_env_print} Round {qc_round} {selected_project}"
 
 # --- Generate Output ---
 st.subheader("Generated QC Request Form")
