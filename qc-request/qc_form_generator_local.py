@@ -6,7 +6,7 @@ from collections import defaultdict
 # Run with: streamlit run qc_form_generator_local.py
 
 # For running local
-df = pd.read_csv("data/processed/processed_KOCOWA_4.0_tc_final.csv")
+df = pd.read_csv("processed-data/processed_KOCOWA_4.0_tc_final.csv")
 df.columns = df.columns.str.strip()
 
 # Define available devices
