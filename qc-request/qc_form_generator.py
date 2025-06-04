@@ -52,7 +52,7 @@ elif test_env == "Live":
 # 2. Type Info
 st.subheader("Type & Metadata")
 qc_type = st.selectbox("Type for QC", ["New", "Bug Fix", "Routine", "Other"])
-qc_round = st.selectbox("Round", list(range(1, 7)))
+qc_round = st.selectbox("Round", list(range(1, 11)))
 urgency = st.selectbox("Urgency Level", ["Normal", "Urgent"])
 reference_doc = st.text_input("Reference Document (URL)", placeholder="Link to the relevant Zeplin Page Reference or Dashboard")
 build_link = st.text_input("Build Download Link (URL)", placeholder="If applicable, please copy/paste the link to download the test build")
