@@ -23,6 +23,7 @@ class Comment(Base):
     page_path = Column(String)
     ui_component = Column(String)
     comment = Column(String)
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(DateTime, default=datetime.now)
 
     wireframe_id = Column(Integer, ForeignKey("wireframes.id"))
+

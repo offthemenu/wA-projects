@@ -1,7 +1,7 @@
 import csv
 import os
 from sqlalchemy.orm import Session
-from database_creator.database import SessionLocal, engine
+from database import SessionLocal, engine
 from models import Wireframe, Base
 
 CSV_PATH = "data/sample_wireframe_data.csv"  # or pass a new filename
