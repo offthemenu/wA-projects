@@ -92,3 +92,36 @@ Install the following extensions:
 ```bash
 npm run dev
 ```
+
+---
+
+### 🏗️ 7. Building the Frontend App Structure
+
+This section tracks how we’re progressively assembling the actual interface:
+
+#### 🛠️ Environment Variable Setup
+
+Add a `.env` file at the root level of the project (same level as `frontend/` and `backend/`):
+
+```env
+VITE_API_BASE_URL=http://localhost:8000/v01
+```
+
+#### 🔗 API Client
+
+Create a reusable `api.ts` Axios client in `/src/services` to connect with the FastAPI backend using the environment base URL.
+
+#### 📄 Page Structure
+
+Create `ReviewPage.tsx` inside `/src/pages`. This serves as the main screen for wireframe reviews and pulls in all components.
+
+#### 🧩 Component Scaffolding (all inside `/src/components`)
+
+- **Dropdowns.tsx** – Fetches project/device/page info from `/wireframe`
+- **PdfViewer.tsx** – (to be implemented) Renders paginated PDF view
+- **CommentForm.tsx** – Input field and button to submit a comment
+- **CommentList.tsx** – Renders the list of comments from `/comments`
+
+#### ⚛️ App Integration
+
+Refactor `App.tsx` to render `<ReviewPage />`, which assembles all core components in a vertical layout using Tailwind utility classes.

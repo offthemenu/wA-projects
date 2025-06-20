@@ -1,4 +1,4 @@
 // frontend/src/components/CommentList.tsx
 export default function CommentList() {
-  // component implementation
+  return <div>Comment List</div>
 }

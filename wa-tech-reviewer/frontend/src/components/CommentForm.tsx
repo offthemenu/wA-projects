@@ -1,4 +1,4 @@
 // frontend/src/components/CommentForm.tsx
 export default function CommentForm() {
-  // component implementation
+  return <div>Comment Form</div>
 }
