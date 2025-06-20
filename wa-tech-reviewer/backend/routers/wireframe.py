@@ -117,7 +117,7 @@ def get_dropdown_data(db: Session = Depends(get_db)):
 
     pages_cleaned = {}
     for (proj, dev), page_list in pages_by_project_device.items():
-        pages_cleaned[f"{proj}__{dev}"] = page_list
+        pages_cleaned[f"{proj}_{dev}"] = page_list
 
     return {
         "projects": sorted(list(projects)),
