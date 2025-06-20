@@ -8,7 +8,11 @@ type WireframeDropdownData = {
 };
 
 export default function Dropdowns() {
-  const [data, setData] = useState<WireframeDropdownData | null>(null);
+  const [data, setData] = useState<WireframeDropdownData>({
+    projects: [],
+    devices_by_project: {},
+    pages_by_project_device: {},
+  });
 
   const [project, setProject] = useState("");
   const [device, setDevice] = useState("");
@@ -20,12 +24,14 @@ export default function Dropdowns() {
       .then((res) => setData(res.data))
       .catch((err) => console.error("Failed to fetch wireframe data:", err));
   }, []);
-  // if (!data) return <div className="text-gray-500">Loading...</div>;
+
+
+  if (!data) return <div className="text-gray-500">Loading...</div>;
 
   const deviceOptions = project ? data?.devices_by_project[project] || [] : [];
   const pageOptions =
     project && device
-      ? data?.pages_by_project_device[`${project}__${device}`] || []
+      ? data?.pages_by_project_device[`${project}_${device}`] || []
       : [];
 
   return (

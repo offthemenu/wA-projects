@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from routers import wireframe, comment
+from routers import wireframe, comment, upload
 import os
 
 app = FastAPI()
@@ -21,6 +21,7 @@ app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 # Register routers
 app.include_router(comment.router)
 app.include_router(wireframe.router)
+app.include_router(upload.router)
 
 @app.get("/v01/")
 def root():
