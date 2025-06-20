@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from database import SessionLocal
-from models import Comment
+from models import Comment, Wireframe
 from pydantic import BaseModel
 from typing import List
 from datetime import datetime
@@ -38,7 +38,14 @@ def get_db():
 
 @router.post("/add_comment")
 def add_comment(payload: CommentSchema, db: Session = Depends(get_db)):
-    new_comment = Comment(**payload.model_dump())
+
+    wireframe = db.query(Wireframe).filter_by(page_name = payload.page_name).first()
+    
+    if not wireframe:
+        raise ValueError(f"No wireframe found for page_name: {payload.page_name}")
+
+    # Step 2: Create new Comment with wireframe_id set
+    new_comment = Comment(**payload.model_dump(), wireframe_id=wireframe.id)
     db.add(new_comment)
     db.commit()
     db.refresh(new_comment)
