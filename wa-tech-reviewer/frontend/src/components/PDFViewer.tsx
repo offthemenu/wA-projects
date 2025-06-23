@@ -1,36 +1,30 @@
-import { useState, useMemo } from "react";
-import { Document, Page, pdfjs } from "react-pdf";
-import "react-pdf/dist/Page/AnnotationLayer.css";
-
-pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.mjs";
+import { Viewer, Worker } from '@react-pdf-viewer/core';
+import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
+import '@react-pdf-viewer/core/lib/styles/index.css';
+import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 
 type PDFViewerProps = { filename: string | null };
 
 export default function PDFViewer({ filename }: PDFViewerProps) {
-  const [numPages, setNumPages] = useState(0);
-
-  if (!filename) {
-    console.log("No filename prop provided");
-    return <p className="text-gray-500">No PDF selected</p>;
-  }
+  if (!filename) return <p className="text-gray-500">No PDF selected</p>;
 
   const fileUrl = `${import.meta.env.VITE_API_BASE_URL}/uploads/${filename}`;
-  console.log("Loading PDF from:", fileUrl);
-
-  const fileProp = useMemo(() => ({ url: fileUrl }), [fileUrl]);  // critical
+  const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
   return (
-    <div className="mt-6 border p-4 rounded bg-white text-black">
-      <Document
-        file={fileProp}
-        onLoadSuccess={({ numPages }) => setNumPages(numPages)}
-        onSourceError={(error) => console.error("Source load error:", error)}
-        onLoadError={(error) => console.error("PDF load error:", error)}
-      >
-        {Array.from({ length: numPages }).map((_, index) => (
-          <Page key={index} pageNumber={index + 1} />
-        ))}
-      </Document>
+    <div
+      className="border bg-white p-4 mt-6"
+      style={{
+        border: '1px solid rgba(0, 0, 0, 0.3)',
+        height: '750px',
+      }}
+    >
+      <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+        <Viewer
+          fileUrl={fileUrl}
+          plugins={[defaultLayoutPluginInstance]}
+        />
+      </Worker>
     </div>
   );
 }
