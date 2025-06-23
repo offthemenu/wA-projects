@@ -7,90 +7,76 @@ type WireframeDropdownData = {
   pages_by_project_device: Record<string, { name: string; path: string }[]>;
 };
 
-export default function Dropdowns() {
+type DropdownsProps = {
+  selectedProject: string;
+  selectedDevice: string;
+  selectedPage: string;
+  onProjectChange: (value: string) => void;
+  onDeviceChange: (value: string) => void;
+  onPageChange: (pageName: string, pagePath: string) => void;
+};
+
+export default function Dropdowns({
+  selectedProject,
+  selectedDevice,
+  selectedPage,
+  onProjectChange,
+  onDeviceChange,
+  onPageChange,
+}: DropdownsProps) {
   const [data, setData] = useState<WireframeDropdownData | null>(null);
 
-  const [project, setProject] = useState("");
-  const [device, setDevice] = useState("");
-  const [page, setPage] = useState("");
-
   useEffect(() => {
-    api
-      .get("/wireframe")
+    api.get("/wireframe")
       .then((res) => setData(res.data))
-      .catch((err) => console.error("Failed to fetch wireframe data:", err));
+      .catch(console.error);
   }, []);
 
-  if (!data) return <div className="text-gray-500">Loading...</div>;
+  if (!data) return <div>Loading...</div>;
 
-  const deviceOptions = project ? data?.devices_by_project?.[project] || [] : [];
-  const pageOptions =
-    project && device
-      ? data?.pages_by_project_device?.[`${project}_${device}`] || []
-      : [];
+  const projectOptions = data.projects;
+  const deviceOptions = selectedProject ? data.devices_by_project[selectedProject] || [] : [];
+  const pageOptions = selectedProject && selectedDevice
+    ? data.pages_by_project_device[`${selectedProject}_${selectedDevice}`] || []
+    : [];
 
   return (
-    <div className="flex flex-col gap-4 bg-white text-black p-4 border">
-      {/* Project dropdown */}
-      <div>
-        <label className="block text-sm font-medium mb-1">Project</label>
+    <div className="flex flex-col gap-4">
+      <select value={selectedProject} onChange={e => {
+        onProjectChange(e.target.value);
+        onDeviceChange("");
+        onPageChange("", "");
+      }}>
+        <option value="">Select project</option>
+        {projectOptions.map(p => <option key={p} value={p}>{p}</option>)}
+      </select>
+
+      {selectedProject && (
+        <select value={selectedDevice} onChange={e => {
+          onDeviceChange(e.target.value);
+          onPageChange("", "");
+        }}>
+          <option value="">Select device</option>
+          {deviceOptions.map(d => <option key={d} value={d}>{d}</option>)}
+        </select>
+      )}
+
+      {selectedProject && selectedDevice && (
         <select
-          value={project}
-          onChange={(e) => {
-            setProject(e.target.value);
-            setDevice("");
-            setPage("");
+          value={selectedPage}
+          onChange={e => {
+            const selName = e.target.value;
+            const entry = pageOptions.find(x => x.name === selName);
+            onPageChange(selName, entry?.path ?? "");
           }}
-          className="border rounded p-2 w-full"
         >
-          <option value="">Select project</option>
-          {data?.projects.map((p) => (
-            <option key={p} value={p}>
-              {p}
+          <option value="">Select page</option>
+          {pageOptions.map(p => (
+            <option key={p.path} value={p.name}>
+              {p.name}
             </option>
           ))}
         </select>
-      </div>
-
-      {/* Device dropdown */}
-      {project && (
-        <div>
-          <label className="block text-sm font-medium mb-1">Device</label>
-          <select
-            value={device}
-            onChange={(e) => {
-              setDevice(e.target.value);
-              setPage("");
-            }}
-            className="border rounded p-2 w-full"
-          >
-            <option value="">Select device</option>
-            {deviceOptions.map((d) => (
-              <option key={d} value={d}>
-                {d}
-              </option>
-            ))}
-          </select>
-        </div>
-      )}
-
-      {/* Page dropdown */}
-      {project && device && (
-        <div>
-          <label className="block text-sm font-medium mb-1">Page</label>
-          <select
-            value={page}
-            onChange={(e) => setPage(e.target.value)}
-            className="border rounded p-2 w-full"
-          >
-            <option value="">Select page</option>
-            {pageOptions.map((p) => (
-              <option key={p.path} value={p.name}>
-                {p.name}
-              </option>
-            ))}
-          </select>
-        </div>
       )}
     </div>
   );

@@ -20,10 +20,10 @@ class Comment(Base):
     project = Column(String)
     device = Column(String)
     page_name = Column(String)
-    page_number = Column(Integer)
     page_path = Column(String)
     ui_component = Column(String)
     comment = Column(String)
+    filename = Column(String, nullable=True)
     created_at = Column(DateTime, default=datetime.now)
 
     wireframe_id = Column(Integer, ForeignKey("wireframes.id"))

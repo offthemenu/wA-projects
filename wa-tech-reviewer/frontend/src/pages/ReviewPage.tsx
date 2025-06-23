@@ -7,23 +7,49 @@ import CommentList from "../components/CommentList";
 
 export default function ReviewPage() {
   const [uploadedPdf, setUploadedPdf] = useState<string | null>(null);
-  const [currentPage, setCurrentPage] = useState<number>(1);
+
+  // Dropdown selections
+  const [project, setProject] = useState<string>("");
+  const [device, setDevice] = useState<string>("");
+  const [pageName, setPageName] = useState<string>("");
+  const [pagePath, setPagePath] = useState<string>("");
 
   return (
     <div className="w-full max-w-screen-xl mx-auto p-6 flex flex-col gap-8">
       <h1 className="text-2xl font-semibold">Tech Review Tool</h1>
 
-      <Dropdowns />
+      <Dropdowns
+        selectedProject={project}
+        selectedDevice={device}
+        selectedPage={pageName}
+        onProjectChange={setProject}
+        onDeviceChange={setDevice}
+        onPageChange={(name, path) => {
+          setPageName(name);
+          setPagePath(path);
+        }}
+      />
+
 
       <PDFUpload onUpload={(filename: string) => setUploadedPdf(filename)} />
 
       <PDFViewer
         filename={uploadedPdf}
-        onPageChange={setCurrentPage}
       />
 
-      {/* <CommentForm /> */}
-      {/* <CommentList /> */}
+      {project && device && pageName && uploadedPdf && (
+        <CommentForm
+          context={{
+            project,
+            device,
+            pageName,
+            pagePath,     
+            filename: uploadedPdf!,
+
+          }}
+          onSuccess={() => { /* refresh comments */ }}
+        />
+      )}
     </div>
   );
 }
