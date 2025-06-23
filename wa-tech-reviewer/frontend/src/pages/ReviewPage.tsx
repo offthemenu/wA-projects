@@ -9,7 +9,7 @@ export default function ReviewPage() {
   const [uploadedPdf, setUploadedPdf] = useState<string | null>(null);
 
   return (
-    <div className="p-6 flex flex-col gap-6 max-w-7xl mx-auto">
+    <div className="p-6 flex flex-col gap-6 max-w-4xl mx-auto">
       <h1 className="text-2xl font-semibold">Tech Review Tool</h1>
       <div className="p-6">
         <Dropdowns />
