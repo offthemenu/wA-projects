@@ -10,7 +10,7 @@ class Wireframe(Base):
     id = Column(Integer, primary_key=True, index=True)
     project = Column(String, index=True)
     device = Column(String)
-    page_name = Column(String, unique=True)
+    page_name = Column(String)
     page_path = Column(String)
 
 class Comment(Base):
