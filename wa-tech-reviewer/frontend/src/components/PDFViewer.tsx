@@ -1,28 +1,29 @@
-import { Viewer, Worker } from '@react-pdf-viewer/core';
+import { Viewer, Worker, ScrollMode, SpecialZoomLevel } from '@react-pdf-viewer/core';
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 
-type PDFViewerProps = { filename: string | null };
+type PDFViewerProps = { 
+  filename: string | null;
+  onPageChange?: (page: number) => void
+};
 
-export default function PDFViewer({ filename }: PDFViewerProps) {
+export default function PDFViewer({ filename, onPageChange }: PDFViewerProps) {
   if (!filename) return <p className="text-gray-500">No PDF selected</p>;
 
   const fileUrl = `${import.meta.env.VITE_API_BASE_URL}/uploads/${filename}`;
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
   return (
-    <div
-      className="border bg-white p-4 mt-6 w-full"
-      style={{
-        border: '1px solid rgba(0, 0, 0, 0.3)',
-        height: '80vh',
-      }}
-    >
+    <div className="flex-grow w-full aspect-[16/9] overflow-hidden border rounded shadow bg-white">
       <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
         <Viewer
           fileUrl={fileUrl}
           plugins={[defaultLayoutPluginInstance]}
+          scrollMode={ScrollMode.Page}
+          defaultScale={SpecialZoomLevel.PageWidth}
+          theme="light"
+          onPageChange={(e) => onPageChange?.(e.currentPage + 1)}
         />
       </Worker>
     </div>

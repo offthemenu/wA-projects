@@ -7,15 +7,21 @@ import CommentList from "../components/CommentList";
 
 export default function ReviewPage() {
   const [uploadedPdf, setUploadedPdf] = useState<string | null>(null);
+  const [currentPage, setCurrentPage] = useState<number>(1);
 
   return (
-    <div className="p-6 flex flex-col gap-6 w-full max-w-screen-xl mx-auto">
+    <div className="w-full max-w-screen-xl mx-auto p-6 flex flex-col gap-8">
       <h1 className="text-2xl font-semibold">Tech Review Tool</h1>
-      <div className="p-6">
-        <Dropdowns />
-      </div>
+
+      <Dropdowns />
+
       <PDFUpload onUpload={(filename: string) => setUploadedPdf(filename)} />
-      <PDFViewer filename={uploadedPdf} />
+
+      <PDFViewer
+        filename={uploadedPdf}
+        onPageChange={setCurrentPage}
+      />
+
       {/* <CommentForm /> */}
       {/* <CommentList /> */}
     </div>

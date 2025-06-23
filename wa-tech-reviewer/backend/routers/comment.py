@@ -12,6 +12,7 @@ class CommentSchema(BaseModel):
     project: str
     device: str
     page_name: str
+    page_number: int
     page_path: str
     ui_component: str
     comment: str
@@ -45,7 +46,7 @@ def add_comment(payload: CommentSchema, db: Session = Depends(get_db)):
         raise ValueError(f"No wireframe found for page_name: {payload.page_name}")
 
     # Step 2: Create new Comment with wireframe_id set
-    new_comment = Comment(**payload.model_dump(), wireframe_id=wireframe.id)
+    new_comment = Comment(**payload.model_dump(), page_number=payload.page_number, wireframe_id=wireframe.id)
     db.add(new_comment)
     db.commit()
     db.refresh(new_comment)

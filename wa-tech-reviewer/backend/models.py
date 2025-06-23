@@ -20,6 +20,7 @@ class Comment(Base):
     project = Column(String)
     device = Column(String)
     page_name = Column(String)
+    page_number = Column(Integer)
     page_path = Column(String)
     ui_component = Column(String)
     comment = Column(String)
