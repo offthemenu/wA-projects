@@ -20,7 +20,7 @@ export default function PDFViewer({ filename, onPageChange }: PDFViewerProps) {
         <Viewer
           fileUrl={fileUrl}
           plugins={[defaultLayoutPluginInstance]}
-          scrollMode={ScrollMode.Page}
+          scrollMode={ScrollMode.Vertical}
           defaultScale={SpecialZoomLevel.PageWidth}
           theme="light"
           onPageChange={(e) => onPageChange?.(e.currentPage + 1)}

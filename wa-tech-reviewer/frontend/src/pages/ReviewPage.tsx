@@ -43,13 +43,18 @@ export default function ReviewPage() {
             project,
             device,
             pageName,
-            pagePath,     
+            pagePath,
             filename: uploadedPdf!,
 
           }}
           onSuccess={() => { /* refresh comments */ }}
         />
       )}
+
+      <CommentList
+        project={project}
+        device={device}
+      />
     </div>
   );
 }

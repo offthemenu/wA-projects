@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from database import SessionLocal
 from models import Comment, Wireframe
 from pydantic import BaseModel
-from typing import List
+from typing import List, Optional
 from datetime import datetime
 
 router = APIRouter(prefix="/v01")
@@ -18,6 +18,7 @@ class CommentSchema(BaseModel):
     filename: str
 
 class CommentOut(CommentSchema):
+    id: int
     created_at: datetime
 
     class Config:
@@ -37,7 +38,7 @@ def get_db():
     finally:
         db.close()
 
-@router.post("/add_comment")
+@router.post("/add_comment", status_code=200)
 def add_comment(comment_data: CommentSchema, db: Session = Depends(get_db)):
     wireframe_record = db.query(Wireframe).filter_by(page_name=comment_data.page_name).first()
     if not wireframe_record:
@@ -56,11 +57,33 @@ def add_comment(comment_data: CommentSchema, db: Session = Depends(get_db)):
     return new_comment
     
 
-@router.get("/comments", response_model=List[CommentOut])
-def get_all_comments(db: Session = Depends(get_db)):
+@router.get("/comments", response_model=List[CommentOut], status_code=200)
+def get_all_comments(
+    project: str,
+    device: str,
+    db: Session = Depends(get_db),
+):
     try:
-        results = db.query(Comment).order_by(Comment.created_at.desc()).all()
-        return results
+        comments = (
+            db.query(Comment)
+            .filter(Comment.project == project, Comment.device == device)
+            .order_by(Comment.created_at.desc())
+            .all()
+        )
+        return comments
     except Exception as e:
         print(f"[ERROR] Failed to get comments: {e}")
         raise HTTPException(status_code=400, detail="Failed to get comments")
+
+
+@router.delete("/comment/{comment_id}", status_code=204)
+def delete_comment(comment_id: int, db: Session = Depends(get_db)):
+    try:
+        c = db.get(Comment, comment_id)
+        if not c:
+            raise HTTPException(status_code=404, detail="Comment not found")
+        db.delete(c)
+        db.commit()
+    except Exception as e:
+        print(f"[ERROR] Failed to delete comment: {e}")
+        raise HTTPException(status_code=400, detail="Failed to delete comment")

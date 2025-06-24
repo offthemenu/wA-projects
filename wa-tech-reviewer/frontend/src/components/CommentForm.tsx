@@ -44,14 +44,14 @@ export default function CommentForm({ context, onSuccess }: CommentFormProps) {
         type="text"
         value={uiComponent}
         onChange={(e) => setUiComponent(e.target.value)}
-        placeholder="UI component (e.g. Button, Header)"
+        placeholder="UI component (e.g. BUTTON, TEXT)"
         className="w-full p-2 border rounded"
       />
 
       <textarea
         value={text}
         onChange={(e) => setText(e.target.value)}
-        placeholder="Add comment for this component"
+        placeholder="Add technical review comment for this component"
         className="w-full p-2 border rounded"
       />
 
