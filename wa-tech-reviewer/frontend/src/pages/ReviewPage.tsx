@@ -14,6 +14,10 @@ export default function ReviewPage() {
   const [pageName, setPageName] = useState<string>("");
   const [pagePath, setPagePath] = useState<string>("");
 
+  // Refresh trigger state for comments
+  const [refreshFlag, setRefreshFlag] = useState(false);
+  const triggerRefresh = () => setRefreshFlag(prev => !prev);
+
   return (
     <div className="w-full max-w-screen-xl mx-auto p-6 flex flex-col gap-8">
       <h1 className="text-2xl font-semibold">Tech Review Tool</h1>
@@ -47,13 +51,14 @@ export default function ReviewPage() {
             filename: uploadedPdf!,
 
           }}
-          onSuccess={() => { /* refresh comments */ }}
+          onSuccess={triggerRefresh}
         />
       )}
 
       <CommentList
         project={project}
         device={device}
+        refreshFlag={refreshFlag}
       />
     </div>
   );

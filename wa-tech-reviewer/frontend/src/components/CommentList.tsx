@@ -12,11 +12,11 @@ type Comment = {
   page_path: string;
 };
 
-export default function CommentList({ project, device }: { project: string; device: string }) {
+export default function CommentList({ project, device, refreshFlag }: { project: string; device: string; refreshFlag: boolean }) {
   const [comments, setComments] = useState<Comment[]>([]);
   const [selectedIds, setSelectedIds] = useState<Set<number>>(new Set());
 
-  useEffect(() => {
+  const fetchComments = () => {
     if (!project || !device) return;
 
     api
@@ -26,7 +26,11 @@ export default function CommentList({ project, device }: { project: string; devi
       setComments(res.data);
     })
       .catch(console.error);
-  }, [project, device]);
+  };
+
+  useEffect(() => {
+    fetchComments();
+  }, [project, device, refreshFlag]);
 
   const toggle = (id: number) => {
     setSelectedIds(prev => {
@@ -52,13 +56,13 @@ export default function CommentList({ project, device }: { project: string; devi
         <thead>
           <tr className="bg-gray-100">
             <th />
-            <th>Device</th>
-            <th>Project</th>
+            {/* <th>Device</th> */}
+            {/* <th>Project</th> */}
             <th>Page Name</th>
             <th>Page Path</th>
             <th>UI Component</th>
             <th>Comment</th>
-            <th>Created</th>
+            {/* <th>Created</th> */}
           </tr>
         </thead>
         <tbody>
@@ -71,13 +75,13 @@ export default function CommentList({ project, device }: { project: string; devi
                   onChange={() => toggle(c.id)}
                 />
               </td>
-              <td>{c.device}</td>
-              <td>{c.project}</td>
+              {/* <td>{c.device}</td> */}
+              {/* <td>{c.project}</td> */}
               <td>{c.page_name}</td>
               <td>{c.page_path}</td>
               <td>{c.ui_component}</td>
               <td>{c.comment}</td>
-              <td>{new Date(c.created_at).toLocaleString()}</td>
+              {/* <td>{new Date(c.created_at).toLocaleString()}</td> */}
             </tr>
           ))}
         </tbody>

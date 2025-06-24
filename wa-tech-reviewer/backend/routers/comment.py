@@ -8,6 +8,7 @@ from datetime import datetime
 
 router = APIRouter(prefix="/v01")
 
+# Schema for input
 class CommentSchema(BaseModel):
     project: str
     device: str
@@ -17,6 +18,7 @@ class CommentSchema(BaseModel):
     comment: str
     filename: str
 
+# Schema for output
 class CommentOut(CommentSchema):
     id: int
     created_at: datetime
