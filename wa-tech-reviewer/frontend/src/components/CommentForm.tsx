@@ -26,7 +26,7 @@ export default function CommentForm({ context, onSuccess }: CommentFormProps) {
         device,
         page_name: pageName,
         page_path: pagePath,       
-        ui_component: uiComponent,
+        ui_component: uiComponent.toUpperCase(),
         comment: text,
         filename,
       });
