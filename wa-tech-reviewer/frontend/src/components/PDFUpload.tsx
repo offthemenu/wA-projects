@@ -1,3 +1,4 @@
+import { Box, Button, Typography, Input, Stack } from "@mui/material";
 import { useState } from "react";
 import api from "../services/api";
 
@@ -23,20 +24,21 @@ export default function PDFUpload({ onUpload }: { onUpload: (filename: string)  
   };
 
   return (
-    <div className="border p-4 rounded bg-white text-black">
-      <label className="block mb-2 font-medium">Upload PDF</label>
-      <input
-        type="file"
-        accept="application/pdf"
-        onChange={(e) => setFile(e.target.files?.[0] || null)}
-      />
-      <button
-        onClick={handleUpload}
-        className="mt-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-      >
+    <Box border={1} borderColor="grey.300" borderRadius={2} p={2}>
+      <Typography variant="subtitle1" mb={1}>
+        Upload PDF
+      </Typography>
+      <Stack direction="row" spacing={{ xs: 5, sm: 5, md: 5 }} justifyContent="center" alignItems="center" useFlexGap sx={{ mt: 2, flexWrap: "wrap" }}>
+      <Input type="file" onChange={(e) => setFile((e.target as HTMLInputElement).files?.[0] || null)} />
+      <Button variant="contained" sx={{ mt: 2 }} onClick={handleUpload}>
         Upload
-      </button>
-      {status && <p className="mt-2 text-sm">{status}</p>}
-    </div>
+      </Button>
+      </Stack>
+      {status && (
+        <Typography variant="body2" mt={1}>
+          {status}
+        </Typography>
+      )}
+    </Box>
   );
 }

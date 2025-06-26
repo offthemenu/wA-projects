@@ -1,12 +1,11 @@
-import {Button} from "@mui/material";
+import { Stack } from "@mui/material";
 import { useEffect, useState } from "react";
 import api from "../services/api";
 import PDFUpload from "../components/PDFUpload";
 import PDFViewer from "../components/PDFViewer";
 import CommentForm from "../components/CommentForm";
 import CommentList from "../components/CommentList";
-import { TopDropdowns } from "../components/TopDropdowns";
-import { BottomDropdowns } from "../components/BottomDropdowns";
+import Dropdowns from "../components/Dropdowns";
 
 type WireframeDropdownData = {
   projects: string[];
@@ -33,55 +32,48 @@ export default function ReviewPage() {
   if (!data) return <div>Loading...</div>;
 
   return (
-    <div className="w-full max-w-screen-xl mx-auto p-6 flex flex-col gap-8">
-      <h1 className="text-2xl font-semibold">wA Frontend Technical Reviewer</h1>
+    <Stack direction="column" spacing={{ xs: 5, sm: 5, md: 5 }} justifyContent="center" alignItems="center">
+      <div className="w-full max-w-screen-xl mx-auto p-6 flex flex-col gap-8">
+        <h1 className="text-2xl font-semibold">wA FE Wireframe  Technical Reviewer</h1>
 
-      <TopDropdowns
-        selectedProject={project}
-        selectedDevice={device}
-        onProjectChange={(p) => {
-          setProject(p);
-          setDevice("");
-          setPageName("");
-          setPagePath("");
-        }}
-        onDeviceChange={(d) => {
-          setDevice(d);
-          setPageName("");
-          setPagePath("");
-        }}
-        data={data}
-      />
-
-      <PDFUpload onUpload={(filename) => setUploadedPdf(filename)} />
-
-      <PDFViewer filename={uploadedPdf} />
-
-      <BottomDropdowns
-        selectedProject={project}
-        selectedDevice={device}
-        selectedPage={pageName}
-        onPageChange={(name, path) => {
-          setPageName(name);
-          setPagePath(path);
-        }}
-        data={data}
-      />
-
-      {project && device && pageName && uploadedPdf && (
-        <CommentForm
-          context={{
-            project,
-            device,
-            pageName,
-            pagePath,
-            filename: uploadedPdf,
+        <PDFUpload onUpload={(filename) => setUploadedPdf(filename)} />
+        <PDFViewer filename={uploadedPdf} />
+        <Dropdowns
+          selectedProject={project}
+          selectedDevice={device}
+          selectedPage={pageName}
+          onProjectChange={(p) => {
+            setProject(p);
+            setDevice("");
+            setPageName("");
+            setPagePath("");
           }}
-          onSuccess={triggerRefresh}
+          onDeviceChange={(d) => {
+            setDevice(d);
+            setPageName("");
+            setPagePath("");
+          }}
+          onPageChange={(name, path) => {
+            setPageName(name);
+            setPagePath(path);
+          }}
         />
-      )}
 
-      <CommentList project={project} device={device} refreshFlag={refreshFlag} />
-    </div>
+        {project && device && pageName && uploadedPdf && (
+          <CommentForm
+            context={{
+              project,
+              device,
+              pageName,
+              pagePath,
+              filename: uploadedPdf,
+            }}
+            onSuccess={triggerRefresh}
+          />
+        )}
+
+        <CommentList project={project} device={device} refreshFlag={refreshFlag} />
+      </div>
+    </Stack>
   );
 }

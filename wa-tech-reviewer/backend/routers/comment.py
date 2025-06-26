@@ -41,12 +41,12 @@ def get_db():
         db.close()
 
 @router.post("/add_comment", status_code=200)
-def add_comment(comment_data: CommentSchema, db: Session = Depends(get_db)):
-    wireframe_record = db.query(Wireframe).filter_by(page_name=comment_data.page_name).first()
+def add_comment(payload: CommentSchema, db: Session = Depends(get_db)):
+    wireframe_record = db.query(Wireframe).filter_by(page_name=payload.page_name).first()
     if not wireframe_record:
         raise HTTPException(status_code=400, detail="No wireframe found for that page")
 
-    new_comment = Comment(**comment_data.model_dump(), wireframe_id=wireframe_record.id)
+    new_comment = Comment(**payload.model_dump(), wireframe_id=wireframe_record.id)
     db.add(new_comment)
 
     try:
