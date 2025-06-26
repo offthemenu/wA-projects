@@ -1,3 +1,4 @@
+import { TextField, Stack, Button } from '@mui/material';
 import { useState } from 'react';
 import api from '../services/api';
 
@@ -39,29 +40,35 @@ export default function CommentForm({ context, onSuccess }: CommentFormProps) {
   };
 
   return (
-    <div className="border bg-white p-4 mt-6 space-y-4">
-      <input
-        type="text"
+    <Stack spacing={2} sx={{ mt: 1 }}>
+      <TextField
+        label="UI Component"
+        placeholder="e.g. BUTTON, TEXT"
         value={uiComponent}
         onChange={(e) => setUiComponent(e.target.value)}
-        placeholder="UI component (e.g. BUTTON, TEXT)"
-        className="w-full p-2 border rounded"
+        size="small"
+        fullWidth
       />
 
-      <textarea
+      <TextField
+        label="Review Comment"
+        placeholder="Add technical review comment for this component"
         value={text}
         onChange={(e) => setText(e.target.value)}
-        placeholder="Add technical review comment for this component"
-        className="w-full p-2 border rounded"
+        multiline
+        minRows={4}
+        fullWidth
       />
 
-      <button
-        onClick={submit}
-        className="mt-2 bg-blue-600 text-white px-4 py-2 rounded disabled:opacity-50"
+      <Button
+        variant="contained"
+        color="primary"
         disabled={!text.trim() || !uiComponent.trim()}
+        onClick={submit}
+        fullWidth
       >
-        Submit Comment
-      </button>
-    </div>
+        Add Comment
+      </Button>
+    </Stack>
   );
 }

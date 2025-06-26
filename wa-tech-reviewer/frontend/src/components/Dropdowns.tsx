@@ -1,5 +1,4 @@
 import {
-  Stack,
   Grid,
   FormControl,
   InputLabel,
@@ -53,83 +52,109 @@ export default function Dropdowns({
       : [];
 
   return (
-    <Stack direction="row" spacing={{ xs: 5, sm: 5, md: 5 }} justifyContent="center" alignItems="center" useFlexGap sx={{ mt: 2, flexWrap: "wrap" }}>
-      <Grid container spacing={2} mt={2}>
-        <Grid size={{ xs: 12, sm: 2 }}>
-          <FormControl sx={{ minWidth: 200 }} size="medium">
-            <InputLabel id="project-label">Project</InputLabel>
-            <Select
-              labelId="project-label"
-              id="project-select"
-              value={selectedProject}
-              label="Project"
-              onChange={(e: SelectChangeEvent) => {
-                onProjectChange(e.target.value);
-                onDeviceChange("");
-                onPageChange("", "");
-              }}
-              displayEmpty
-            >
-              {projectOptions.map((p) => (
-                <MenuItem key={p} value={p}>
-                  {p}
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-        </Grid>
+    <Grid container spacing={2} mt={2} alignItems="center">
+      {/* Project */}
+      <Grid>
+        <FormControl
+          size="small"
+          sx={{ minWidth: 50, maxWidth: 120 }}
+        >
+          <InputLabel id="project-label" shrink>Project</InputLabel>
+          <Select
+            labelId="project-label"
+            id="project-select"
+            value={selectedProject}
+            label="Project"
+            onChange={(e: SelectChangeEvent) => {
+              onProjectChange(e.target.value);
+              onDeviceChange("");
+              onPageChange("", "");
+            }}
+            displayEmpty
+            renderValue={(value) =>
+              value === "" ? <em>Select Project</em> : value
+            }
+          >
+            {/* <MenuItem value="">
+              <em>Select Project</em>
+            </MenuItem> */}
+            {projectOptions.map((p) => (
+              <MenuItem key={p} value={p}>
+                {p}
+              </MenuItem>
+            ))}
+          </Select>
+        </FormControl>
       </Grid>
 
-      <Grid container spacing={2} mt={2}>
-        <Grid size={{ xs: 12, sm: 2 }}>
-          <FormControl sx={{ minWidth: 200 }} size="medium" disabled={!selectedProject}>
-            <InputLabel id="device-label">Device</InputLabel>
-            <Select
-              labelId="device-label"
-              id="device-select"
-              value={selectedDevice}
-              label="Device"
-              onChange={(e: SelectChangeEvent) => {
-                onDeviceChange(e.target.value);
-                onPageChange("", "");
-              }}
-              displayEmpty
-            >
-              {deviceOptions.map((d) => (
-                <MenuItem key={d} value={d}>
-                  {d}
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-        </Grid>
+      {/* Device */}
+      <Grid>
+        <FormControl
+          size="small"
+          sx={{ minWidth: 50, maxWidth: 120 }}
+          disabled={!selectedProject}
+        >
+          <InputLabel id="device-label" shrink>Device</InputLabel>
+          <Select
+            labelId="device-label"
+            id="device-select"
+            value={selectedDevice}
+            label="Device"
+            onChange={(e: SelectChangeEvent) => {
+              onDeviceChange(e.target.value);
+              onPageChange("", "");
+            }}
+            displayEmpty
+            renderValue={(value) =>
+              value === "" ? <em>Select Device</em> : value
+            }
+          >
+            {/* <MenuItem value="">
+              <em>Select Device</em>
+            </MenuItem> */}
+            {deviceOptions.map((d) => (
+              <MenuItem key={d} value={d}>
+                {d}
+              </MenuItem>
+            ))}
+          </Select>
+        </FormControl>
       </Grid>
 
-      <Grid container spacing={2} mt={2}>
-        <Grid size={{ xs: 12, sm: 2 }}>
-          <FormControl sx={{ minWidth: 200 }} size="medium" disabled={!selectedProject || !selectedDevice}>
-            <InputLabel id="page-label">Page</InputLabel>
-            <Select
-              labelId="page-label"
-              id="page-select"
-              value={selectedPage}
-              label="Page"
-              onChange={(e: SelectChangeEvent) => {
-                const name = e.target.value;
-                const entry = pageOptions.find((p) => p.name === name);
-                onPageChange(name, entry?.path ?? "");
-              }}
-              displayEmpty
-            >
-              {pageOptions.map((p) => (
-                <MenuItem key={p.path} value={p.name}>
-                  {p.name}
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-        </Grid>
+      {/* Page */}
+      <Grid>
+        <FormControl
+          size="small"
+          sx={{ minWidth: 50, maxWidth: 120 }}
+          disabled={!selectedProject || !selectedDevice}
+        >
+          <InputLabel id="page-label" shrink>Page</InputLabel>
+          <Select
+            labelId="page-label"
+            id="page-select"
+            value={selectedPage}
+            label="Page"
+            onChange={(e: SelectChangeEvent) => {
+              const name = e.target.value;
+              const entry = pageOptions.find((p) => p.name === name);
+              onPageChange(name, entry?.path ?? "");
+            }}
+            displayEmpty
+            renderValue={(value) =>
+              value === "" ? <em>Select Page</em> : value
+            }
+          >
+            {/* <MenuItem value="">
+              <em>Select Page</em>
+            </MenuItem> */}
+            {pageOptions.map((p) => (
+              <MenuItem key={p.path} value={p.name}>
+                {p.name}
+              </MenuItem>
+            ))}
+          </Select>
+        </FormControl>
       </Grid>
-    </Stack>
+    </Grid>
   );
 }

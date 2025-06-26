@@ -1,3 +1,16 @@
+import {
+  Paper,
+  Table,
+  TableHead,
+  TableBody,
+  TableRow,
+  TableCell,
+  Checkbox,
+  Typography,
+  Button,
+  Box,
+} from '@mui/material';
+import html2pdf from 'html2pdf.js';
 import { useEffect, useState } from 'react';
 import api from '../services/api';
 
@@ -12,19 +25,56 @@ type Comment = {
   page_path: string;
 };
 
-export default function CommentList({ project, device, refreshFlag }: { project: string; device: string; refreshFlag: boolean }) {
+export default function CommentList({
+  project,
+  device,
+  refreshFlag,
+}: {
+  project: string;
+  device: string;
+  refreshFlag: boolean;
+}) {
   const [comments, setComments] = useState<Comment[]>([]);
   const [selectedIds, setSelectedIds] = useState<Set<number>>(new Set());
+
+  const handleCopyMarkdown = () => {
+    const header = `| Page Name | Page Path | UI Component | Comment |\n| --- | --- | --- | --- |\n`;
+    const rows = comments
+      .map(c => `| ${c.page_name} | ${c.page_path} | ${c.ui_component} | ${c.comment} |`)
+      .join('\n');
+    const markdown = header + rows;
+
+    navigator.clipboard.writeText(markdown)
+      .then(() => alert("📋 Markdown copied to clipboard!"))
+      .catch((err) => console.error("Failed to copy markdown", err));
+  };
+
+
+  const handleExportPdf = () => {
+    const element = document.getElementById('comment-table');
+    if (!element) return;
+
+    html2pdf()
+      .set({
+        margin: 0.5,
+        filename: `tech_review_comments_${project}_${device}.pdf`,
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: 'in', format: 'letter', orientation: 'landscape' },
+      })
+      .from(element)
+      .save();
+  };
+
 
   const fetchComments = () => {
     if (!project || !device) return;
 
     api
       .get('/comments', { params: { project, device } })
-      .then(res => {
-      console.log("Comments fetched:", res.data); // confirm IDs are present
-      setComments(res.data);
-    })
+      .then((res) => {
+        setComments(res.data);
+      })
       .catch(console.error);
   };
 
@@ -33,7 +83,7 @@ export default function CommentList({ project, device, refreshFlag }: { project:
   }, [project, device, refreshFlag]);
 
   const toggle = (id: number) => {
-    setSelectedIds(prev => {
+    setSelectedIds((prev) => {
       const next = new Set(prev);
       next.has(id) ? next.delete(id) : next.add(id);
       return next;
@@ -42,62 +92,70 @@ export default function CommentList({ project, device, refreshFlag }: { project:
 
   const handleDelete = async () => {
     for (const id of selectedIds) {
-      console.log(`Deleting comment with id: ${id}`); // verify ID
       await api.delete(`/comment/${id}`);
     }
-    setComments(prev => prev.filter(c => !selectedIds.has(c.id)));
+    setComments((prev) => prev.filter((c) => !selectedIds.has(c.id)));
     setSelectedIds(new Set());
   };
 
   return (
-    <div className="border bg-white p-4 mt-6">
-      <h2 className="text-lg font-semibold mb-4">Comments</h2>
-      <table className="w-full table-auto border-collapse">
-        <thead>
-          <tr className="bg-gray-100">
-            <th />
-            {/* <th>Device</th> */}
-            {/* <th>Project</th> */}
-            <th>Page Name</th>
-            <th>Page Path</th>
-            <th>UI Component</th>
-            <th>Comment</th>
-            {/* <th>Created</th> */}
-          </tr>
-        </thead>
-        <tbody>
-          {comments.map(c => (
-            <tr key={c.id}>
-              <td>
-                <input
-                  type="checkbox"
+    <Paper id="comment-table" sx={{ mt: 6, p: 3, overflowX: 'auto' }} elevation={2}>
+      <Typography variant="h6" fontWeight={600} mb={2}>
+        Technical Review Comments
+      </Typography>
+
+      <Table size="small">
+        <TableHead>
+          <TableRow sx={{ backgroundColor: '#f3f4f6' }}>
+            <TableCell padding="checkbox" />
+            <TableCell>Page Name</TableCell>
+            <TableCell>Page Path</TableCell>
+            <TableCell>UI Component</TableCell>
+            <TableCell>Comment</TableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {comments.map((c) => (
+            <TableRow key={c.id} hover>
+              <TableCell padding="checkbox">
+                <Checkbox
                   checked={selectedIds.has(c.id)}
                   onChange={() => toggle(c.id)}
                 />
-              </td>
-              {/* <td>{c.device}</td> */}
-              {/* <td>{c.project}</td> */}
-              <td>{c.page_name}</td>
-              <td>{c.page_path}</td>
-              <td>{c.ui_component}</td>
-              <td>{c.comment}</td>
-              {/* <td>{new Date(c.created_at).toLocaleString()}</td> */}
-            </tr>
+              </TableCell>
+              <TableCell>{c.page_name}</TableCell>
+              <TableCell>{c.page_path}</TableCell>
+              <TableCell>{c.ui_component}</TableCell>
+              <TableCell>{c.comment}</TableCell>
+            </TableRow>
           ))}
-        </tbody>
-      </table>
+        </TableBody>
+      </Table>
 
       {selectedIds.size > 0 && (
-        <div className="mt-4 flex items-center">
-          <span>{selectedIds.size} item(s) selected</span>
-          <button
+        <Box mt={3} display="flex" alignItems="center">
+          <Typography variant="body2">
+            {selectedIds.size} item(s) selected
+          </Typography>
+          <Button
+            variant="contained"
+            color="error"
             onClick={handleDelete}
-            className="ml-auto px-4 py-2 bg-red-600 text-white rounded"
+            sx={{ ml: 'auto' }}
           >
-            DELETE
-          </button>
-        </div>
+            Delete
+          </Button>
+        </Box>
       )}
-    </div>
+
+      <Box mt={4} display="flex" justifyContent="flex-end " gap={2}>
+        <Button variant="outlined" onClick={handleCopyMarkdown}>
+          Copy as Markdown
+        </Button>
+        {/* <Button variant="outlined" onClick={handleExportPdf}>
+          Export as PDF
+        </Button> */}
+      </Box>
+    </Paper>
   );
 }
