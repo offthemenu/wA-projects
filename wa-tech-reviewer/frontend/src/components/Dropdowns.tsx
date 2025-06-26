@@ -52,12 +52,12 @@ export default function Dropdowns({
       : [];
 
   return (
-    <Grid container spacing={2} mt={2} alignItems="center">
+    <Grid container spacing={2} mt={2} alignItems="center" justifyContent="space-between">
       {/* Project */}
       <Grid>
         <FormControl
           size="small"
-          sx={{ minWidth: 50, maxWidth: 120 }}
+          sx={{ minWidth: 100, maxWidth: 100 }}
         >
           <InputLabel id="project-label" shrink>Project</InputLabel>
           <Select
@@ -91,7 +91,7 @@ export default function Dropdowns({
       <Grid>
         <FormControl
           size="small"
-          sx={{ minWidth: 50, maxWidth: 120 }}
+          sx={{ minWidth: 100, maxWidth: 100 }}
           disabled={!selectedProject}
         >
           <InputLabel id="device-label" shrink>Device</InputLabel>
@@ -125,7 +125,7 @@ export default function Dropdowns({
       <Grid>
         <FormControl
           size="small"
-          sx={{ minWidth: 50, maxWidth: 120 }}
+          sx={{ minWidth: 100, maxWidth: 100 }}
           disabled={!selectedProject || !selectedDevice}
         >
           <InputLabel id="page-label" shrink>Page</InputLabel>
