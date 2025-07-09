@@ -44,13 +44,13 @@ plan_page_object = [
 df_planPage = pd.DataFrame(plan_page_object)
 
 columns = ['project_name', 'main_category', 'scope_of_dev', 'test_case', 'Fire TV','Roku', 'Android TV', 'Apple TV', 'Web', 'Apple Mobile', 'Android Mobile', 'Smart TV', 'Vizio TV']
-df_planPage['test_case']=None
-df_planPage['Fire TV']=None
-df_planPage['Roku']=None
-df_planPage['Android TV']=None
-df_planPage['Apple TV']=None
-df_planPage['Smart TV']=None
-df_planPage['Vizio TV']=None
+df_planPage['test_case']=False
+df_planPage['Fire TV']=False
+df_planPage['Roku']=False
+df_planPage['Android TV']=False
+df_planPage['Apple TV']=False
+df_planPage['Smart TV']=False
+df_planPage['Vizio TV']=False
 
 df_project = pd.concat([df_preProject, df_planPage], ignore_index=True)
 
