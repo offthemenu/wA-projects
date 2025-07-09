@@ -1,0 +1,8 @@
+*.pyc 
+__pycache__/
+.venv/
+.env
+.vscode/
+/qc-request/data
+tc-eda-4.0-connectedTV_webMobile.ipynb
+markdown.md
