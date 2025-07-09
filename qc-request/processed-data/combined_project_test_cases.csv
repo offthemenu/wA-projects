@@ -2445,7 +2445,7 @@ Subscribe Button stringset 확인
 Subscribe Button focus 시 동작 확인
 Subscribe Button 선택 시 동작 확인
 Subscribe Button 기능 확인",True,True,True,True,False,False,False,True,True
-305,Plan Page Improvement,Subscribe,,False,False,False,False,False,True,,,False,False
+305,Plan Page Improvement,Subscribe,Subscribe,False,False,False,False,False,True,,,False,False
 306,Plan Page Improvement,Subscribe,Hover,False,False,False,False,False,True,,,False,False
 307,Plan Page Improvement,Subscribe,Subscribed,False,False,False,False,False,True,,,False,False
 308,Plan Page Improvement,Subscribe,Upgrade > Basic Monthly,False,False,False,False,False,True,,,False,False
