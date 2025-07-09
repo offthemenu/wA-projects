@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 from datetime import date
-from collections import defaultdict
 
 # Run with: streamlit run qc-request/qc_form_generator.py
 
