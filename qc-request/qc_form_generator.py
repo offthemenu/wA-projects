@@ -5,7 +5,7 @@ from datetime import date
 # Run with: streamlit run qc-request/qc_form_generator.py
 
 # Load test case dataset
-df = pd.read_csv("qc-request/processed-data/processed_KOCOWA_4.0_tc_final.csv")
+df = pd.read_csv("qc-request/processed-data/combined_project_test_cases.csv")
 df.columns = df.columns.str.strip()
 
 # Define available devices
