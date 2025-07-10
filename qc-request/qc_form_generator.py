@@ -19,7 +19,7 @@ st.title("QC Request Form Generator")
 # 0. Project Selection
 st.subheader("Project")
 project_options = sorted(df.project_name.dropna().unique())
-selected_project = st.selectbox("Select Project", project_options)
+selected_project = st.selectbox("Select Project", ["Select a project..."] + project_options, index=0)
 
 # 0.1 Filter by selected project
 df_project = df[df.project_name == selected_project]
