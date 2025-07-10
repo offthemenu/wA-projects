@@ -100,6 +100,6 @@ df_new = df_new[col_orders]
 df_new.to_csv(PROJECT_DIR / "processed-data" / f"{today}_plan_page_improvement.csv", index=False) # type: ignore
 
 # combine the new test cases with the old test cases
-df_new = pd.concat([df_project, df_new])
+df_new = pd.concat([df_project, df_new]).sort_values(by=['project_name'], ascending=False) # type: ignore
 
 df_new.to_csv(PROJECT_DIR / "processed-data" / f"combined_project_test_cases.csv", index=False) # type: ignore
