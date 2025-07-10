@@ -6,7 +6,7 @@ from collections import defaultdict
 # Run with: streamlit run qc_form_generator_local.py
 
 # For running local
-df: pd.DataFrame = pd.read_csv("processed-data/combined_project_test_cases.csv")
+df: pd.DataFrame = pd.read_csv("qc-request/processed-data/combined_project_test_cases.csv")
 df.columns = df.columns.str.strip()
 
 # Define available devices
@@ -67,15 +67,15 @@ if target_qc != "Select a device...":
         global_select_all = st.checkbox("✅ Select ALL Components from ALL Categories (First QC Run)")
     
     if global_select_all:
-        for main_cat in sorted(df_filtered['main_category'].unique()):
+        for main_cat in sorted(df_filtered['main_category'].unique()): # type: ignore
             selected_scope_tree.append(f"All Components under '{main_cat}'\n")
             cat_df = df_filtered[df_filtered['main_category'] == main_cat]
-            for _, row in cat_df.iterrows():
+            for _, row in cat_df.iterrows(): # type: ignore
                 comp = row['scope_of_dev']
-                test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()]
+                test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()] # type: ignore
                 selected_tests.append((comp, test_cases))
     else:
-        for main_cat in sorted(df_filtered['main_category'].unique()):
+        for main_cat in sorted(df_filtered['main_category'].unique()): # type: ignore
             with st.expander(main_cat):
                 cat_df = df_filtered[df_filtered['main_category'] == main_cat]
                 select_all = st.checkbox(
@@ -89,22 +89,22 @@ if target_qc != "Select a device...":
                     selected_scope_tree.append(f"All Components under '{main_cat}'\n")
                     
                     # Iterate through all rows/components under this main category
-                    for _, row in cat_df.iterrows():
+                    for _, row in cat_df.iterrows(): # type: ignore
                         comp = row['scope_of_dev']
 
                         # Split the test_case string into a clean list (by newline or comma)
-                        test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()]
+                        test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()] # type: ignore
                         
                         # Store as a tuple to keep track of which test cases belong to which component
                         selected_tests.append((comp, test_cases))
 
                 # If user is manually selecting components one by one...
                 else:
-                    for _, row in cat_df.iterrows():
+                    for _, row in cat_df.iterrows(): # type: ignore
                         comp = row['scope_of_dev']
 
                         # Prepare test cases (split + strip like above)
-                        test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()]
+                        test_cases = [tc.strip() for tc in row['test_case'].splitlines() if tc.strip()] # type: ignore 
                         
                         # Create a unique key to persist checkbox state
                         comp_key = f"{main_cat}_{comp}"
