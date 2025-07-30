@@ -1,5 +1,5 @@
 project_name,main_category,scope_of_dev,test_case,Fire TV,Roku,Android TV,Apple TV,Web,Apple Mobile,Android Mobile,Smart TV,Vizio TV
-Email Verification,Account Management Screen,Check Email Verification Button,"Check Email Verification button 노출 확인
+Card Management,Account Management Screen,Check Email Verification Button,"Check Email Verification button 노출 확인
 Check Email Verification button text stringset 확인
 Check Email Verification button 동작 확인
 이메일 인증 미진행 상태 시 Check Email Verification button 동작 확인
@@ -11,7 +11,7 @@ OK Button 노출 확인
 OK Button Text 노출 확인
 OK Button 동작 확인
 OK Button 기능 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Account Management Screen,Email Section,"title text 확인
+Card Management,Account Management Screen,Email Section,"title text 확인
 title text stringset 확인
 input box 확인
 input box 내 User Email 확인
@@ -52,7 +52,7 @@ Email not verified 시 UI 확인
 이메일 변경 간격 시간 확인
 이메일 변경 간격 확인
 이메일 변경 간격 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Account Management Screen,Email Verification Required POP UP,"Email Verification Required POP UP 노출 확인
+Card Management,Account Management Screen,Email Verification Required POP UP,"Email Verification Required POP UP 노출 확인
 title text 확인
 title text stringset 확인
 Sub text 확인
@@ -63,13 +63,13 @@ Go Back Button 기능 확인
 Stay here Button Text 확인
 Stay here Button 동작 확인
 Stay here Button 기능 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Account Management Screen,General Rules,"left chevron 확인
+Card Management,Account Management Screen,General Rules,"left chevron 확인
 left chevron 기능 확인
 title text 확인
 title text stringset 확인
 Sub text 확인
 Sub text stringset 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Account Management Screen,Resend Button,"Resend button 노출 확인
+Card Management,Account Management Screen,Resend Button,"Resend button 노출 확인
 Resend button text stringset 확인
 Resend button 동작 확인
 Verification email 인증 확인
@@ -90,15 +90,15 @@ OK Button 노출 확인
 OK Button Text 노출 확인
 OK Button 동작 확인
 OK Button 기능 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Account Management Screen,Send Verification Mail,"Send Verification Mail Button 확인
+Card Management,Account Management Screen,Send Verification Mail,"Send Verification Mail Button 확인
 Send Verification Mail stringset 확인
 Send Verification Mail Button 동작 확인
 인증 이메일 발송 후 Send Verification Mail Button 노출 여부 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Account Management Screen,email verification Message,"확인 가능 이메일 주소 입력 시 동작 확인
+Card Management,Account Management Screen,email verification Message,"확인 가능 이메일 주소 입력 시 동작 확인
 이메일 미인증 시 text 확인
 Waiting for email verification message text UI 확인
 이메일 인증 시 text 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Checkout Page,Billing Information Area,"title text 확인
+Card Management,Checkout Page,Billing Information Area,"title text 확인
 title text Stringset 확인
 Credit Card icon 확인
 Credit Card icon 기능 확인
@@ -133,7 +133,7 @@ Update Billing Info Button stringset 확인
 Update Billing Info Button 기능 확인
 Information text 확인
 Information text Stringset 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Checkout Page,Payment Summary Area,"Check box 확인
+Card Management,Checkout Page,Payment Summary Area,"Check box 확인
 Default Setting 확인
 Check box 선택 시 UI 확인
 Agreement text 확인
@@ -188,7 +188,7 @@ Dimmed Checkout Button 기능 확인
 Agreement Checkbox 체크 시 Checkout Button UI 확인
 Checkout Button 기능 확인
 Checkout Button 선택 시 동작 확인",False,False,False,False,True,False,False,False,False
-Email Verification,My Account Page,Top Area,"title text 확인
+Card Management,My Account Page,Top Area,"title text 확인
 title text stringset 확인
 Division Line 확인
 Division Line UI 확인
@@ -202,7 +202,7 @@ Profile Tab Button 기능 확인
 Payment Tab Button 확인
 Payment Tab Button stringset 확인
 Payment Tab Button 기능 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Profile Screen,Birthday Section,"title text 확인
+Card Management,Profile Screen,Birthday Section,"title text 확인
 title text stringset 확인
 Drop Down box 확인
 Downward Arrow icon 확인
@@ -229,7 +229,7 @@ Value 선택 시 동작 확인
 Value 기능 확인
 외부 영역 선택 시 동작 확인
 Drop Down POP UP 사라질 시 UI 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Profile Screen,Email Section,"title text 확인
+Card Management,Profile Screen,Email Section,"title text 확인
 title text stringset 확인
 User Email 확인
 해상도 768 미만 적용 시 배치 확인
@@ -246,7 +246,7 @@ Email Verification Button 확인
 Email Verification Button stringset 확인
 Email Verification Button UI 확인
 Email Verification Button 기능 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Profile Screen,Functional Section,"Save Changes Button 확인
+Card Management,Profile Screen,Functional Section,"Save Changes Button 확인
 Default Setting 확인
 Save Changes Button stringset 확인
 Dimmed Save Changes Button 기능 확인
@@ -254,7 +254,7 @@ User Data 변경 시 Save Changes Button확인
 User Data 원상복구 시 Save Changes Button확인
 Save Changes Button 선택 시 동작 확인
 Save Changes Button 기능 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Profile Screen,Gender Section,"title text 확인
+Card Management,Profile Screen,Gender Section,"title text 확인
 title text stringset 확인
 Radio Button 확인
 Default Setting 확인
@@ -270,9 +270,9 @@ Prefer not to say Radio Button 확인
 Prefer not to say Radio Button stringset 확인
 해상도 768 미만 적용 시 배치 확인
 해상도 768 미만 적용 시 배치 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Profile Screen,General Rules,"title text 확인
+Card Management,Profile Screen,General Rules,"title text 확인
 title text stringset 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Profile Screen,Name Section,"title text 확인
+Card Management,Profile Screen,Name Section,"title text 확인
 title text stringset 확인
 Input box 확인
 해상도 768 미만 적용 시 배치 확인
@@ -288,7 +288,7 @@ Invalid error message text 경계값 확인
 Invalid error message text 확인
 Invalid error message text stringset 확인
 Invalid error message text UI 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Profile Screen,Password Section,"title text 확인
+Card Management,Profile Screen,Password Section,"title text 확인
 title text stringset 확인
 User Password 확인
 User Password Encoding 확인
@@ -305,7 +305,7 @@ title text UI 확인
 User Password Change Date 확인
 User Password Change Date stringset 확인
 User Password Change Date UI 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Profile Screen,Validation,"Absence error message text 확인
+Card Management,Profile Screen,Validation,"Absence error message text 확인
 Absence error message text stringset 확인
 Absence error message text UI 확인
 Invalid error message text 노출 여부 확인
@@ -313,7 +313,7 @@ Invalid error message text 경계값 확인
 Invalid error message text 확인
 Invalid error message text stringset 확인
 Invalid error message text UI 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Profile Screen,ZIP Code Section,"ZIP Code Section 노출 여부 확인
+Card Management,Profile Screen,ZIP Code Section,"ZIP Code Section 노출 여부 확인
 title text 확인
 title text stringset 확인
 User ZIP Code 확인
@@ -328,7 +328,7 @@ Enter ZIP Code Button 확인
 Enter ZIP Code Button stringset 확인
 Enter ZIP Code Button UI 확인
 Enter ZIP Code Button 기능 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Subscribe Page,Information Section,"Tax Information text 확인
+Card Management,Subscribe Page,Information Section,"Tax Information text 확인
 Tax Information text stringset 확인
 Tax text UI 확인",False,False,False,False,True,False,False,False,False
-Email Verification,Subscribe Page,Payment Summary Area,Currency 확인,False,False,False,False,True,False,False,False,False
+Card Management,Subscribe Page,Payment Summary Area,Currency 확인,False,False,False,False,True,False,False,False,False

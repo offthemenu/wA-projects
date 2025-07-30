@@ -8,7 +8,7 @@ PROJECT_DIR = ROOT_DIR / "qc-request"
 
 today = datetime.today().replace(hour=0, minute=0, second=0, microsecond=0).strftime("%Y%m%d")
 plan_file_path = PROJECT_DIR / "data" / f"KOCOWA 4.0 Requested Test_No116_20250709.csv"
-email_file_path = PROJECT_DIR / "data" / f"KOCOWA 4.0 Requested Test_No119_20250730.xlsx - Request119.csv"
+card_file_path = PROJECT_DIR / "data" / f"KOCOWA 4.0 Requested Test_No119_20250730.xlsx - Request119.csv"
 combined_file_path = PROJECT_DIR / "processed-data" / f"combined_project_test_cases.csv"
 
 # Define available devices
@@ -27,9 +27,9 @@ rename_rules = {
 }
 
 df_project = pd.read_csv(combined_file_path)
-df_new = pd.read_csv(email_file_path)[['Purpose', '대분류', '중분류', '소분류', '테스트 항목']].fillna("")
+df_new = pd.read_csv(card_file_path)[['Purpose', '대분류', '중분류', '소분류', '테스트 항목']].fillna("")
 df_new.rename(columns=rename_rules, inplace=True)  # type: ignore
-project_name = "Email Verification"
+project_name = "Card Management"
 
 df_new["project_name"] = project_name
 df_new["Web"] = False
