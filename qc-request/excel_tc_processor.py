@@ -7,8 +7,9 @@ ROOT_DIR = Path(__file__).parent.parent
 PROJECT_DIR = ROOT_DIR / "qc-request"
 
 today = datetime.today().replace(hour=0, minute=0, second=0, microsecond=0).strftime("%Y%m%d")
-new_file_path = PROJECT_DIR / "data" / f"KOCOWA 4.0 Requested Test_No116_20250709.csv"
-old_file_path = PROJECT_DIR / "processed-data" / f"combined_project_test_cases.csv"
+plan_file_path = PROJECT_DIR / "data" / f"KOCOWA 4.0 Requested Test_No116_20250709.csv"
+email_file_path = PROJECT_DIR / "data" / f"KOCOWA 4.0 Requested Test_No119_20250730.xlsx - Request119.csv"
+combined_file_path = PROJECT_DIR / "processed-data" / f"combined_project_test_cases.csv"
 
 # Define available devices
 available_devices = [
@@ -25,10 +26,10 @@ rename_rules = {
     "테스트 항목": "test_case"
 }
 
-df_project = pd.read_csv(old_file_path)
-df_new = pd.read_csv(new_file_path)[['Purpose', '대분류', '중분류', '소분류', '테스트 항목']].fillna("")
+df_project = pd.read_csv(combined_file_path)
+df_new = pd.read_csv(email_file_path)[['Purpose', '대분류', '중분류', '소분류', '테스트 항목']].fillna("")
 df_new.rename(columns=rename_rules, inplace=True)  # type: ignore
-project_name = "Plan Page Improvement"
+project_name = "Email Verification"
 
 df_new["project_name"] = project_name
 df_new["Web"] = False
@@ -97,7 +98,7 @@ df_new = df_new.groupby(['project_name', 'main_category', 'scope_of_dev']).agg({
 col_orders = ['project_name', 'main_category', 'scope_of_dev', 'test_case', 'Fire TV', 'Roku', 'Android TV', 'Apple TV', 'Web', 'Apple Mobile', 'Android Mobile', 'Smart TV', 'Vizio TV']
 df_new = df_new[col_orders]
 
-df_new.to_csv(PROJECT_DIR / "processed-data" / f"{today}_plan_page_improvement.csv", index=False) # type: ignore
+df_new.to_csv(PROJECT_DIR / "processed-data" / f"{today}_{project_name}.csv", index=False) # type: ignore
 
 # combine the new test cases with the old test cases
 df_new = pd.concat([df_project, df_new]).sort_values(by=['project_name'], ascending=False) # type: ignore
