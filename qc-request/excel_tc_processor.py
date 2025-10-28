@@ -56,7 +56,7 @@ def device_relevancy(purpose: str, df: pd.DataFrame, idx: int):
 def main():
     today = datetime.today().replace(hour=0, minute=0, second=0, microsecond=0).strftime("%Y%m%d")
     
-    project_file_path = PROJECT_DIR / "data" / f"KOCOWA 4.0 Requested Test_No120_20250818_Email_Verification.xlsx - Request120.csv" # Change with each new project
+    project_file_path = PROJECT_DIR / "data" / f"KOCOWA 4.0 Requested Test_No114_20251024_Get_Started.csv" # Change with each new project
 
     combined_file_path = PROJECT_DIR / "processed-data" / f"combined_project_test_cases.csv"
 
@@ -67,7 +67,7 @@ def main():
     df_new.rename(columns=rename_rules, inplace=True)  # type: ignore
 
     # Change Value:
-    project_name = "Email Verification"
+    project_name = "Get Started"
 
     df_new["project_name"] = project_name
     df_new["Web"] = False
