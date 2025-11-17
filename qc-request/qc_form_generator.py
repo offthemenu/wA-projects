@@ -179,7 +179,7 @@ if st.button("Generate QC Form"):
             <tr><td valign="top">Excluded from Tests</td><td>**해당 시 직접 기입해주시기 바랍니다.**</td></tr>
         </table>
         """
-        st.markdown(html_output, unsafe_allow_html=True)
+        st.code(html_output, language="html")
         st.success("✅ QC Request Form Generated! Copy it to your Jira ticket.")
 
 # save for later if needed
